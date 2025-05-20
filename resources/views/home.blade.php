@@ -36,15 +36,19 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="contact-info float-left">
-        <i class="icofont-envelope"></i><a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="icofont-phone"></i> +1 5589 55488 55
+        <i class="icofont-envelope"></i><a href="mailto:luis@alwayspropainting.com">luis@alwayspropainting.com</a>
+        <i class="icofont-phone"></i> (727) 417-6867
       </div>
       <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="skype"><i class="icofont-skype"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+        <a target="_blank" href="https://www.facebook.com/alwayspropainting" class="facebook"><i class="icofont-facebook"></i></a>
+        <a target="_blank" href="https://www.instagram.com/alwayspropainting" class="instagram"><i class="icofont-instagram"></i></a>
+        <a target="_blank" href="https://twitter.com/alwayspropaint" class="twitter"><i class="icofont-twitter"></i></i></a>
+        <a target="_blank" href="https://www.youtube.com/@ALWAYSPROPAINTING" class="youtube"><i class="icofont-youtube"></i></i></a>
+        <a target="_blank" href="https://bsky.app/profile/alwayspropainting.bsky.social" class="bluesky"><i class="icofont-bluesky"></i></a>
+        <a target="_blank" href="https://www.tiktok.com/@alwayspropainting" class="tiktok"><i class="icofont-tiktok"></i></a>
+        <a target="_blank" href="https://www.threads.com/@alwayspropainting" class="threads"><i class="icofont-threads"></i></a>
+        <a target="_blank" href="https://www.bbb.org/us/fl/sarasota/profile/residential-
+painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb"></i></a>
       </div>
     </div>
   </section>
@@ -99,33 +103,33 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1.jpg') }}');">
+          <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Always Pro Painting</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown"> <span></span></h2>
+                <p class="animate__animated animate__fadeInUp"></p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
           </div>
 
-          <!-- Slide 4 -->
-          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-4.jpg') }}');">
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-2.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown"></h2>
+                <p class="animate__animated animate__fadeInUp"></p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
           </div>
 
-          <!-- Slide 5 -->
-          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-5.jpg') }}');">
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown"></h2>
+                <p class="animate__animated animate__fadeInUp"></p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
@@ -239,15 +243,15 @@
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
             <div class="count-box">
               <i class="icofont-simple-smile" style="color: #20b38e;"></i>
-              <span data-toggle="counter-up">232</span>
-              <p>Happy Clients</p>
+              <span data-toggle="counter-up">+80</span>
+              <p>Happy clients</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
             <div class="count-box">
               <i class="icofont-document-folder" style="color: #c042ff;"></i>
-              <span data-toggle="counter-up">521</span>
+              <span data-toggle="counter-up">+400</span>
               <p>Projects</p>
             </div>
           </div>
@@ -255,7 +259,7 @@
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
             <div class="count-box">
               <i class="icofont-paint-brush" style="color: #46d1ff;"></i>
-              <span data-toggle="counter-up">1,463</span>
+              <span data-toggle="counter-up">+1.920</span>
               <p>Hours Of Support</p>
             </div>
           </div>
@@ -263,7 +267,7 @@
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
             <div class="count-box">
               <i class="icofont-users-alt-5" style="color: #ffb459;"></i>
-              <span data-toggle="counter-up">15</span>
+              <span data-toggle="counter-up">6</span>
               <p>Hard Workers</p>
             </div>
           </div>
@@ -565,7 +569,7 @@
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>info@example.com<br>contact@example.com</p>
+              <p>luis@alwayspropainting.com<br></p>
             </div>
           </div>
 
@@ -573,7 +577,7 @@
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+              <p>+1 (727) 417-6867<br></p>
             </div>
           </div>
 
@@ -624,8 +628,8 @@
             <p>
               A108 Adam Street <br>
               NY 535022, USA<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> (727) 417-6867<br>
+              <strong>Email:</strong> luis@alwayspropainting.com<br>
             </p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
