@@ -1,99 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+@section('title', 'Página de Inicio')
 
-  <title>Always Pro Painting</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="{{ asset('storage/img/favicon.png') }}" rel="icon">
-  <link href="{{ asset('storage/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="{{ asset('storage/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/icofont/icofont.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/bboxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/venobox/venobox.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/aos/aos.css') }}" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  @vite(['resources/css/style.css', 'resources/js/main.js'])
-  
-</head>
-
-<body>
-
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="icofont-envelope"></i><a href="mailto:luis@alwayspropainting.com">luis@alwayspropainting.com</a>
-        <i class="icofont-phone"></i> (727) 417-6867
-      </div>
-      <div class="social-links float-right">
-        <a target="_blank" href="https://www.facebook.com/alwayspropainting" class="facebook"><i class="icofont-facebook"></i></a>
-        <a target="_blank" href="https://www.instagram.com/alwayspropainting" class="instagram"><i class="icofont-instagram"></i></a>
-        <a target="_blank" href="https://twitter.com/alwayspropaint" class="twitter"><i class="icofont-twitter"></i></i></a>
-        <a target="_blank" href="https://www.youtube.com/@ALWAYSPROPAINTING" class="youtube"><i class="icofont-youtube"></i></i></a>
-        <a target="_blank" href="https://bsky.app/profile/alwayspropainting.bsky.social" class="bluesky"><i class="icofont-bluesky"></i></a>
-        <a target="_blank" href="https://www.tiktok.com/@alwayspropainting" class="tiktok"><i class="icofont-tiktok"></i></a>
-        <a target="_blank" href="https://www.threads.com/@alwayspropainting" class="threads"><i class="icofont-threads"></i></a>
-        <a target="_blank" href="https://www.bbb.org/us/fl/sarasota/profile/residential-
-painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-
-      <div class="logo float-left">
-        <h1 class="text-light d-none"><a href="index.html"><span>Always Pro Painting</span></a></h1>
-        <a href="index.html"><img src="{{ asset('storage/img/logo.png') }}" alt="" class="img-fluid"> <b>Always Pro Painting</b></a>
-      </div>
-
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contactanos</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
+@section('content')
+<!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -149,8 +59,7 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
       </div>
     </div>
   </section><!-- End Hero -->
-
-  <main id="main">
+    <main id="main">
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
@@ -166,20 +75,22 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
 
             <div class="section-title">
               <h2>Nosotros</h2>
-              <p>RENOVANDO ESPACIOS CON EXCELENCIA EN SARASOTA Y BRADENTON</p>
+              <p></p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href="">RENOVANDO ESPACIOS CON EXCELENCIA EN SARASOTA Y BRADENTON</a></h4>
+              <p class="description">En Always Pro Painting, no solo aplicamos pintura - transformamos
+                  propiedades con soluciones profesionales
+                  que combinan técnica experta,
+                  innovación y dedicación absoluta. Desde 2022, hemos estado elevando los
+                  estándares de calidad en pintura, drywall y lavado a presión para hogares y
+                  negocios en toda la región.
+              </p>
             </div>
 
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
+            
 
           </div>
         </div>
@@ -195,38 +106,63 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
             <span>01</span>
-            <h4>Lorem Ipsum</h4>
-            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            <h4>Equipo de técnicos certificados especializados en:</h4>
+            <p>Aplicación precisa y detallada.<br>
+              Materiales premium para el clima de Florida.<br>
+              Tecnología avanzada para acabados impecables.<br>
+              Garantía BBB® que respalda nuestro trabajo.
+            </p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
             <span>02</span>
-            <h4>Repellat Nihil</h4>
-            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+            <h4>Ventajas Competitivas</h4>
+            <p>
+              ofrecemos renovaciones integrales, desde la reparación
+              de superficies dañadas hasta resultados impecables, gracias a:<br>
+              Evaluaciones técnicas personalizadas.<br>
+              Uso de productos ecológicos de bajo VOC.<br>
+              Portafolio de proyectos con resultados comprobables.
+            </p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
             <span>03</span>
-            <h4> Ad ad velit qui</h4>
-            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            <h4>Compromiso</h4>
+            <p>
+              renovamos profesionalmente cada superficie a través de:<br>
+              Asesoramiento técnico personalizado.<br>
+              Presupuestos y plazos transparentes.<br>
+              Estándares de calidad superiores.
+            </p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
             <span>04</span>
-            <h4>Repellendus molestiae</h4>
-            <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
+            <h4>Vinculación Comunitaria</h4>
+            <p>
+              contribuimos activamente al:
+              Embellecimiento urbano.<br>
+              Adoptamos prácticas ambientales responsables.<br>
+              Apoyamos el desarrollo económico local.
+            </p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
             <span>05</span>
-            <h4>Sapiente Magnam</h4>
-            <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
+            <h4>Avales de Calidad</h4>
+            <p>
+              Acreditación Better Business Bureau®.<br>
+              Certificaciones de fabricantes líderes.<br>
+              Pólizas de responsabilidad civil completas.
+            </p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="500">
             <span>06</span>
-            <h4>Facilis Impedit</h4>
-            <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
+            <h4>¿Listo para transformar tu propiedad?
+Solicita una consulta gratuita hoy mismo.</h4>
+            
           </div>
 
         </div>
@@ -282,7 +218,7 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
+          <h2>Servicios</h2>
         </div>
 
         <div class="row">
@@ -616,90 +552,11 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
     </section><!-- End Contact Us Section -->
 
   </main><!-- End #main -->
+@endsection
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Always Pro Painting</h3>
-            <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> (727) 417-6867<br>
-              <strong>Email:</strong> luis@alwayspropainting.com<br>
-            </p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Always Pro Painting</span></strong>. All Rights Reserved
-      </div>
-      
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="{{ asset('storage/vendor/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/jquery.easing/jquery.easing.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/php-email-form/validate.js') }}"></script>
-  <script src="{{ asset('storage/vendor/jquery-sticky/jquery.sticky.js') }}"></script>
-  <script src="{{ asset('storage/vendor/venobox/venobox.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/waypoints/jquery.waypoints.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/counterup/counterup.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/owl.carousel/owl.carousel.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/aos/aos.js') }}"></script>
-
-  <!-- Template Main JS File -->
-
-</body>
-
-</html>
+@push('scripts')
+    <script>
+        // Scripts específicos para esta página
+        console.log('Página de inicio cargada');
+    </script>
+@endpush
