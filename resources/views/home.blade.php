@@ -165,20 +165,31 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
             <div class="section-title">
-              <h2>About Us</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+              <h2 class="d-none">About Us</h2>
+              <p>En Always Pro Painting, transformamosespacios desde 2022 con serviciosprofesionales de pintura, reparación dedrywall, texturizado y lavado a presión.Servimos con confiabilidad en Sarasota,Bradenton y áreas circundantes,garantizando acabados duraderos, materialesde primera calidad, compromiso ambiental y atención experta.</p>
+              <b> ¡Comienza tu renovación hoy!</b>
             </div>
 
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box d-none" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
               <h4 class="title"><a href="">Lorem Ipsum</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
 
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box d-none" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-gift"></i></div>
               <h4 class="title"><a href="">Nemo Enim</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+            
+            <div class="" data-aos="fade-up" data-aos-delay="100">
+              <ul>
+                <li><i class="fa fa-check"></i> Certificados BBB</li>
+                <li><i class="fa fa-medal"></i> Calidad garantizada</li>
+                <li><i class="fa fa-users"></i> Equipo profesional</li>
+                <li><i class="fa fa-calendar"></i> +2 años de experiencia</li>
+                <li><i class="fa fa-clock"></i> Puntiualidad asegurada</li>
+              </ul>
             </div>
 
           </div>
