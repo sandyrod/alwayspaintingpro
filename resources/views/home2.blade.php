@@ -102,67 +102,69 @@
     <section class="about-lists">
       <div class="container">
 
-        <div class="row no-gutters">
+        <div class="row ">
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
-            <span>01</span>
-            <h4>Equipo de técnicos certificados especializados en:</h4>
-            <p>Aplicación precisa y detallada.<br>
-              Materiales premium para el clima de Florida.<br>
-              Tecnología avanzada para acabados impecables.<br>
-              Garantía BBB® que respalda nuestro trabajo.
+          <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up">
+            <img src="{{ asset('storage/img/acabados.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <h4 class="font-weight-bold text-center">Acabados duraderos</h4>
+            <p class="text-justify">Nuestros servicios ofrecen acabados duraderos y de alta calidad, garantizando espacios impecables por más tiempo
             </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-            <span>02</span>
-            <h4>Ventajas Competitivas</h4>
-            <p>
-              ofrecemos renovaciones integrales, desde la reparación
-              de superficies dañadas hasta resultados impecables, gracias a:<br>
-              Evaluaciones técnicas personalizadas.<br>
-              Uso de productos ecológicos de bajo VOC.<br>
-              Portafolio de proyectos con resultados comprobables.
+          <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="{{ asset('storage/img/materiales.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <h4 class="font-weight-bold text-center">Materiales premium</h4>
+            <p class="text-justify">
+              Utilizamos solo materiales premium en cada proyecto para garantizar un resulado final de alta calidad que mejora la apariencia y protege las superficies.
             </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-            <span>03</span>
-            <h4>Compromiso</h4>
-            <p>
-              renovamos profesionalmente cada superficie a través de:<br>
-              Asesoramiento técnico personalizado.<br>
-              Presupuestos y plazos transparentes.<br>
-              Estándares de calidad superiores.
+          <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+            <img src="{{ asset('storage/img/compromiso.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <h4 class="font-weight-bold text-center">Compromiso Ambiental</h4>
+            <p class="text-justify">
+              Nuestro compromiso ambiental nos impulsa a utilizar productos ecológicos, asegurando que cada proyecto sea sostenible, y seguro para el planeta
             </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <span>04</span>
-            <h4>Vinculación Comunitaria</h4>
-            <p>
-              contribuimos activamente al:
-              Embellecimiento urbano.<br>
-              Adoptamos prácticas ambientales responsables.<br>
-              Apoyamos el desarrollo económico local.
+          <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+            <img src="{{ asset('storage/img/cuidado.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <h4 class="font-weight-bold text-center">Cuidado experto</h4>
+            <p class="text-justify">
+              A diferencia de otras empresas, nuestro equipo de expertos garantiza un cuidado meticuloso en cada proyecto, asegurando la perfeccion en cada detalle.
             </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
-            <span>05</span>
-            <h4>Avales de Calidad</h4>
-            <p>
-              Acreditación Better Business Bureau®.<br>
-              Certificaciones de fabricantes líderes.<br>
-              Pólizas de responsabilidad civil completas.
+          <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+            <img src="{{ asset('storage/img/cumplimiento.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <h4 class="font-weight-bold text-center">Cumplimiento garantizado</h4>
+            <p class="text-justify">
+              Comprometidos contigo, cumplimos plazos, presupuesto y alcance con profesionalismo, sin sorpresas ni retrasos.
             </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="500">
-            <span>06</span>
-            <h4>¿Listo para transformar tu propiedad?
-Solicita una consulta gratuita hoy mismo.</h4>
-            
+          <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+            <img src="{{ asset('storage/img/compromisopro.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <h4 class="font-weight-bold text-center">Compromiso profesional</h4>
+            <p class="text-justify">
+              Garantizamos resultados confiables con profesionalismo, atención personalizada, entregas puntuales y altos estándares en cada proyecto.
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+            <img src="{{ asset('storage/img/competitiva.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <h4 class="font-weight-bold text-center">Ventajas competitivas</h4>
+            <p class="text-justify">
+              Transformamos espacios con productos ecológicos y acabados duraderos, garantizando calidad, confianza y compromiso ambiental.
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+            <img src="{{ asset('storage/img/aval.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <h4 class="font-weight-bold text-center">Avales de calidad</h4>
+            <p class="text-justify">
+              Tu inversion está protegida con certificaciones oficiales, el respaldo de BBB y cobertura asegurada para tu total confianza.
+            </p>
           </div>
 
         </div>
