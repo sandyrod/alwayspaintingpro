@@ -21,37 +21,42 @@
     <div class="container">
 
         <div class="section-title">
-          <h2>Expresión de Sentimientos</h2>
+          <h2>Transformaciones profesionales </h2>
         </div>
         <div class="row">
             <div class="col-12">
                 <p>
-                    En Always Pro Painting convertimos hogares y negocios en lugares que inspiran. Ofrecemos servicios profesionales de pintura interior y 
-                    exterior, instalacion o reparación de drywall y lavado a presion en Sarasota, Bradenton y alrededores.
+                    En Always Pro Painting transformamos hogares y negocios con acabados duraderos y colores estratégicos, aplicando tecnicas de alta precisión. Vea nuestros impactantes "antes y despues" y descubra la diferencia que marcan los detalles.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    <h3><strong>Servicios especializados:</strong></h3>
                     <ul>
-                        <li>Acabados duraderos e impecables</li>
-                        <li>Materiales premium y resistentes al clima humedo de florida</li>
-                        <li>Técnicos certificados y meticulosa preparación</li>
-                        <li>Soluciones personalizadas que aumenta el valor de tu propiedad</li>
+                        <li><strong>Pintura profesional interior y exterior: </strong>Perfecta para techos, baños y fachadas. Formulas resistentes a humedad, desgaste y hongos</li>
+                        <li><strong>Reparacion de drywall y texturizado impecable: </strong>Eliminamos grietas e imperfecciones para un acabado perfecto, listo para pintar</li>
+                        <li><strong>Lavado a presion de alto impacto: </strong>Revitaliza superficies, elimina el moho y prepara para nuevos acabados</li>
                     </ul>
                 </p>
             </div>
             <div class="col-12">
                 <p>
-                    <h3>¿Porque elegir Always Pro Paiting?</h3>
+                    <h3>¿Porque elegirnos?</h3>
                     <ul style="list-style-type: none;">
-                        <li>✓ Pintores profesionales y en constante formación</li>
-                        <li>✓ Técnicas modernas y resultados garantizados</li>
-                        <li>✓ Miembros acreditados por el Better Business Bureau</li>
-                        <li>✓ Presupuestos 100% gratuitos y asesoría personalizada</li>
-                        <li>✓ Nos aseguramos de que cada proyecto se realice con el maximo cuidado y atención al cliente</li>
+                        <li>✓ Resultados garantizados</li>
+                        <li>✓ Técnicos certificados</li>
+                        <li>✓ Materiales premium</li>
+                        <li>✓ Atención personalizada</li>
+                        
                     </ul>
-                    Obten tu presupuesto sin costo
+                    Solicite su evaluación gratuita en Sarasota, Bradenton y áreas cercanas
                 </p>
             </div>
             <div class="col-12  text-center">
                 <p class=" text-center">
-                    <h2>Crea el espacio de tus sueños</h2>
+                    <h2>Tu "antes" merece nuestro "despues" profesional</h2>
                 </p>
             </div>
         </div>

@@ -58,8 +58,8 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
     <div class="container">
 
       <div class="logo float-left">
-        <h1 class="text-light d-none"><a href="index.html"><span>Always Pro Painting</span></a></h1>
-        <a href="index.html"><img src="{{ asset('storage/img/logo.png') }}" alt="" class="img-fluid"> <b>Always Pro Painting</b></a>
+        <h1 class="text-light d-none"><a href="{{ route('home') }}"><span>Always Pro Painting</span></a></h1>
+        <a href="{{ route('home') }}"><img src="{{ asset('storage/img/logo.png') }}" alt="" class="img-fluid"> <b>Always Pro Painting</b></a>
       </div>
 
       <nav class="nav-menu float-right d-none d-lg-block">
