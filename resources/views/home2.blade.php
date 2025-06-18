@@ -18,7 +18,7 @@
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown"> <span></span></h2>
                 <p class="animate__animated animate__fadeInUp"></p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <a href="{{ route('transformamos') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown"></h2>
                 <p class="animate__animated animate__fadeInUp"></p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <a href="{{ route('arte') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown"></h2>
                 <p class="animate__animated animate__fadeInUp"></p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <a href="{{ route('profesional') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
           </div>

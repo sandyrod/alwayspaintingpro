@@ -10,4 +10,19 @@ class HomeController extends Controller
     {
         return view('home2');
     }
+
+    public function transformamos()
+    {
+        return view('transformamos');
+    }
+
+    public function arte()
+    {
+        return view('arte');
+    }
+
+    public function profesional()
+    {
+        return view('profesional');
+    }
 }
