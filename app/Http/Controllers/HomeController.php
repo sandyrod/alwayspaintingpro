@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('profesional');
     }
+
+    public function nosotros()
+    {
+        return view('nosotros');
+    }
 }

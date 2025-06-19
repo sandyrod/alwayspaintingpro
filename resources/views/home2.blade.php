@@ -74,19 +74,16 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
             <div class="section-title">
-              <h2>Nosotros</h2>
+              <h2>¿Quienes Somos?</h2>
               <p></p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">RENOVANDO ESPACIOS CON EXCELENCIA EN SARASOTA Y BRADENTON</a></h4>
-              <p class="description">En Always Pro Painting, no solo aplicamos pintura - transformamos
-                  propiedades con soluciones profesionales
-                  que combinan técnica experta,
-                  innovación y dedicación absoluta. Desde 2022, hemos estado elevando los
-                  estándares de calidad en pintura, drywall y lavado a presión para hogares y
-                  negocios en toda la región.
+              <h4 class="title"></h4>
+              <p class="description">En Always Pro Painting, transformamos espacios desde 2022 con serviciosprofesionales de pintura, 
+                reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas 
+                circundantes, garantizando acabados duraderos, materialesde primera calidad, compromiso ambiental y atención experta.<br>
+                <strong> <a href="{{ route('nosotros') }}">¡Comienza tu renovación hoy!</a></strong>
               </p>
             </div>
 
@@ -214,9 +211,106 @@
 
       </div>
     </section><!-- End Counts Section -->
-
-    <!-- ======= Services Section ======= -->
+    <!-- ======= New Services Section ======= -->
     <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Servicios</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.png') }}'); padding:4px;">
+            <div class="content-box">
+              <h3>Drywall</h3>
+              <p>Acabados perfectos en drywall. Soluciones, resultados duraderos</p>
+              <div class="hover-text">No lo imagines más, <br>
+                ¡has click y miralo con tus ojos!
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.png') }}');">
+            <div class="content-box">
+              <h3>Pintura<br>Exterior & Interior</h3>
+              <p>Color, precisión y estilo para hogares y oficina</p>
+              <div class="hover-text">No lo imagines más, <br>
+                ¡has click y miralo con tus ojos!
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.png') }}');">
+            <div class="content-box">
+              <h3>Lavado a presión</h3>
+              <p>Luce como nuevo. Limpieza profunda sin quimicos agresivos</p>
+              <div class="hover-text">Los detalles si<br> importan, y nosotros<br> sabemos como hacerlos destacar, <br>comienza con un clic
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/texturizado.png') }}'); padding:4px;">
+            <div class="content-box">
+              <h3>Texturizado</h3>
+              <p>Moderno, cobertura perfecta, acabado duradero</p>
+              <div class="hover-text">Haz clic y conoce cómo <br>
+                personalizamos cada<br> textura a tu estilo
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/duchas.png') }}');">
+            <div class="content-box">
+              <h3>Duchas y<br>Bañeras</h3>
+              <p>Brillo, proteccion y estilo<br> para tu ducha o bañera</p>
+              <div class="hover-text">Tu espacio merece un cambio profesional, <br>
+                visual y duradero. Haz<br>
+                clic ahora
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/senalizacion.png') }}');">
+            <div class="content-box">
+              <h3>Señalización</h3>
+              <p>Pintura vial precisa.<br>
+                 Seguridad y visibilidad en cada trazo
+              </p>
+              <div class="hover-text">Ofrecemos resultados<br> limpios, precisos y garantizados.<br> Compruebelo usted mismo con un clic
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/whatsapp.png') }}'); padding:4px;">
+            <div class="content-box">
+              <h3 style="background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(37,211,102,0.7));">Whatsapp</h3>
+              <p>Contáctanos para tu presupuesto gratis</p>
+              <div class="hover-text">Has clic y agenda tu<br> evaluación gratuita
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.png') }}');">
+            <div class="content-box">
+              <h3>Vinculación<br>Comunitaria</h3>
+              <p>Renovamos espacios<br> públicos con conciencia<br> ambiental</p>
+              <div class="hover-text">
+                Has clic y conoce como sumamos color, vida y sostenibilidad en Sarasota y Bradenton
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/email.png') }}');">
+            <div class="content-box">
+              <h3>Email</h3>
+              <p>¿Proyecto en mente?<br>
+                  Escribenos y cotizamos<br> gratis sin compromiso
+              </p>
+              <div class="hover-text">Haz clic para<br> transformar tu espacio.<br> Solicita presupuesto sin costo
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services">
       <div class="container">
 
         <div class="section-title">
@@ -231,17 +325,17 @@
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="icofont-like"></i></div>
             <h4 class="title"><a href="">Lavado a Presión</a></h4>
-            <!-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> -->
+
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="icofont-earth"></i></div>
             <h4 class="title"><a href="">Pintura Exterior e Interior</a></h4>
-            <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> -->
+            
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="icofont-image"></i></div>
             <h4 class="title"><a href="">Señalización</a></h4>
-            <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
+            
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="icofont-paint-brush"></i></div>
@@ -256,10 +350,11 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> -->
+    <!-- End Services Section -->
 
     <!-- ======= Our Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <!-- <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="section-title">
@@ -363,16 +458,14 @@
               </div>
             </div>
           </div>
-
-          
-
         </div>
 
       </div>
-    </section><!-- End Our Portfolio Section -->
+    </section> -->
+    <!-- End Our Portfolio Section -->
 
     <!-- ======= Our Team Section ======= -->
-    <section id="team" class="team">
+    <!-- <section id="team" class="team">
       <div class="container">
 
         <div class="section-title">
@@ -425,10 +518,11 @@
         </div>
 
       </div>
-    </section><!-- End Our Team Section -->
+    </section> -->
+    <!-- End Our Team Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <!-- <section id="faq" class="faq section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -482,7 +576,8 @@
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section> -->
+    <!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact">
@@ -554,7 +649,71 @@
 
   </main><!-- End #main -->
 @endsection
+<style>
+  .icon-box {
+    height: 300px; /* Ajusta según necesites */
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 0;
+  }
 
+  .content-box {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+
+  .content-box h3 {
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,255,0.7));
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .hover-text {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.5s ease;
+    width: 100%;
+  }
+
+  .icon-box:hover .content-box {
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(66,139,202,0.7));
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    border-radius: 15px;
+  }
+
+  .icon-box:hover .content-box h3,
+  .icon-box:hover .content-box p {
+    opacity: 0;
+  }
+
+  .icon-box:hover .hover-text {
+    opacity: 1;
+  }
+
+  
+</style>
 @push('scripts')
     <script>
         // Scripts específicos para esta página
