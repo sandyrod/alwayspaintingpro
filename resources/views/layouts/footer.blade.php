@@ -24,22 +24,23 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('nosotros') }}">Nosotros</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Servicios</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('drywall') }}">Drywall</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('pintura') }}">Pintura Exterior & Interior</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('lavado') }}">Lavado a presión</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('texturizado') }}">Texturizado</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('duchas') }}">Duchas y bañeras</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('senalizacion') }}">Señalización</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('wsp') }}">Whatsapp</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('vinculacion') }}">Vinculación Comunitaria</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('email') }}">Email</a></li>
             </ul>
           </div>
 

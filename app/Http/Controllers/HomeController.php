@@ -30,4 +30,44 @@ class HomeController extends Controller
     {
         return view('nosotros');
     }
+
+    public function drywall()
+    {
+        return view('drywall');
+    }
+
+    public function pintura()
+    {
+        return view('pintura');
+    }
+    public function lavado()
+    {
+        return view('lavado');
+    }
+    public function texturizado()
+    {
+        return view('texturizado');
+    }
+    public function duchas()
+    {
+        return view('duchas');
+    }
+    public function senalizacion()
+    {
+        return view('senalizacion');
+    }
+    public function wsp()
+    {
+        return view('wsp');
+    }
+    public function vinculacion()
+    {
+        return view('vinculacion');
+    }
+    
+    public function email()
+    {
+        return view('email');
+    }
+
 }
