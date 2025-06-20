@@ -6,13 +6,9 @@
 <section id="hero">
     <div class="hero-container">
         <div id="heroCarousel" class="carousel" data-ride="carousel">
-
-
         <div class="carousel-inner" role="listbox">
 
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/nosotros.png') }}');">
-
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/vinculacionheader.png') }}');">
           </div>
         </div>
     </div>
@@ -21,33 +17,36 @@
     <div class="container">
 
         <div class="section-title">
-          <h2>Espacios renovados, Creamos emociones duraderas</h2>
+          <h2>Embellecemos Sarasota & bradenton con proposito y conciencia</h2>
         </div>
         <div class="row">
             <div class="col-12">
                 <p>
-                    Transformamos hogares y negocios en Sarasota y Bradenton con servicios profesionales de pintura interior y exterior, reparación de panel de yeso y lavado a presión.
+                    En Always Pro Painting transformamos espacios públicos con responsabilidad ambiental y compromiso local.
+                    Renovamos escuelas, plazas y calles con pintua ecológica de bajo VOC, señalizacion clara y técnicas limpias que respetan el entorno.
+                </p>
+                <p>
+                    Nuestro trabajo no solo mejora la estética urbana, sino que fortalece el sentido de pertenencia y apoya el desarrollo de la comunidad.<br>
+                    Pintamos con propósito, conectamos con tu ciudad y dejamos una huella positiva que perdura.
+
                 </p>
             </div>
             <div class="col-12">
                 <p>
-                    <h3>¿Que nos hace diferentes?</h3>
+                    <strong>Beneficios comunitarios:<strong><br>
                     <ul style="list-style-type: none;">
-                        <li>✓ Usamos materiales premium resistentes al clima de Florida y técnicas modernas que garantizan resultados 
-                            impecables
+                        <li>✓ Pinuras ecológicas de bajo VOC, seguras.
                         </li>
-                        <li>✓ Nuestro personal técnico cuida cada detalle para elevar el valor de su propiedad con precisión y compromiso ambiental</li>
-                        <li>✓ Ofrecemos atención personalizada y presupuestos 100% gratuitos</li>
-                        <li>✓ Combinamos confiabilidad, profesionalismo y pasión por transformar espacios</li>
-                        <li>✓ Desde la primera cotización hasta la entrega final, te garantizamos una experiencia sin complicaciónes y un acabado que inspira emociones</li>
-                        
+                        <li>✓ Señalizacion vial clara para mayor seguridad.</li>
+                        <li>✓ Renovación estética sin interrupciones.</li>
+                        <li>✓ Participación comuntaria activa</li>
                     </ul>
-                    Solicite un presupuesto gratuito y dejanos demostrarte por qué nuestros clientes confian en nosotros
+                    Solicita hoy tu proyecto social y ambiental. ¡Juntos damos color al futuro!
                 </p>
             </div>
             <div class="col-12  text-center">
                 <p class=" text-center">
-                    <h2>Calidad que perdura, servicio que conquista</h2>
+                    <h2>Pintamos con propósito, embellecemos con conciencia</h2>
                 </p>
             </div>
         </div>
