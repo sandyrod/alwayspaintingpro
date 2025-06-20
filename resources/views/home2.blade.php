@@ -223,8 +223,8 @@
             <div class="content-box">
               <h3>Drywall</h3>
               <p>Acabados perfectos en drywall. Soluciones, resultados duraderos</p>
-              <div class="hover-text">No lo imagines más, <br>
-                ¡has click y miralo con tus ojos!
+              <div class="hover-text"><a href="{{ route('drywall') }}">No lo imagines más, <br>
+                ¡has click y miralo con tus ojos!</a>
               </div>
             </div>
           </div>
@@ -232,8 +232,8 @@
             <div class="content-box">
               <h3>Pintura<br>Exterior & Interior</h3>
               <p>Color, precisión y estilo para hogares y oficina</p>
-              <div class="hover-text">No lo imagines más, <br>
-                ¡has click y miralo con tus ojos!
+              <div class="hover-text"><a href="{{ route('pintura') }}">No lo imagines más, <br>
+                ¡has click y miralo con tus ojos!</a>
               </div>
             </div>
           </div>
@@ -241,7 +241,7 @@
             <div class="content-box">
               <h3>Lavado a presión</h3>
               <p>Luce como nuevo. Limpieza profunda sin quimicos agresivos</p>
-              <div class="hover-text">Los detalles si<br> importan, y nosotros<br> sabemos como hacerlos destacar, <br>comienza con un clic
+              <div class="hover-text"><a href="{{ route('lavado') }}">Los detalles si<br> importan, y nosotros<br> sabemos como hacerlos destacar, <br>comienza con un clic.</a>
               </div>
             </div>
           </div>
@@ -251,8 +251,8 @@
             <div class="content-box">
               <h3>Texturizado</h3>
               <p>Moderno, cobertura perfecta, acabado duradero</p>
-              <div class="hover-text">Haz clic y conoce cómo <br>
-                personalizamos cada<br> textura a tu estilo
+              <div class="hover-text"><a href="{{ route('texturizado') }}">Haz clic y conoce cómo <br>
+                personalizamos cada<br> textura a tu estilo</a>
               </div>
             </div>
           </div>
@@ -260,9 +260,9 @@
             <div class="content-box">
               <h3>Duchas y<br>Bañeras</h3>
               <p>Brillo, proteccion y estilo<br> para tu ducha o bañera</p>
-              <div class="hover-text">Tu espacio merece un cambio profesional, <br>
+              <div class="hover-text"><a href="{{ route('duchas') }}">Tu espacio merece un cambio profesional, <br>
                 visual y duradero. Haz<br>
-                clic ahora
+                clic ahora</a>
               </div>
             </div>
           </div>
@@ -272,7 +272,7 @@
               <p>Pintura vial precisa.<br>
                  Seguridad y visibilidad en cada trazo
               </p>
-              <div class="hover-text">Ofrecemos resultados<br> limpios, precisos y garantizados.<br> Compruebelo usted mismo con un clic
+              <div class="hover-text"><a href="{{ route('senalizacion') }}">Ofrecemos resultados<br> limpios, precisos y garantizados.<br> Compruebelo usted mismo con un clic.</a>
               </div>
             </div>
           </div>
@@ -282,7 +282,7 @@
             <div class="content-box">
               <h3 style="background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(37,211,102,0.7));">Whatsapp</h3>
               <p>Contáctanos para tu presupuesto gratis</p>
-              <div class="hover-text">Has clic y agenda tu<br> evaluación gratuita
+              <div class="hover-text"><a href="{{ route('wsp') }}">Has clic y agenda tu<br> evaluación gratuita.</a>
               </div>
             </div>
           </div>
@@ -291,7 +291,7 @@
               <h3>Vinculación<br>Comunitaria</h3>
               <p>Renovamos espacios<br> públicos con conciencia<br> ambiental</p>
               <div class="hover-text">
-                Has clic y conoce como sumamos color, vida y sostenibilidad en Sarasota y Bradenton
+                <a href="{{ route('vinculacion') }}">Has clic y conoce como sumamos color, vida y sostenibilidad en Sarasota y Bradenton.</a>
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@
               <p>¿Proyecto en mente?<br>
                   Escribenos y cotizamos<br> gratis sin compromiso
               </p>
-              <div class="hover-text">Haz clic para<br> transformar tu espacio.<br> Solicita presupuesto sin costo
+              <div class="hover-text"><a href="{{ route('email') }}">Haz clic para<br> transformar tu espacio.<br> Solicita presupuesto sin costo</a>
               </div>
             </div>
           </div>
