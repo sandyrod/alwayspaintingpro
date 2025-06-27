@@ -28,6 +28,23 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
   </section>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center justify-content-between" style="top: 50px; padding: 0 15px;">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const topbar = document.getElementById('topbar');
+            const header = document.getElementById('header');
+            
+            // Show topbar when at top, hide when scrolling
+            window.addEventListener('scroll', function() {
+                if (window.scrollY === 0) {
+                    topbar.style.display = 'block';
+                    header.style.top = '50px';
+                } else {
+                    topbar.style.display = 'none';
+                    header.style.top = '0';
+                }
+            });
+        });
+    </script>
     <div class="container d-flex align-items-center position-relative" style="min-height: 100px; justify-content: space-between;">
 
        <div class="logo">
