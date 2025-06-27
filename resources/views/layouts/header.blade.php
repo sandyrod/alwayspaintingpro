@@ -1,5 +1,5 @@
 <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block" style="position: absolute; top: 0; left: 0; width: 100%; background-color: rgba(255,255,255,0.9); padding: 10px 0;">
+  <section id="topbar" class="d-none d-lg-block" style="position: absolute; top: 0; left: 0; width: 100%; background-color: rgba(255,255,255,0.9); padding: 8px 0;">
     <div class="container clearfix">
       <div class="contact-info float-left">
         <i class="icofont-envelope"></i><a href="mailto:info@alwayspropainting.com">info@alwayspropainting.com</a>
@@ -45,7 +45,7 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
             });
         });
     </script>
-    <div class="container d-flex align-items-center position-relative" style="min-height: 100px; justify-content: space-between;">
+    <div class="container d-flex align-items-center position-relative" style="min-height: 80px; justify-content: space-between; padding: 10px 0;">
 
        <div class="logo">
         <h1 class="text-light d-none"><a href="{{ route('home') }}"><span>Always Pro Painting</span></a></h1>

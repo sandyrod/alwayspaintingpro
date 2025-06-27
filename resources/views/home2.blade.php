@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- ======= Hero Section ======= -->
-  <section id="hero">
+  <section id="hero" style="margin-top: 60px; padding-top: 0;">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
@@ -59,6 +59,97 @@
       </div>
     </div>
   </section><!-- End Hero -->
+    <script>
+        // Handle video loading in modal
+        $(document).ready(function() {
+            // When modal is shown
+            $('#videoModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget); // Button that triggered the modal
+                var videoSrc = button.data('video'); // Extract info from data-* attributes
+                
+                // Update video source
+                $('#videoSource').attr('src', videoSrc);
+                $('#videoPlayer')[0].load();
+            });
+
+            // When modal is hidden, pause video and clear source
+            $('#videoModal').on('hidden.bs.modal', function (event) {
+                $('#videoPlayer')[0].pause();
+                $('#videoSource').attr('src', '');
+            });
+        });
+    </script>
+    <style>
+        .video-thumbnail-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        
+        .video-thumbnail-container img {
+            transition: transform 0.3s ease;
+        }
+        
+        .video-thumbnail-container:hover img {
+            transform: scale(1.05);
+        }
+        
+        .play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.7);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            opacity: 0.8;
+        }
+        
+        .play-btn:hover {
+            opacity: 1;
+            background: rgba(0, 0, 0, 0.9);
+        }
+        
+        .play-btn i {
+            font-size: 24px;
+            color: #fff;
+        }
+        
+        #videoModal {
+            text-align: center;
+        }
+        
+        #videoModal .modal-content {
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        #videoModal .modal-body {
+            padding: 0;
+        }
+        
+        #videoModal .close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #fff;
+            font-size: 24px;
+        }
+        
+        #videoModal .close:hover {
+            color: #ddd;
+        }
+        
+        #videoModal video {
+            border-radius: 10px;
+        }
+    </style>
     <main id="main">
 
     <!-- ======= About Us Section ======= -->
@@ -67,8 +158,30 @@
 
         <div class="row no-gutters">
           <div class="col-lg-6 video-box">
-            <img src="{{ asset('storage/img/about.jpg') }}" class="img-fluid" alt="">
-            <a href="https://youtu.be/UEm6PG5PwkU?si=T0JL_d-HROpRanGC" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            <!-- Thumbnail Image -->
+            <div class="video-thumbnail-container">
+                <img src="{{ asset('storage/img/about.jpg') }}" class="img-fluid video-thumbnail" alt="">
+                <a href="#" class="play-btn mb-4" data-video="{{ asset('storage/videos/about.mp4') }}" data-toggle="modal" data-target="#videoModal">
+                    <i class="icofont-play-alt-2"></i>
+                </a>
+            </div>
+
+            <!-- Video Modal -->
+            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <video class="w-100" controls playsinline>
+                                <source src="{{ asset('storage/videos/about.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
           </div>
 
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
