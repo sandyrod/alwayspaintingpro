@@ -36,8 +36,8 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="contact-info float-left">
-        <i class="icofont-envelope"></i><a href="mailto:luis@alwayspropainting.com">luis@alwayspropainting.com</a>
-        <i class="icofont-phone"></i> (727) 417-6867
+        <i class="icofont-envelope"></i><a href="mailto:info@alwayspropainting.com">info@alwayspropainting.com</a>
+        <i class="whatsapp"></i> (727) 417-6867 | (727) 417-6753
       </div>
       <div class="social-links float-right">
         <a target="_blank" href="https://www.facebook.com/alwayspropainting" class="facebook"><i class="icofont-facebook"></i></a>
@@ -580,7 +580,7 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>luis@alwayspropainting.com<br></p>
+              <p>info@alwayspropainting.com<br></p>
             </div>
           </div>
 
@@ -588,7 +588,7 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+1 (727) 417-6867<br></p>
+              <p>(727) 417-6867 | (727) 417-6753<br></p>
             </div>
           </div>
 
@@ -639,8 +639,8 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
             <p>
               A108 Adam Street <br>
               NY 535022, USA<br><br>
-              <strong>Phone:</strong> (727) 417-6867<br>
-              <strong>Email:</strong> luis@alwayspropainting.com<br>
+              <strong>Phone:</strong> (727) 417-6867 | (727) 417-6753<br>
+              <strong>Email:</strong> info@alwayspropainting.com<br>
             </p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>

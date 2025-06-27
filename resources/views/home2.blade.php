@@ -354,7 +354,7 @@
     <!-- End Services Section -->
 
     <!-- ======= Our Portfolio Section ======= -->
-    <!-- <section id="portfolio" class="portfolio section-bg">
+   <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="section-title">
@@ -461,7 +461,7 @@
         </div>
 
       </div>
-    </section> -->
+    </section> 
     <!-- End Our Portfolio Section -->
 
     <!-- ======= Our Team Section ======= -->
@@ -601,7 +601,7 @@
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>luis@alwayspropainting.com<br></p>
+              <p>info@alwayspropainting.com<br></p>
             </div>
           </div>
 
@@ -609,7 +609,7 @@
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+1 (727) 417-6867<br></p>
+              <p>(727) 417-6867 | (727) 417-6753<br></p>
             </div>
           </div>
 
