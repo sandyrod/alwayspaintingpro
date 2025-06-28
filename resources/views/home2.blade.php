@@ -65,38 +65,6 @@
         if (typeof jQuery === 'undefined') {
             document.write('<script src="https://code.jquery.com/jquery-3.6.0.min.js"><\/script>');
         }
-
-        // Handle video loading in modal
-        jQuery(document).ready(function($) {
-            // When modal is shown
-            $('#videoModal').on('show.bs.modal', function (event) {
-                var button = $(event.relatedTarget); // Button that triggered the modal
-                var videoSrc = button.data('video'); // Extract info from data-* attributes
-                
-                // Update video source
-                $('#videoSource').attr('src', videoSrc);
-                $('#videoPlayer')[0].load();
-            });
-
-            // When modal is hidden, pause video and clear source
-            $('#videoModal').on('hidden.bs.modal', function (event) {
-                $('#videoPlayer')[0].pause();
-                $('#videoSource').attr('src', '');
-            });
-                var button = $(event.relatedTarget); // Button that triggered the modal
-                var videoSrc = button.data('video'); // Extract info from data-* attributes
-                
-                // Update video source
-                $('#videoSource').attr('src', videoSrc);
-                $('#videoPlayer')[0].load();
-            });
-
-            // When modal is hidden, pause video and clear source
-            $('#videoModal').on('hidden.bs.modal', function (event) {
-                $('#videoPlayer')[0].pause();
-                $('#videoSource').attr('src', '');
-            });
-        });
     </script>
     <style>
         .about-lists .content-item img {
