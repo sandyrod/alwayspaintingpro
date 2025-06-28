@@ -16,9 +16,9 @@
           <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1-def.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown"> <span>TRANSFORMAMOS SUPERFICIES, <br>INSPIRAMOS ESPACIOS</span></h2>
-                <p class="animate__animated animate__fadeInUp">Brindamos servicios profesionales de pintura, reparación de drywall y lavado a presión en Sarasota y Bradenton, garantizando confiabilidad y acabados duraderos con compromiso ambiental.</p>
-                <a href="{{ route('transformamos') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Atrévete <i class="fa fa-arrow-right"></i></a>
+                <h2 class="animate__animated animate__fadeInDown" data-key="welcome_title">TRANSFORMAMOS SUPERFICIES, <br>INSPIRAMOS ESPACIOS</h2>
+                <p class="animate__animated animate__fadeInUp" data-key="welcome_description">Brindamos servicios profesionales de pintura, reparación de drywall y lavado a presión en Sarasota y Bradenton, garantizando confiabilidad y acabados duraderos con compromiso ambiental.</p>
+                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="start_renovation">Atrévete <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -27,9 +27,9 @@
           <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-2.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
+                <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
                 <p class="animate__animated animate__fadeInUp"></p>
-                <a href="{{ route('arte') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Averigua <i class="fa fa-arrow-right"></i></a>
+                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="more_info">Averigua <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -38,10 +38,10 @@
           <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3-def.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">DE LO COMÚN<br> A LO EXTRAORDINARIO</h2>
-                <p class="animate__animated animate__fadeInUp">Transformamos tus espacios con alta calidad
+                <h2 class="animate__animated animate__fadeInDown" data-key="transformamos">DE LO COMÚN<br> A LO EXTRAORDINARIO</h2>
+                <p class="animate__animated animate__fadeInUp" data-key="professional_description">Transformamos tus espacios con alta calidad
                 profesional.</p>
-                <a href="{{ route('profesional') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Sorprendente <i class="fa fa-arrow-right"></i></a>
+                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="get_started">Sorprendente <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>

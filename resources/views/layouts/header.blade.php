@@ -46,35 +46,33 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
         });
     </script>
     <div class="container d-flex align-items-center position-relative" style="min-height: 80px; justify-content: space-between; padding: 10px 0;">
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <a href="{{ route('lang.switch', 'en') }}" class="language-link" title="English"><i class="fas fa-globe"></i></a>
+            <a href="{{ route('lang.switch', 'es') }}" class="language-link" title="Español"><i class="fas fa-globe"></i></a>
+        </div>
 
        <div class="logo">
         <h1 class="text-light d-none"><a href="{{ route('home') }}"><span>Always Pro Painting</span></a></h1>
         <a href="{{ route('home') }}"><img src="{{ asset('storage/img/logo_web.png') }}" alt="" class="img-fluid"> </a>
       </div>
 
-       <nav class="nav-menu d-none d-lg-block" style="margin-left: auto;">
+        <nav class="nav-menu d-none d-lg-block" style="margin-left: auto;">
         <ul>
-          <li class="active"><a href="{{ route('home') }}">Inicio</a></li>
-          <li><a href="#about">Nosotros</a></li>
-          <li class="drop-down"><a href="services">Servicios</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
+          <li class="active"><a href="{{url('/')}}" class="home-link" data-key="home">Inicio</a></li>
+          <li><a href="{{url('/#about')}}" class="about-link" data-key="about">¿Quienes Somos?</a></li>
+          <li><a href="{{url('/#services')}}" class="service-link" data-key="services">Servicios</a></li>
+          <li><a href="{{url('/#portfolio')}}" class="portfolio-link" data-key="portfolio">Portafolio</a></li>
+          <li><a href="{{url('/#contact')}}" class="contact-link" data-key="contact">Contacto</a></li>
+          <li class="language-selector dropdown">
+            <a href="#" class="language-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-globe"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
             </ul>
           </li>
-          <li><a href="#portfolio">Portafolio</a></li>
-          <li><a href="#contact">Contactanos</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 

@@ -16,6 +16,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
   <!-- Vendor CSS Files -->
   <link href="{{ asset('storage/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('storage/vendor/icofont/icofont.min.css') }}" rel="stylesheet">
@@ -38,14 +39,85 @@
         @yield('content')
     </main>
 
+    <style>
+        /* Language Selector */
+        .language-selector {
+            margin-left: 20px;
+            position: relative;
+        }
+
+        .language-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 8px 15px;
+            transition: color 0.3s ease;
+        }
+
+        .language-link:hover {
+            color: #000;
+        }
+
+        .language-selector .dropdown-menu {
+            margin-top: 0;
+            padding: 8px 0;
+            border: none;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            border-radius: 10px;
+        }
+
+        .language-selector .dropdown-item {
+            padding: 8px 20px;
+            color: #333;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .language-selector .dropdown-item:hover {
+            background: #f8f9fa;
+            color: #000;
+        }
+
+        /* Topbar */
+        #topbar {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px 0;
+        }
+    </style>
+
     <!-- Incluir footer -->
     @include('layouts.footer')
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-    <!-- Scripts comunes -->
+     <!-- Scripts comunes -->
     @stack('scripts')
     <!-- Vendor JS Files -->
   <script src="{{ asset('storage/vendor/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('storage/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('storage/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <!-- Template Main JS File -->
+    @vite(['resources/js/main.js'])
+    <!-- Translation JS -->
+    <script src="{{ asset('js/translations.js') }}"></script>
+    <script>
+        // Asegurarse de que translations.js se cargue correctamente
+        if (typeof switchLanguage === 'undefined') {
+            console.error('translations.js no se ha cargado correctamente');
+        } else {
+            // Inicializar el dropdown de idiomas
+            initializeLanguageDropdown();
+            
+            // Manejar cambio de idioma
+            document.querySelectorAll('.language-selector .dropdown-item').forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const lang = this.getAttribute('data-lang');
+                    switchLanguage(lang);
+                });
+            });
+
+            // Actualizar idioma al cargar la página
+            updateTranslations();
+        }
+    </script>
   <script src="{{ asset('storage/vendor/jquery.easing/jquery.easing.min.js') }}"></script>
   <script src="{{ asset('storage/vendor/php-email-form/validate.js') }}"></script>
   <script src="{{ asset('storage/vendor/jquery-sticky/jquery.sticky.js') }}"></script>

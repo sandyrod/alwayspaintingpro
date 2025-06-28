@@ -1,0 +1,51 @@
+<?php
+
+return [
+    // Header
+    'home' => 'Home',
+    'about' => 'About',
+    'services' => 'Services',
+    'portfolio' => 'Portfolio',
+    'contact' => 'Contact',
+    'transformamos' => 'We Transform',
+    'arte' => 'Art',
+    'profesional' => 'Professional',
+    'drywall' => 'Drywall',
+    'pintura' => 'Painting',
+    'lavado' => 'Washing',
+    'texturizado' => 'Texturing',
+    'duchas' => 'Showers',
+    'senalizacion' => 'Signage',
+    'vinculacion' => 'Networking',
+    'home_title' => 'Welcome to Always Pro Painting',
+    'home_description' => 'Professional painting services for your home and business',
+    'services_title' => 'Our Services',
+    'about_title' => 'About Us',
+    'contact_title' => 'Contact Us',
+    'portfolio_title' => 'Our Work',
+    'read_more' => 'Read More',
+    'get_started' => 'Get Started',
+    'send_message' => 'Send Message',
+    'name' => 'Name',
+    'email' => 'Email',
+    'subject' => 'Subject',
+    'message' => 'Message',
+    'send' => 'Send',
+    'back_to_top' => 'Back to Top',
+    'wsp' => 'WhatsApp',
+    'nosotros' => 'About Us',
+
+    // Home
+    'who_we_are' => 'Who We Are?',
+    'start_renovation' => 'Start your renovation today!',
+    'more_info' => 'Read More',
+
+    // Services
+    'drywall_services' => 'Drywall Services',
+    'painting_services' => 'Painting Services',
+    'pressure_washing' => 'Pressure Washing',
+    'texturing' => 'Texturing',
+    'showers' => 'Showers',
+    'signage' => 'Signage',
+    'partnership' => 'Partnership',
+];

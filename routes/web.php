@@ -18,3 +18,12 @@ Route::get('/wsp', [HomeController::class, 'wsp'])->name('wsp');
 Route::get('/vinculacion', [HomeController::class, 'vinculacion'])->name('vinculacion');
 Route::get('/email', [HomeController::class, 'email'])->name('email');
 
+// Cambiar idioma
+Route::get('/lang/{locale}', function ($locale) {
+    if (!in_array($locale, ['en', 'es'])) {
+        abort(404);
+    }
+    session(['locale' => $locale]);
+    return redirect()->back();
+})->name('lang.switch');
+
