@@ -10,7 +10,7 @@
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/texturizadoheader.png') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/texturizado.png') }}');">
 
           </div>
         </div>

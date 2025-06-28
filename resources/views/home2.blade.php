@@ -13,12 +13,12 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1.png') }}');">
+          <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1-def.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown"> <span></span></h2>
-                <p class="animate__animated animate__fadeInUp"></p>
-                <a href="{{ route('transformamos') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown"> <span>TRANSFORMAMOS SUPERFICIES, <br>INSPIRAMOS ESPACIOS</span></h2>
+                <p class="animate__animated animate__fadeInUp">Brindamos servicios profesionales de pintura, reparación de drywall y lavado a presión en Sarasota y Bradenton, garantizando confiabilidad y acabados duraderos con compromiso ambiental.</p>
+                <a href="{{ route('transformamos') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Atrévete <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -27,20 +27,21 @@
           <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-2.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown"></h2>
+                <h2 class="animate__animated animate__fadeInDown">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
                 <p class="animate__animated animate__fadeInUp"></p>
-                <a href="{{ route('arte') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <a href="{{ route('arte') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Averigua <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3.png') }}');">
+          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3-def.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown"></h2>
-                <p class="animate__animated animate__fadeInUp"></p>
-                <a href="{{ route('profesional') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown">DE LO COMÚN<br> A LO EXTRAORDINARIO</h2>
+                <p class="animate__animated animate__fadeInUp">Transformamos tus espacios con alta calidad
+                profesional.</p>
+                <a href="{{ route('profesional') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Sorprendente <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -98,6 +99,114 @@
         });
     </script>
     <style>
+        .about-lists .content-item img {
+            transition: transform 0.4s ease-in-out;
+            transform-origin: center center;
+        }
+        
+        .about-lists .content-item img:hover {
+            transform: scale(1.03);
+        }
+        
+        .video-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            padding: 20px;
+        }
+        
+        .video-thumbnail-container {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .custom-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .custom-button .button-text {
+            margin-right: 15px;
+        }
+        
+        .custom-button .button-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: #fff;
+            color: #000;
+            font-size: 14px;
+        }
+        
+        .custom-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+        
+        .features-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .features-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .features-list i {
+            margin-right: 10px;
+            font-size: 1.2em;
+            color: #0d6efd;
+        }
+        
+        .features-list li {
+            padding: 10px 0;
+        }
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        .features-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .features-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .features-list i {
+            margin-right: 10px;
+            font-size: 1.2em;
+            color: #0d6efd;
+        }
+        
         .video-thumbnail-container {
             position: relative;
             overflow: hidden;
@@ -204,18 +313,38 @@
 
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
-            <div class="section-title">
+            <div class="section-title" style="padding-bottom: 0px;">
               <h2>¿Quienes Somos?</h2>
-              <p></p>
+              <p>En Always Pro Painting, transformamos espacios desde 2022 con serviciosprofesionales de pintura, 
+                reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas 
+                circundantes, garantizando acabados duraderos, materialesde primera calidad, compromiso ambiental y atención experta.</p>
             </div>
 
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
               <h4 class="title"></h4>
-              <p class="description">En Always Pro Painting, transformamos espacios desde 2022 con serviciosprofesionales de pintura, 
-                reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas 
-                circundantes, garantizando acabados duraderos, materialesde primera calidad, compromiso ambiental y atención experta.<br>
-                <strong> <a href="{{ route('nosotros') }}">¡Comienza tu renovación hoy!</a></strong>
-              </p>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="features-list">
+                    <li><i class="fas fa-certificate"></i> Certificados BBB</li>
+                    <li><i class="fas fa-check-circle"></i> Calidad garantizada</li>
+                    <li><i class="fas fa-users"></i> Equipo profesional</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="features-list">
+                    <li><i class="fas fa-clock"></i> +2 años de experiencia</li>
+                    <li><i class="fas fa-clock"></i> Puntualidad asegurada</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="text-center mt-4">
+                <a href="{{ route('nosotros') }}" class="custom-button">
+                  <span class="button-text">¡Comienza tu renovación</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
             </div>
 
             
@@ -788,13 +917,13 @@
     border-radius: 15px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 0;
   }
 
   .content-box {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;

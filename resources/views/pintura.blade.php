@@ -11,7 +11,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/pinturaheader.png') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/pintura.png') }}');">
 
           </div>
         </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="col-12  text-center">
                 <p class=" text-center">
-                    <h2>Progege, embellece y valoriza tu propiedad</h2>
+                    <h2>Protege, embellece y valoriza tu propiedad</h2>
                 </p>
             </div>
         </div>
