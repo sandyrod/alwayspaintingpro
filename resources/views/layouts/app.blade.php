@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
   <link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/menu-active-color.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/services-hover.css') }}" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="{{ asset('storage/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('storage/vendor/icofont/icofont.min.css') }}" rel="stylesheet">
@@ -93,6 +95,7 @@
     @stack('scripts')
     <!-- Vendor JS Files -->
   <script src="{{ asset('storage/vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ asset('js/menu-active.js') }}"></script>
     <script src="{{ asset('storage/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- Template Main JS File -->
     @vite(['resources/js/main.js'])

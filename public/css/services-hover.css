@@ -1,0 +1,33 @@
+/* Hover effects for services content-box */
+#services .content-box {
+    transition: color 0.3s ease;
+}
+
+#services .content-box:hover {
+    color: #ffffff !important;
+}
+
+/* Ensure all text elements inside content-box change color on hover */
+#services .content-box:hover h3,
+#services .content-box:hover p,
+#services .content-box:hover .hover-text a {
+    color: #ffffff !important;
+}
+
+/* Additional hover effects for better contrast */
+#services .content-box:hover {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure the hover text link remains readable */
+#services .content-box:hover .hover-text a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+#services .content-box:hover .hover-text a:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}

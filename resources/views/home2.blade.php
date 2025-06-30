@@ -454,7 +454,7 @@
               <h3>Drywall</h3>
               <p>Acabados perfectos en drywall. Soluciones, resultados duraderos</p>
               <div class="hover-text"><a href="{{ route('drywall') }}">No lo imagines más, <br>
-                ¡has click y miralo con tus ojos!</a>
+                Haz click y miralo con tus ojos!</a>
               </div>
             </div>
           </div>
@@ -463,7 +463,7 @@
               <h3>Pintura<br>Exterior & Interior</h3>
               <p>Color, precisión y estilo para hogares y oficina</p>
               <div class="hover-text"><a href="{{ route('pintura') }}">No lo imagines más, <br>
-                ¡has click y miralo con tus ojos!</a>
+                Haz click y miralo con tus ojos!</a>
               </div>
             </div>
           </div>
@@ -481,7 +481,7 @@
             <div class="content-box">
               <h3>Texturizado</h3>
               <p>Moderno, cobertura perfecta, acabado duradero</p>
-              <div class="hover-text"><a href="{{ route('texturizado') }}">Haz clic y conoce cómo <br>
+              <div class="hover-text"><a href="{{ route('texturizado') }}">Haz click y conoce cómo <br>
                 personalizamos cada<br> textura a tu estilo</a>
               </div>
             </div>
@@ -492,7 +492,7 @@
               <p>Brillo, proteccion y estilo<br> para tu ducha o bañera</p>
               <div class="hover-text"><a href="{{ route('duchas') }}">Tu espacio merece un cambio profesional, <br>
                 visual y duradero. Haz<br>
-                clic ahora</a>
+                click ahora</a>
               </div>
             </div>
           </div>
@@ -512,7 +512,7 @@
             <div class="content-box">
               <h3 style="background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(37,211,102,0.7));">Whatsapp</h3>
               <p>Contáctanos para tu presupuesto gratis</p>
-              <div class="hover-text"><a href="{{ route('wsp') }}">Has clic y agenda tu<br> evaluación gratuita.</a>
+              <div class="hover-text"><a href="{{ route('wsp') }}">Haz click y agenda tu<br> evaluación gratuita.</a>
               </div>
             </div>
           </div>
@@ -521,7 +521,7 @@
               <h3>Vinculación<br>Comunitaria</h3>
               <p>Renovamos espacios<br> públicos con conciencia<br> ambiental</p>
               <div class="hover-text">
-                <a href="{{ route('vinculacion') }}">Has clic y conoce como sumamos color, vida y sostenibilidad en Sarasota y Bradenton.</a>
+                <a href="{{ route('vinculacion') }}">Haz click y conoce como sumamos color, vida y sostenibilidad en Sarasota y Bradenton.</a>
               </div>
             </div>
           </div>
@@ -531,7 +531,7 @@
               <p>¿Proyecto en mente?<br>
                   Escribenos y cotizamos<br> gratis sin compromiso
               </p>
-              <div class="hover-text"><a href="{{ route('email') }}">Haz clic para<br> transformar tu espacio.<br> Solicita presupuesto sin costo</a>
+              <div class="hover-text"><a href="{{ route('email') }}">Haz click para<br> transformar tu espacio.<br> Solicita presupuesto sin costo</a>
               </div>
             </div>
           </div>

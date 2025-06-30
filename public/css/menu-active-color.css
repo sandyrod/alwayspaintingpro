@@ -1,0 +1,22 @@
+/* Estilo para el estado active del menú */
+.nav-menu li.active a {
+    color: #20afd7 !important;
+    background: none !important;
+}
+
+/* Estilo para el hover de los enlaces del menú */
+.nav-menu li a:hover {
+    color: #20afd7 !important;
+    background: none !important;
+}
+
+/* Estilo para el submenú de idiomas */
+.nav-menu .dropdown-menu .dropdown-item:hover {
+    color: #20afd7 !important;
+    background: none !important;
+}
+
+/* Estilo para el ícono del selector de idiomas */
+.nav-menu .language-link i {
+    color: #20afd7;
+}
