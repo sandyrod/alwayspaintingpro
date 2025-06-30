@@ -14,13 +14,6 @@
     color: #ffffff !important;
 }
 
-/* Additional hover effects for better contrast */
-#services .content-box:hover {
-    background: rgba(0, 0, 0, 0.6) !important;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
 /* Ensure the hover text link remains readable */
 #services .content-box:hover .hover-text a {
     color: #ffffff !important;
