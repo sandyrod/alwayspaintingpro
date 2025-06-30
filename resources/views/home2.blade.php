@@ -452,26 +452,31 @@
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.png') }}'); padding:4px;">
             <div class="content-box">
               <h3>Drywall</h3>
-              <p>Acabados perfectos en drywall. Soluciones, resultados duraderos</p>
-              <div class="hover-text"><a href="{{ route('drywall') }}">No lo imagines más, <br>
-                Haz click y miralo con tus ojos!</a>
+              <p>Acabados de drywall perfectos, duraderos y confiables
+              </p>
+              <div class="hover-text"><a href="{{ route('drywall') }}">No lo sueñes, ¡vívelo! 
+              <br>
+              haz clic y obsérvalo</a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.png') }}');">
             <div class="content-box">
               <h3>Pintura<br>Exterior & Interior</h3>
-              <p>Color, precisión y estilo para hogares y oficina</p>
-              <div class="hover-text"><a href="{{ route('pintura') }}">No lo imagines más, <br>
-                Haz click y miralo con tus ojos!</a>
+              <p>Color, precisión y estilo para tu hogar y oficina
+              </p>
+              <div class="hover-text"><a href="{{ route('pintura') }}">No lo imagines, ¡míralo con un clic!
+              </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.png') }}');">
             <div class="content-box">
               <h3>Lavado a presión</h3>
-              <p>Luce como nuevo. Limpieza profunda sin quimicos agresivos</p>
-              <div class="hover-text"><a href="{{ route('lavado') }}">Los detalles si<br> importan, y nosotros<br> sabemos como hacerlos destacar, <br>comienza con un clic.</a>
+              <p>Limpio y como nuevo, sin químicos agresivos
+              </p>
+              <div class="hover-text"><a href="{{ route('lavado') }}">Los detalles importan, y nosotros los hacemos destacar: empieza con un clic
+              </a>
               </div>
             </div>
           </div>
@@ -480,29 +485,30 @@
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/texturizado.png') }}'); padding:4px;">
             <div class="content-box">
               <h3>Texturizado</h3>
-              <p>Moderno, cobertura perfecta, acabado duradero</p>
-              <div class="hover-text"><a href="{{ route('texturizado') }}">Haz click y conoce cómo <br>
-                personalizamos cada<br> textura a tu estilo</a>
+              <p>Moderno, cobertura perfecta y duradera
+              </p>
+              <div class="hover-text"><a href="{{ route('texturizado') }}">Haz clic y descubre como adaptamos cada textura a tu estilo
+              </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/duchas.png') }}');">
             <div class="content-box">
               <h3>Duchas y<br>Bañeras</h3>
-              <p>Brillo, proteccion y estilo<br> para tu ducha o bañera</p>
-              <div class="hover-text"><a href="{{ route('duchas') }}">Tu espacio merece un cambio profesional, <br>
-                visual y duradero. Haz<br>
-                click ahora</a>
+              <p>Dale brillo, protección y estilo a tu ducha o bañera
+              </p>
+              <div class="hover-text"><a href="{{ route('duchas') }}">Dale un cambio profesional y duradero a tu espacio, ¡haz clic ahora!
+              </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/senalizacion.png') }}');">
             <div class="content-box">
               <h3>Señalización</h3>
-              <p>Pintura vial precisa.<br>
-                 Seguridad y visibilidad en cada trazo
+              <p>Pintura vial y señalización precisa, seguridad y visibilidad garantizadas
               </p>
-              <div class="hover-text"><a href="{{ route('senalizacion') }}">Ofrecemos resultados<br> limpios, precisos y garantizados.<br> Compruebelo usted mismo con un clic.</a>
+              <div class="hover-text"><a href="{{ route('senalizacion') }}">Resultados limpios, precisos y garantizados. Compruébelo con un clic
+              </a>
               </div>
             </div>
           </div>
@@ -511,27 +517,31 @@
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/whatsapp.png') }}'); padding:4px;">
             <div class="content-box">
               <h3 style="background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(37,211,102,0.7));">Whatsapp</h3>
-              <p>Contáctanos para tu presupuesto gratis</p>
-              <div class="hover-text"><a href="{{ route('wsp') }}">Haz click y agenda tu<br> evaluación gratuita.</a>
+              <p>Presupuesto gratis, Contáctanos
+              </p>
+              <div class="hover-text"><a href="{{ route('wsp') }}">¡haz clic! y agenda tu evaluación gratuita
+              </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.png') }}');">
             <div class="content-box">
               <h3>Vinculación<br>Comunitaria</h3>
-              <p>Renovamos espacios<br> públicos con conciencia<br> ambiental</p>
+              <p>Renovamos espacios públicos con criterios ecológicos
+              </p>
               <div class="hover-text">
-                <a href="{{ route('vinculacion') }}">Haz click y conoce como sumamos color, vida y sostenibilidad en Sarasota y Bradenton.</a>
+                <a href="{{ route('vinculacion') }}">Haz clic y conoce como sumamos color, vida y sostenibilidad a Sarasota y Bradenton
+                </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/email.png') }}');">
             <div class="content-box">
               <h3>Email</h3>
-              <p>¿Proyecto en mente?<br>
-                  Escribenos y cotizamos<br> gratis sin compromiso
+              <p>¿Tienes un proyecto? Escríbenos y obtén una cotización gratuita
               </p>
-              <div class="hover-text"><a href="{{ route('email') }}">Haz click para<br> transformar tu espacio.<br> Solicita presupuesto sin costo</a>
+              <div class="hover-text"><a href="{{ route('email') }}">Haz clic para transformar tu espacio. Solicita presupuesto sin costo
+              </a>
               </div>
             </div>
           </div>
@@ -810,7 +820,7 @@
     <!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact d-none">
       <div class="container">
 
         <div class="section-title">
