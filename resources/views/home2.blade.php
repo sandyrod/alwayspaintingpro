@@ -457,6 +457,12 @@
               <div class="hover-text"><a href="{{ route('drywall') }}">No lo sueñes, ¡vívelo! 
               <br>
               haz clic y obsérvalo</a>
+              <br><br><a href="{{ route('drywall') }}" class="custom-button">
+                  <span class="button-text">Conquista</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -467,6 +473,12 @@
               </p>
               <div class="hover-text"><a href="{{ route('pintura') }}">No lo imagines, ¡míralo con un clic!
               </a>
+              <br><br><a href="{{ route('pintura') }}" class="custom-button">
+                  <span class="button-text">Inspírate</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -477,6 +489,12 @@
               </p>
               <div class="hover-text"><a href="{{ route('lavado') }}">Los detalles importan, y nosotros los hacemos destacar: empieza con un clic
               </a>
+              <br><br><a href="{{ route('lavado') }}" class="custom-button">
+                  <span class="button-text">Sumérgete</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -489,6 +507,12 @@
               </p>
               <div class="hover-text"><a href="{{ route('texturizado') }}">Haz clic y descubre como adaptamos cada textura a tu estilo
               </a>
+              <br><br><a href="{{ route('texturizado') }}" class="custom-button">
+                  <span class="button-text">Transforma</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -499,6 +523,12 @@
               </p>
               <div class="hover-text"><a href="{{ route('duchas') }}">Dale un cambio profesional y duradero a tu espacio, ¡haz clic ahora!
               </a>
+              <br><br><a href="{{ route('duchas') }}" class="custom-button">
+                  <span class="button-text">Impacta</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -509,6 +539,12 @@
               </p>
               <div class="hover-text"><a href="{{ route('senalizacion') }}">Resultados limpios, precisos y garantizados. Compruébelo con un clic
               </a>
+              <br><br><a href="{{ route('senalizacion') }}" class="custom-button">
+                  <span class="button-text">Conoce</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -521,6 +557,12 @@
               </p>
               <div class="hover-text"><a href="{{ route('wsp') }}">¡haz clic! y agenda tu evaluación gratuita
               </a>
+              <br><br><a href="{{ route('wsp') }}" class="custom-button">
+                  <span class="button-text">Averigua</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -532,6 +574,12 @@
               <div class="hover-text">
                 <a href="{{ route('vinculacion') }}">Haz clic y conoce como sumamos color, vida y sostenibilidad a Sarasota y Bradenton
                 </a>
+                <br><br><a href="{{ route('vinculacion') }}" class="custom-button">
+                  <span class="button-text">Explora</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -542,6 +590,12 @@
               </p>
               <div class="hover-text"><a href="{{ route('email') }}">Haz clic para transformar tu espacio. Solicita presupuesto sin costo
               </a>
+              <br><br><a href="{{ route('email') }}" class="custom-button">
+                  <span class="button-text">Vívelo</span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
