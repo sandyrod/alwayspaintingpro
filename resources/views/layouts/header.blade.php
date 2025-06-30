@@ -3,15 +3,13 @@
     <div class="container clearfix">
       <div class="contact-info float-left">
         <i class="icofont-envelope"></i><a href="mailto:info@alwayspropainting.com">info@alwayspropainting.com</a>
-        <i class="icofont-whatsapp"></i> <a href="https://wa.me/17274176867" target="_blank">(727) 417-6867</a> | <a href="https://wa.me/17274176753" target="_blank">(727) 417-6753</a>
+        <i class="icofont-whatsapp icon-whatsapp"></i> <a class="a-whastapp" href="https://wa.me/17274176867" target="_blank">(727) 417-6867</a> | <a class="a-whastapp" href="https://wa.me/17274176753" target="_blank">(727) 417-6753</a>
       </div>
       <div class="social-links float-right">
         <a target="_blank" href="https://www.facebook.com/alwayspropainting" class="facebook"><i class="icofont-facebook"></i></a>
         <a target="_blank" href="https://www.instagram.com/alwayspropainting" class="instagram"><i class="icofont-instagram"></i></a>
         <a target="_blank" href="https://twitter.com/alwayspropaint" class="twitter"><i class="icofont-twitter"></i></i></a>
         <a target="_blank" href="https://www.youtube.com/@ALWAYSPROPAINTING" class="youtube"><i class="icofont-youtube"></i></a>
-        <a target="_blank" href="https://bsky.app/profile/alwayspropainting.bsky.social" class="bluesky">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#74C0FC" d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/></svg>
 </a>
         <a target="_blank" href="https://www.tiktok.com/@alwayspropainting" class="tiktok">
           <i class="fab fa-tiktok"></i>
@@ -46,15 +44,13 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
         });
     </script>
     <div class="container d-flex align-items-center position-relative" style="min-height: 80px; justify-content: space-between; padding: 10px 0;">
-        <!-- Language Selector -->
-        <div class="language-selector">
-            <a href="{{ route('lang.switch', 'en') }}" class="language-link" title="English"><i class="fas fa-globe"></i></a>
-            <a href="{{ route('lang.switch', 'es') }}" class="language-link" title="Español"><i class="fas fa-globe"></i></a>
-        </div>
+       
 
        <div class="logo">
         <h1 class="text-light d-none"><a href="{{ route('home') }}"><span>Always Pro Painting</span></a></h1>
-        <a href="{{ route('home') }}"><img src="{{ asset('storage/img/logo_web.png') }}" alt="" class="img-fluid"> </a>
+        <a href="{{ route('home') }}">
+          <img src="{{ asset('storage/img/logo_web.png') }}" alt="" class="img-fluid" style="max-height:100px;">
+        </a>
       </div>
 
         <nav class="nav-menu d-none d-lg-block" style="margin-left: auto;">

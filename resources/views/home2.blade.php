@@ -255,7 +255,7 @@
           <div class="col-lg-6 video-box">
             <!-- Thumbnail Image -->
             <div class="video-thumbnail-container">
-                <img src="{{ asset('storage/img/about.jpg') }}" class="img-fluid video-thumbnail" alt="">
+                <img src="{{ asset('storage/img/about.jpeg') }}" class="img-fluid video-thumbnail" alt="">
                 <a href="#" class="play-btn mb-4" data-video="{{ asset('storage/videos/about.mp4') }}" data-toggle="modal" data-target="#videoModal">
                     <i class="icofont-play-alt-2"></i>
                 </a>
@@ -283,7 +283,7 @@
 
             <div class="section-title" style="padding-bottom: 0px;">
               <h2>¿Quienes Somos?</h2>
-              <p>En Always Pro Painting, transformamos espacios desde 2022 con serviciosprofesionales de pintura, 
+              <p>En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, 
                 reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas 
                 circundantes, garantizando acabados duraderos, materialesde primera calidad, compromiso ambiental y atención experta.</p>
             </div>
@@ -326,7 +326,9 @@
     <!-- ======= About Lists Section ======= -->
     <section class="about-lists">
       <div class="container">
-
+      <div class="section-title">
+          <h2>Excelencia</h2>
+        </div>
         <div class="row ">
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up">
