@@ -1,0 +1,74 @@
+/* WhatsApp colors */
+#topbar .icofont-whatsapp {
+    color: #25D366 !important;
+}
+
+#topbar .a-whastapp {
+    color: #25D366 !important;
+}
+
+/* Social media icons colors */
+#topbar .social-links .facebook {
+    color: #3B5998 !important;
+}
+
+#topbar .social-links .instagram {
+    color: #E4405F !important;
+}
+
+#topbar .social-links .twitter {
+    color: #1DA1F2 !important;
+}
+
+#topbar .social-links .youtube {
+    color: #FF0000 !important;
+}
+
+#topbar .social-links .tiktok {
+    color: #000000 !important;
+}
+
+#topbar .social-links .threads svg {
+    fill: #000000 !important;
+}
+
+#topbar .social-links .bbb {
+    color: #000000 !important;
+}
+
+/* Hover effects */
+#topbar .icofont-whatsapp:hover {
+    color: #128C7E !important;
+}
+
+#topbar .a-whastapp:hover {
+    color: #128C7E !important;
+}
+
+#topbar .social-links .facebook:hover {
+    color: #1877F2 !important;
+}
+
+#topbar .social-links .instagram:hover {
+    color: #C13584 !important;
+}
+
+#topbar .social-links .twitter:hover {
+    color: #0073B1 !important;
+}
+
+#topbar .social-links .youtube:hover {
+    color: #FF0000 !important;
+}
+
+#topbar .social-links .tiktok:hover {
+    color: #1DA1F2 !important;
+}
+
+#topbar .social-links .threads:hover svg {
+    fill: #1DA1F2 !important;
+}
+
+#topbar .social-links .bbb:hover {
+    color: #000000 !important;
+}
