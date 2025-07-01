@@ -1333,16 +1333,16 @@ section {
 }
 
 #footer {
-  background: #587187;
+  background: #4488b3;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #5c768d;
-  border-top: 1px solid #768fa6;
-  border-bottom: 1px solid #67839c;
+  background: #4488b3;
+  border-top: 1px solid #4488b3;
+  border-bottom: 1px solid #4488b3;
   padding: 60px 0 30px 0;
 }
 

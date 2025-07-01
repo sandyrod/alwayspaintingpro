@@ -2,10 +2,8 @@
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
-        <div class="row">
-
-          
-
+        <div class="row justify-content-center text-center">
+          <img src="{{ asset('storage/img/titulofooter.webp') }}" style="width:50%;">
         </div>
       </div>
     </div>
