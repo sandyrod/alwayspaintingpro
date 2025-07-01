@@ -4,62 +4,56 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Always Pro Painting</h3>
-            <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> (727) 417-6867<br>
-              <strong>Email:</strong> luis@alwayspropainting.com<br>
-            </p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Inicio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('nosotros') }}">Nosotros</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Servicios</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('drywall') }}">Drywall</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('pintura') }}">Pintura Exterior & Interior</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('lavado') }}">Lavado a presión</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('texturizado') }}">Texturizado</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('duchas') }}">Duchas y bañeras</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('senalizacion') }}">Señalización</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('wsp') }}">Whatsapp</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('vinculacion') }}">Vinculación Comunitaria</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('email') }}">Email</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <!-- <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form> -->
-
-          </div>
+          
 
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row justify-content-center text-center"> <!-- Centrado horizontal y texto centrado -->
+        <!-- Columna Contacto -->
+        <div class="col-4">
+          <h5 class="fw-bold text-black mb-3">Contacto</h5> <!-- Título en negrita y negro -->
+          <div class="text-white"> <!-- Contenido en blanco -->
+            info@alwayspropainting.com<br>
+            (727) 417-6867 <br>
+            (727) 417-6753      
 
+          </div>
+        </div>
+        
+        <!-- Columna Ubicación -->
+        <div class="col-4">
+          <h5 class="fw-bold text-black mb-3">Ubicación</h5>
+          <div class="text-white">
+            360 CENTRAL AVENUE, SUITE 800<BR>
+            SAN PETERSBURGO, FLORIDA 33701
+          </div>
+        </div>
+        
+        <!-- Columna Áreas de Servicio -->
+        <div class="col-4">
+          <h5 class="fw-bold text-black mb-3">Áreas de Servicio</h5>
+          <div class="text-white">
+            Sarasota, Bradenton y Áreas circundantes en Florida
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="d-flex flex-wrap gap-3 py-3">
+          <span class="px-2">Politicas de privacidad</span>
+          <span class="px-2">Términos y Condiciones</span>
+          <span class="px-2">Declaracion de Accesibilidad</span>
+          <span class="px-2">Acreditaciones</span>
+          <span class="px-2">Credito</span>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Always Pro Painting</span></strong>. All Rights Reserved
+        &copy; 2025<strong><span class="text-uppercase"> Always Pro Painting</span></strong>. TODOS LOS DERECHOS RESERVADOS.
       </div>
       
     </div>
