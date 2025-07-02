@@ -70,4 +70,25 @@ class HomeController extends Controller
         return view('email');
     }
 
+    public function acreditacion()
+    {
+        return view('acreditacion');
+    }
+    public function credito()
+    {
+        return view('credito');
+    }
+    public function declaracion()
+    {
+        return view('declaracion');
+    }
+    public function politicas()
+    {
+        return view('politicas');
+    }
+    public function terminos()
+    {
+        return view('terminos');
+    }
+
 }

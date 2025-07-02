@@ -17,6 +17,11 @@ Route::get('/senalizacion', [HomeController::class, 'senalizacion'])->name('sena
 Route::get('/wsp', [HomeController::class, 'wsp'])->name('wsp');
 Route::get('/vinculacion', [HomeController::class, 'vinculacion'])->name('vinculacion');
 Route::get('/email', [HomeController::class, 'email'])->name('email');
+Route::get('/politicas', [HomeController::class, 'politicas'])->name('politicas');
+Route::get('/terminos', [HomeController::class, 'terminos'])->name('terminos');
+Route::get('/declaracion', [HomeController::class, 'declaracion'])->name('declaracion');
+Route::get('/acreditacion', [HomeController::class, 'acreditacion'])->name('acreditacion');
+Route::get('/credito', [HomeController::class, 'credito'])->name('credito');
 
 // Cambiar idioma
 Route::get('/lang/{locale}', function ($locale) {
