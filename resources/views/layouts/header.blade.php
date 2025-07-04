@@ -3,7 +3,7 @@
     <div class="container clearfix">
       <div class="contact-info float-left">
         <i class="icofont-envelope"></i><a href="mailto:info@alwayspropainting.com">info@alwayspropainting.com</a>
-        <i class="icofont-whatsapp icon-whatsapp"></i> <a class="a-whastapp" href="https://wa.me/17274176867" target="_blank">(727) 417-6867</a> | <a class="a-whastapp" href="https://wa.me/17274176753" target="_blank">(727) 417-6753</a>
+        <i class="icofont-whatsapp icon-whatsapp"></i> <a class="" href="https://wa.me/17274176867" target="_blank">(727) 417-6867</a> | <a class="" href="https://wa.me/17274176753" target="_blank">(727) 417-6753</a>
       </div>
       <div class="social-links float-right">
         <a target="_blank" href="https://www.facebook.com/alwayspropainting" class="facebook"><i class="icofont-facebook"></i></a>
@@ -59,7 +59,7 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
           <li><a href="{{url('/#about')}}" class="about-link" data-key="about">¿Quienes Somos?</a></li>
           <li><a href="{{url('/#services')}}" class="service-link" data-key="services">Servicios</a></li>
           <li><a href="{{url('/#portfolio')}}" class="portfolio-link" data-key="portfolio">Portafolio</a></li>
-          <li><a href="{{url('/#contact')}}" class="contact-link" data-key="contact">Contacto</a></li>
+          <li><a href="{{ route('contacto') }}" class="contact-link" data-key="contact">Contacto</a></li>
           <li class="language-selector dropdown">
             <a href="#" class="language-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-globe"></i>

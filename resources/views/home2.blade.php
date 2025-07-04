@@ -407,7 +407,7 @@
 
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
             <div class="count-box">
-              <i class="icofont-simple-smile" style="color: #20b38e;"></i>
+              <i class="icofont-simple-smile" style="color: #428bca;"></i>
               <span data-toggle="counter-up">+80</span>
               <p>Clientes Felices</p>
             </div>
@@ -415,7 +415,7 @@
 
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
             <div class="count-box">
-              <i class="icofont-document-folder" style="color: #c042ff;"></i>
+              <i class="icofont-document-folder" style="color: #428bca;"></i>
               <span data-toggle="counter-up">+400</span>
               <p>Proyectos</p>
             </div>
@@ -423,7 +423,7 @@
 
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
             <div class="count-box">
-              <i class="icofont-paint-brush" style="color: #46d1ff;"></i>
+              <i class="icofont-paint-brush" style="color: #428bca;"></i>
               <span data-toggle="counter-up">+1.920</span>
               <p>Horas de Soporte</p>
             </div>
@@ -431,7 +431,7 @@
 
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
             <div class="count-box">
-              <i class="icofont-users-alt-5" style="color: #ffb459;"></i>
+              <i class="icofont-users-alt-5" style="color: #428bca;"></i>
               <span data-toggle="counter-up">6</span>
               <p>Trabajadores esforzados</p>
             </div>
@@ -452,7 +452,7 @@
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.png') }}'); padding:4px;">
             <div class="content-box">
               <h3>Drywall</h3>
-              <p>Acabados de drywall perfectos, duraderos y confiables
+              <p>Acabados perfectos en drywall. Soluciones, duraderos y confiables
               </p>
               <div class="hover-text"><a href="{{ route('drywall') }}">No lo sueñes, ¡vívelo! 
               <br>
@@ -469,7 +469,7 @@
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.png') }}');">
             <div class="content-box">
               <h3>Pintura<br>Exterior & Interior</h3>
-              <p>Color, precisión y estilo para tu hogar y oficina
+              <p>Color, precisión y estilo para hogares y oficina
               </p>
               <div class="hover-text"><a href="{{ route('pintura') }}">No lo imagines, ¡míralo con un clic!
               </a>
@@ -485,7 +485,7 @@
           <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.png') }}');">
             <div class="content-box">
               <h3>Lavado a presión</h3>
-              <p>Limpio y como nuevo, sin químicos agresivos
+              <p>Luce como nuevo. Limpieza profunda sin quimicos agresivos
               </p>
               <div class="hover-text"><a href="{{ route('lavado') }}">Los detalles importan, y nosotros los hacemos destacar: empieza con un clic
               </a>
@@ -969,7 +969,7 @@
   }
 
   .content-box h3 {
-    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,255,0.7));
+    background: linear-gradient(to right, rgba(66,139,202,0.9), rgba(66,139,202,0.5));
     color: white;
     padding: 8px 15px;
     border-radius: 20px;

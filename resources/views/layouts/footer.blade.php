@@ -15,7 +15,7 @@
           <div class="text-white"> <!-- Contenido en blanco -->
             info@alwayspropainting.com<br>
             <a href="https://wa.me/17274176867" style="color:#fff;">(727) 417-6867</a> <br>
-            <a href="https://wa.me/17274176867" style="color:#fff;">(727) 417-6753</a>      
+            <a href="https://wa.me/17274176753" style="color:#fff;">(727) 417-6753</a>
 
           </div>
         </div>

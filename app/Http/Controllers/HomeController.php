@@ -90,5 +90,9 @@ class HomeController extends Controller
     {
         return view('terminos');
     }
+    public function contacto()
+    {
+        return view('contacto');
+    }
 
 }
