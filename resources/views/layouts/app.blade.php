@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Always Pro Painting</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <meta name="description" content="En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas circundantes, garantizando acabados duraderos, materiales de primera calidad, compromiso ambiental y atención experta.">
+    <meta name="keywords" content="pintura, servicios de pintura, reparación de drywall, texturizado, lavado a presión, Always Pro Painting, Sarasota, Bradenton, servicios de pintura en Sarasota, servicios de pintura en Bradenton, acabados duraderos, materiales de calidad, compromiso ambiental, atención experta">
 
   <!-- Favicons -->
   <link href="{{ asset('storage/img/favicon.png') }}" rel="icon">

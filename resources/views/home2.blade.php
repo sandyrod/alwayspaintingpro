@@ -230,28 +230,9 @@
           <div class="col-lg-6 video-box">
             <!-- Thumbnail Image -->
             <div class="video-thumbnail-container">
-                <img src="{{ asset('storage/img/about.jpeg') }}" class="img-fluid video-thumbnail" alt="">
-                <a href="#" class="play-btn mb-4" data-video="{{ asset('storage/videos/about.mp4') }}" data-toggle="modal" data-target="#videoModal">
-                    <i class="icofont-play-alt-2"></i>
-                </a>
+                <img src="{{ asset('storage/img/about.jpeg') }}" class="img-fluid" alt="About us">
             </div>
 
-            <!-- Video Modal -->
-            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                    <div class="modal-content bg-dark text-white">
-                        <div class="modal-body">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <video class="w-100" controls playsinline>
-                                <source src="{{ asset('storage/videos/about.mp4') }}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
           </div>
 
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
@@ -314,7 +295,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-            <img src="{{ asset('storage/img/materiales.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/materiales.png') }}" alt="Materiales premium" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Materiales premium</h4>
             <p class="text-justify">
               Utilizamos solo materiales premium en cada proyecto para garantizar un resulado final de alta calidad que mejora la apariencia y protege las superficies.
@@ -322,7 +303,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-            <img src="{{ asset('storage/img/compromiso.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/compromiso.png') }}" alt="Compromiso Ambiental" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Compromiso Ambiental</h4>
             <p class="text-justify">
               Nuestro compromiso ambiental nos impulsa a utilizar productos ecológicos, asegurando que cada proyecto sea sostenible, y seguro para el planeta
@@ -338,7 +319,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <img src="{{ asset('storage/img/cumplimiento.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/cumplimiento.png') }}" alt="Cumplimiento garantizado" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Cumplimiento garantizado</h4>
             <p class="text-justify">
               Comprometidos contigo, cumplimos plazos, presupuesto y alcance con profesionalismo, sin sorpresas ni retrasos.
@@ -354,7 +335,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <img src="{{ asset('storage/img/competitiva.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/competitiva.png') }}" alt="Ventajas competitivas" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Ventajas competitivas</h4>
             <p class="text-justify">
               Transformamos espacios con productos ecológicos y acabados duraderos, garantizando calidad, confianza y compromiso ambiental.
@@ -362,7 +343,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <img src="{{ asset('storage/img/aval.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/aval.png') }}" alt="Avales de calidad" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Avales de calidad</h4>
             <p class="text-justify">
               Tu inversion está protegida con certificaciones oficiales, el respaldo de BBB y cobertura asegurada para tu total confianza.
@@ -424,7 +405,7 @@
           <h2>Servicios</h2>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.png') }}'); padding:4px;">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.png') }}'); padding:4px;">
             <div class="content-box">
               <h3>Drywall</h3>
               <p>Acabados de drywall perfectos, duraderos y confiables
@@ -441,7 +422,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.png') }}');">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.png') }}');">
             <div class="content-box">
               <h3>Pintura<br>Exterior & Interior</h3>
               <p>Color, precisión y estilo para tu hogar y oficina
@@ -457,7 +438,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.png') }}');">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.png') }}');">
             <div class="content-box">
               <h3>Lavado a presión</h3>
               <p>Limpio y como nuevo, sin químicos agresivos
@@ -473,75 +454,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/texturizado.png') }}'); padding:4px;">
-            <div class="content-box">
-              <h3>Texturizado</h3>
-              <p>Moderno, cobertura perfecta y duradera
-              </p>
-              <div class="hover-text"><a href="{{ route('texturizado') }}">Haz clic y descubre como adaptamos cada textura a tu estilo
-              </a>
-              <br><br><a href="{{ route('texturizado') }}" class="custom-button">
-                  <span class="button-text">Transforma</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/duchas.png') }}');">
-            <div class="content-box">
-              <h3>Duchas y<br>Bañeras</h3>
-              <p>Dale brillo, protección y estilo a tu ducha o bañera
-              </p>
-              <div class="hover-text"><a href="{{ route('duchas') }}">Dale un cambio profesional y duradero a tu espacio, ¡haz clic ahora!
-              </a>
-              <br><br><a href="{{ route('duchas') }}" class="custom-button">
-                  <span class="button-text">Impacta</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/senalizacion.png') }}');">
-            <div class="content-box">
-              <h3>Señalización</h3>
-              <p>Pintura vial y señalización precisa, seguridad y visibilidad garantizadas
-              </p>
-              <div class="hover-text"><a href="{{ route('senalizacion') }}">Resultados limpios, precisos y garantizados. Compruébelo con un clic
-              </a>
-              <br><br><a href="{{ route('senalizacion') }}" class="custom-button">
-                  <span class="button-text">Conoce</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/whatsapp.png') }}'); padding:4px;">
-            <div class="content-box">
-              <h3 style="background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(37,211,102,0.7));">Whatsapp</h3>
-              <p>Presupuesto gratis, Contáctanos
-              </p>
-              <div class="hover-text"><a href="{{ route('wsp') }}">¡haz clic! y agenda tu evaluación gratuita
-              </a>
-              <br><br><a href="{{ route('wsp') }}" class="custom-button">
-                  <span class="button-text">Averigua</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.png') }}');">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.png') }}');">
             <div class="content-box">
               <h3>Vinculación<br>Comunitaria</h3>
               <p>Renovamos espacios públicos con criterios ecológicos
@@ -558,26 +471,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/email.png') }}');">
-            <div class="content-box">
-              <h3>Email</h3>
-              <p>¿Tienes un proyecto? Escríbenos y obtén una cotización gratuita
-              </p>
-              <div class="hover-text"><a href="{{ route('email') }}">Haz clic para transformar tu espacio. Solicita presupuesto sin costo
-              </a>
-              <br><br><a href="{{ route('email') }}" class="custom-button">
-                  <span class="button-text">Vívelo</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
-    
+
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact d-none">
       <div class="container">
