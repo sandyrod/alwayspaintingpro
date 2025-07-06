@@ -18,7 +18,7 @@
             <source srcset="{{ asset('storage/img/slide/slide-1-def-mobile.webp') }}" media="(max-width: 768px)">
             <img src="{{ asset('storage/img/slide/slide-1-def.webp') }}" alt="Transformamos superficies, inspiramos espacios" style="width:1px;height:1px;position:absolute;left:-9999px;top:auto;" decoding="async" fetchpriority="high" />
           </picture>
-          <div class="carousel-item active slide-1-bg">
+          <div class="carousel-item active slide-1-bg" role="option" aria-selected="true">
             <style>
               @media (max-width: 768px) {
                 .slide-1-bg {
@@ -41,7 +41,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item slide-2-bg">
+          <div class="carousel-item slide-2-bg" role="option" aria-selected="false">
             <style>
               @media (max-width: 768px) {
                 .slide-2-bg {
@@ -68,7 +68,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3-def.webp') }}');">
+          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3-def.webp') }}');" role="option" aria-selected="false">
             <img src="{{ asset('storage/img/slide/slide-3-def.webp') }}" alt="Slide 3" loading="lazy" style="display:none;" />
             <div class="carousel-container">
               <div class="carousel-content container">
