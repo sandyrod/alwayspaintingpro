@@ -35,7 +35,7 @@
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="welcome_title">TRANSFORMAMOS SUPERFICIES, <br>INSPIRAMOS ESPACIOS</h2>
                 <p class="animate__animated animate__fadeInUp" data-key="welcome_description">Brindamos servicios profesionales de pintura, reparación de drywall y lavado a presión en Sarasota y Bradenton, garantizando confiabilidad y acabados duraderos con compromiso ambiental.</p>
-                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="start_renovation">Atrévete <i class="fa fa-arrow-right"></i></a>
+                <a href="{{ route('transformamos') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="start_renovation">Atrévete <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
                 <p class="animate__animated animate__fadeInUp"></p>
-                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="more_info">Averigua <i class="fa fa-arrow-right"></i></a>
+                <a href="{{ route('acreditacion') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="more_info">Averigua <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
                 <h2 class="animate__animated animate__fadeInDown" data-key="transformamos">DE LO COMÚN<br> A LO EXTRAORDINARIO</h2>
                 <p class="animate__animated animate__fadeInUp" data-key="professional_description">Transformamos tus espacios con alta calidad
                 profesional.</p>
-                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="get_started">Sorprendente <i class="fa fa-arrow-right"></i></a>
+                <a href="{{ route('profesional') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="get_started">Sorprendente <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -143,20 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
             height: auto;
         }
         
-        .custom-button {
-            display: inline-flex;
-            align-items: center;
-            background-color: #000;
-            color: #fff;
-            padding: 12px 30px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            border: none;
-            position: relative;
-            overflow: hidden;
-        }
+        
         
         .custom-button .button-text {
             margin-right: 15px;
@@ -284,7 +271,9 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="col-lg-6 video-box">
             <!-- Thumbnail Image -->
             <div class="video-thumbnail-container">
-                <img src="{{ asset('storage/img/about.webp') }}" class="img-fluid" alt="About us">
+                <a href="{{ route('nosotros') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="get_started">
+                  <img src="{{ asset('storage/img/about.webp') }}" class="img-fluid" alt="About us">
+                </a>
             </div>
 
           </div>

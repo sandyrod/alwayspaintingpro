@@ -3,20 +3,48 @@
 @section('title', 'Página de Inicio')
 
 @section('content')
-<section id="hero">
+<section id="hero" style="margin-top: 60px; padding-top: 0;">
     <div class="hero-container">
-        <div id="heroCarousel" class="carousel" data-ride="carousel">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
         <div class="carousel-inner" role="listbox">
 
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/slide-2.png') }}');">
 
+          <!-- Slide 2 -->
+          <div class="carousel-item active slide-2-bg" role="option" aria-selected="true">
+            <style>
+              @media (max-width: 768px) {
+                .slide-2-bg {
+                  background-image: url('{{ asset('storage/img/slide/slide-2-mobile.webp') }}') !important;
+                }
+              }
+              @media (min-width: 769px) {
+                .slide-2-bg {
+                  background-image: url('{{ asset('storage/img/slide/slide-2.webp') }}') !important;
+                }
+              }
+            </style>
+            <picture>
+              <source srcset="{{ asset('storage/img/slide/slide-2-mobile.webp') }}" media="(max-width: 768px)">
+              <img src="{{ asset('storage/img/slide/slide-2.webp') }}" alt="Slide 2" loading="lazy" style="display:none;" />
+            </picture>
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
+                <p class="animate__animated animate__fadeInUp"></p>
+              </div>
+            </div>
           </div>
+
+          
+
         </div>
+
+      </div>
     </div>
-</section>
+  </section>
 <section>
     <div class="container">
 

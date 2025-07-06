@@ -1,0 +1,14 @@
+.custom-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}

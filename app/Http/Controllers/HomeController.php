@@ -91,4 +91,13 @@ class HomeController extends Controller
         return view('terminos');
     }
 
+    public function portafolio()
+    {
+        return view('portafolio');
+    }
+    public function contacto()
+    {
+        return view('contacto');
+    }
+
 }

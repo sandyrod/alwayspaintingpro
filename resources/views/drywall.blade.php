@@ -11,7 +11,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/drywall.png') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/servicios/drywall.webp') }}');">
 
           </div>
         </div>
@@ -60,6 +60,15 @@
                     <h2>Resultados Impecables y Garantizados</h2>
                 </p>
             </div>
+            <div class="text-center w-100 mt-4">
+                <a href="{{ route('texturizado') }}" class="custom-button">
+                  <span class="button-text">Texturizado </span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
+              
         </div>
     </div>
 </section>

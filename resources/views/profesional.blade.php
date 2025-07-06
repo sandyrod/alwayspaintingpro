@@ -3,20 +3,31 @@
 @section('title', 'Página de Inicio')
 
 @section('content')
-<section id="hero">
+<section id="hero" style="margin-top: 60px; padding-top: 0;">
     <div class="hero-container">
-        <div id="heroCarousel" class="carousel" data-ride="carousel">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
         <div class="carousel-inner" role="listbox">
 
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/slide-1.png') }}');">
-
+          <!-- Slide 3 -->ç
+          <div class="carousel-item active"  style="background-image: url('{{ asset('storage/img/slide/slide-3-def.webp') }}');" role="option" aria-selected="false">
+            <img src="{{ asset('storage/img/slide/slide-3-def.webp') }}" alt="Slide 3" loading="lazy" style="display:none;" />
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown" data-key="transformamos">DE LO COMÚN<br> A LO EXTRAORDINARIO</h2>
+                <p class="animate__animated animate__fadeInUp" data-key="professional_description">Transformamos tus espacios con alta calidad
+                profesional.</p>
+                
+              </div>
+            </div>
           </div>
+
         </div>
+      </div>
     </div>
-</section>
+  </section>
 <section>
     <div class="container">
 

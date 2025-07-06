@@ -22,6 +22,8 @@ Route::get('/terminos', [HomeController::class, 'terminos'])->name('terminos');
 Route::get('/declaracion', [HomeController::class, 'declaracion'])->name('declaracion');
 Route::get('/acreditacion', [HomeController::class, 'acreditacion'])->name('acreditacion');
 Route::get('/credito', [HomeController::class, 'credito'])->name('credito');
+Route::get('/portafolio', [HomeController::class, 'portafolio'])->name('portafolio');
+Route::get('/contacto', [HomeController::class, 'contacto'])->name('contacto');
 
 // Cambiar idioma
 Route::get('/lang/{locale}', function ($locale) {

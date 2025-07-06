@@ -11,7 +11,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/pintura.png') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/servicios/pintura.webp') }}');">
 
           </div>
         </div>
@@ -56,6 +56,20 @@
                     <h2>Protege, embellece y valoriza tu propiedad</h2>
                 </p>
             </div>
+            <div class="text-center w-100 mt-4">
+            <a href="{{ route('duchas') }}" class="custom-button">
+                  <span class="button-text">Duchas </span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
+                <a href="{{ route('senalizacion') }}" class="ml-3 custom-button">
+                  <span class="button-text">Señalización </span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
         </div>
     </div>
 </section>

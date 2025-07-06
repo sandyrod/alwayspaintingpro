@@ -40,6 +40,7 @@
       font-display: swap;
     }
   </style>
+  <link href="{{ asset('css/main.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}">
   <link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet"></noscript>
