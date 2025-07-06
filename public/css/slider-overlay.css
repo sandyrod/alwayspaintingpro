@@ -10,7 +10,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(33, 37, 41, 0.3); /* Gris semi-transparente más suave */
+    background: rgba(33, 37, 41, 0.5); /* Gris semi-transparente más suave */
     z-index: 0; /* Aseguramos que esté por debajo de todo el contenido */
 }
 
