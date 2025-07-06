@@ -13,12 +13,12 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <!-- Imagen visible para LCP -->
-          <picture>
-            <source srcset="{{ asset('storage/img/slide/slide-1-def-mobile.webp') }}" media="(max-width: 768px)">
-            <img src="{{ asset('storage/img/slide/slide-1-def.webp') }}" alt="Transformamos superficies, inspiramos espacios" style="width:1px;height:1px;position:absolute;left:-9999px;top:auto;" decoding="async" fetchpriority="high" />
-          </picture>
           <div class="carousel-item active slide-1-bg" role="option" aria-selected="true">
+            <!-- Imagen visible para LCP -->
+            <picture>
+              <source srcset="{{ asset('storage/img/slide/slide-1-def-mobile.webp') }}" media="(max-width: 768px)">
+              <img src="{{ asset('storage/img/slide/slide-1-def.webp') }}" alt="Transformamos superficies, inspiramos espacios" style="width:1px;height:1px;position:absolute;left:-9999px;top:auto;" decoding="async" fetchpriority="high" />
+            </picture>
             <style>
               @media (max-width: 768px) {
                 .slide-1-bg {
@@ -567,20 +567,24 @@ document.addEventListener('DOMContentLoaded', function () {
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-lg-6 form-group">
+                  <label for="name" class="sr-only">Nombre</label>
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-lg-6 form-group">
+                  <label for="email" class="sr-only">Correo electrónico</label>
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
+                <label for="subject" class="sr-only">Asunto</label>
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <label for="message" class="sr-only">Mensaje</label>
+                <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
