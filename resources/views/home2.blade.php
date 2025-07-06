@@ -549,7 +549,8 @@
 
   </main><!-- End #main -->
 @endsection
-<link rel="stylesheet" href="{{ asset('css/slider-overlay.css') }}">
+<link rel="stylesheet" href="{{ asset('css/slider-overlay.css') }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ asset('css/slider-overlay.css') }}"></noscript>
 
 <style>
   .icon-box {
