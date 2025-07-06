@@ -545,6 +545,8 @@
 
   </main><!-- End #main -->
 @endsection
+<link rel="stylesheet" href="{{ asset('css/slider-overlay.css') }}">
+
 <style>
   .icon-box {
     height: 300px; /* Ajusta según necesites */

@@ -1,0 +1,30 @@
+/* Overlay semi-transparente para el slider */
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(33, 37, 41, 0.3); /* Gris semi-transparente más suave */
+    z-index: 0; /* Aseguramos que esté por debajo de todo el contenido */
+}
+
+.carousel-item .carousel-container {
+    position: relative;
+    z-index: 1; /* Aseguramos que el contenido esté por encima del overlay */
+}
+
+/* Aseguramos que los controles del slider estén por encima del overlay */
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 2 !important;
+}
+
+.carousel-indicators {
+    z-index: 2 !important;
+}
