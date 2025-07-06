@@ -13,7 +13,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1-def.png') }}');">
+          <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1-def.webp') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="welcome_title">TRANSFORMAMOS SUPERFICIES, <br>INSPIRAMOS ESPACIOS</h2>
@@ -24,7 +24,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-2.png') }}');">
+          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-2.webp') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
@@ -35,7 +35,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3-def.png') }}');">
+          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3-def.webp') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="transformamos">DE LO COMÚN<br> A LO EXTRAORDINARIO</h2>
