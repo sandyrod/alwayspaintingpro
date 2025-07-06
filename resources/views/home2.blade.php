@@ -14,8 +14,23 @@
 
           <!-- Slide 1 -->
           <!-- Imagen visible para LCP -->
-          <img src="{{ asset('storage/img/slide/slide-1-def.webp') }}" alt="Transformamos superficies, inspiramos espacios" style="width:1px;height:1px;position:absolute;left:-9999px;top:auto;" decoding="async" fetchpriority="high" />
-          <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1-def.webp') }}');">
+          <picture>
+            <source srcset="{{ asset('storage/img/slide/slide-1-def-mobile.webp') }}" media="(max-width: 768px)">
+            <img src="{{ asset('storage/img/slide/slide-1-def.webp') }}" alt="Transformamos superficies, inspiramos espacios" style="width:1px;height:1px;position:absolute;left:-9999px;top:auto;" decoding="async" fetchpriority="high" />
+          </picture>
+          <div class="carousel-item active slide-1-bg">
+            <style>
+              @media (max-width: 768px) {
+                .slide-1-bg {
+                  background-image: url('{{ asset('storage/img/slide/slide-1-def-mobile.webp') }}') !important;
+                }
+              }
+              @media (min-width: 769px) {
+                .slide-1-bg {
+                  background-image: url('{{ asset('storage/img/slide/slide-1-def.webp') }}') !important;
+                }
+              }
+            </style>
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="welcome_title">TRANSFORMAMOS SUPERFICIES, <br>INSPIRAMOS ESPACIOS</h2>
@@ -26,8 +41,23 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-2.webp') }}');">
-            <img src="{{ asset('storage/img/slide/slide-2.webp') }}" alt="Slide 2" loading="lazy" style="display:none;" />
+          <div class="carousel-item slide-2-bg">
+            <style>
+              @media (max-width: 768px) {
+                .slide-2-bg {
+                  background-image: url('{{ asset('storage/img/slide/slide-2-mobile.webp') }}') !important;
+                }
+              }
+              @media (min-width: 769px) {
+                .slide-2-bg {
+                  background-image: url('{{ asset('storage/img/slide/slide-2.webp') }}') !important;
+                }
+              }
+            </style>
+            <picture>
+              <source srcset="{{ asset('storage/img/slide/slide-2-mobile.webp') }}" media="(max-width: 768px)">
+              <img src="{{ asset('storage/img/slide/slide-2.webp') }}" alt="Slide 2" loading="lazy" style="display:none;" />
+            </picture>
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
@@ -64,6 +94,26 @@
       </div>
     </div>
   </section><!-- End Hero -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var isMobile = window.innerWidth <= 768;
+    if (isMobile) {
+        document.querySelectorAll('.carousel-item').forEach(function(item) {
+            var style = item.getAttribute('style');
+            if (style && style.includes('slide-')) {
+                var newStyle = style.replace(/(slide-[^\/'"]+)(\.webp)/, '$1-mobile$2');
+                item.setAttribute('style', newStyle);
+            }
+        });
+        document.querySelectorAll('.carousel-inner img').forEach(function(img) {
+            var src = img.getAttribute('src');
+            if (src && src.includes('slide-')) {
+                img.setAttribute('src', src.replace(/(slide-[^\/'"]+)(\.webp)/, '$1-mobile$2'));
+            }
+        });
+    }
+});
+</script>
     <script>
         // Wait for jQuery to be loaded
         if (typeof jQuery === 'undefined') {

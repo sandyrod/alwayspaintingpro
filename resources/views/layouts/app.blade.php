@@ -19,8 +19,10 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
-  <link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/menu-active-color.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('css/menu-active-color.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('css/menu-active-color.css') }}" rel="stylesheet"></noscript>
   <link href="{{ asset('css/services-hover.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="{{ asset('css/services-hover.css') }}" rel="stylesheet"></noscript>
   <!-- Vendor CSS Files -->
@@ -28,8 +30,10 @@
   <noscript><link href="{{ asset('storage/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"></noscript>
   <link href="{{ asset('storage/vendor/icofont/icofont.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="{{ asset('storage/vendor/icofont/icofont.min.css') }}" rel="stylesheet"></noscript>
-  <link href="{{ asset('storage/vendor/bboxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('storage/vendor/bboxicons/css/boxicons.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('storage/vendor/bboxicons/css/boxicons.min.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('storage/vendor/animate.css/animate.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('storage/vendor/animate.css/animate.min.css') }}" rel="stylesheet"></noscript>
   <link href="{{ asset('storage/vendor/venobox/venobox.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="{{ asset('storage/vendor/venobox/venobox.css') }}" rel="stylesheet"></noscript>
   <link href="{{ asset('storage/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
