@@ -40,10 +40,7 @@
       font-display: swap;
     }
   </style>
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"></noscript>
+  <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}">
   <link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet"></noscript>
   <link href="{{ asset('css/menu-active-color.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
