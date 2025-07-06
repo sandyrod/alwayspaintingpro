@@ -11,6 +11,8 @@
 
   <!-- Favicons -->
   <link href="{{ asset('storage/img/favicon.png') }}" rel="icon">
+  <!-- Preload principal slide image for LCP optimization -->
+  <link rel="preload" as="image" href="{{ asset('storage/img/slide/slide-1-def.webp') }}">
   <link href="{{ asset('storage/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->

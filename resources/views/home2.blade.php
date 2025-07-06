@@ -13,6 +13,8 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
+          <!-- Imagen visible para LCP -->
+          <img src="{{ asset('storage/img/slide/slide-1-def.webp') }}" alt="Transformamos superficies, inspiramos espacios" style="width:1px;height:1px;position:absolute;left:-9999px;top:auto;" decoding="async" fetchpriority="high" />
           <div class="carousel-item active" style="background-image: url('{{ asset('storage/img/slide/slide-1-def.webp') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
@@ -25,6 +27,7 @@
 
           <!-- Slide 2 -->
           <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-2.webp') }}');">
+            <img src="{{ asset('storage/img/slide/slide-2.webp') }}" alt="Slide 2" loading="lazy" style="display:none;" />
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
@@ -36,6 +39,7 @@
 
           <!-- Slide 3 -->
           <div class="carousel-item" style="background-image: url('{{ asset('storage/img/slide/slide-3-def.webp') }}');">
+            <img src="{{ asset('storage/img/slide/slide-3-def.webp') }}" alt="Slide 3" loading="lazy" style="display:none;" />
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="transformamos">DE LO COMÚN<br> A LO EXTRAORDINARIO</h2>
@@ -230,7 +234,7 @@
           <div class="col-lg-6 video-box">
             <!-- Thumbnail Image -->
             <div class="video-thumbnail-container">
-                <img src="{{ asset('storage/img/about.jpeg') }}" class="img-fluid" alt="About us">
+                <img src="{{ asset('storage/img/about.webp') }}" class="img-fluid" alt="About us">
             </div>
 
           </div>
@@ -288,14 +292,14 @@
         <div class="row ">
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up">
-            <img src="{{ asset('storage/img/acabados.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/acabados.webp') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Acabados duraderos</h4>
             <p class="text-justify">Nuestros servicios ofrecen acabados duraderos y de alta calidad, garantizando espacios impecables por más tiempo
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-            <img src="{{ asset('storage/img/materiales.png') }}" alt="Materiales premium" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/materiales.webp') }}" alt="Materiales premium" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Materiales premium</h4>
             <p class="text-justify">
               Utilizamos solo materiales premium en cada proyecto para garantizar un resulado final de alta calidad que mejora la apariencia y protege las superficies.
@@ -303,7 +307,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-            <img src="{{ asset('storage/img/compromiso.png') }}" alt="Compromiso Ambiental" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/compromiso.webp') }}" alt="Compromiso Ambiental" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Compromiso Ambiental</h4>
             <p class="text-justify">
               Nuestro compromiso ambiental nos impulsa a utilizar productos ecológicos, asegurando que cada proyecto sea sostenible, y seguro para el planeta
@@ -311,7 +315,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <img src="{{ asset('storage/img/cuidado.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/cuidado.webp') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Cuidado experto</h4>
             <p class="text-justify">
               A diferencia de otras empresas, nuestro equipo de expertos garantiza un cuidado meticuloso en cada proyecto, asegurando la perfeccion en cada detalle.
@@ -319,7 +323,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <img src="{{ asset('storage/img/cumplimiento.png') }}" alt="Cumplimiento garantizado" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/cumplimiento.webp') }}" alt="Cumplimiento garantizado" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Cumplimiento garantizado</h4>
             <p class="text-justify">
               Comprometidos contigo, cumplimos plazos, presupuesto y alcance con profesionalismo, sin sorpresas ni retrasos.
@@ -327,7 +331,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <img src="{{ asset('storage/img/compromisopro.png') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/compromisopro.webp') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Compromiso profesional</h4>
             <p class="text-justify">
               Garantizamos resultados confiables con profesionalismo, atención personalizada, entregas puntuales y altos estándares en cada proyecto.
@@ -335,7 +339,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <img src="{{ asset('storage/img/competitiva.png') }}" alt="Ventajas competitivas" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/competitiva.webp') }}" alt="Ventajas competitivas" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Ventajas competitivas</h4>
             <p class="text-justify">
               Transformamos espacios con productos ecológicos y acabados duraderos, garantizando calidad, confianza y compromiso ambiental.
@@ -343,7 +347,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <img src="{{ asset('storage/img/aval.png') }}" alt="Avales de calidad" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/aval.webp') }}" alt="Avales de calidad" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Avales de calidad</h4>
             <p class="text-justify">
               Tu inversion está protegida con certificaciones oficiales, el respaldo de BBB y cobertura asegurada para tu total confianza.
@@ -405,7 +409,7 @@
           <h2>Servicios</h2>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.png') }}'); padding:4px;">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.webp') }}'); padding:4px;">
             <div class="content-box">
               <h3>Drywall</h3>
               <p>Acabados de drywall perfectos, duraderos y confiables
@@ -422,7 +426,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.png') }}');">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.webp') }}');">
             <div class="content-box">
               <h3>Pintura<br>Exterior & Interior</h3>
               <p>Color, precisión y estilo para tu hogar y oficina
@@ -438,7 +442,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.png') }}');">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.webp') }}');">
             <div class="content-box">
               <h3>Lavado a presión</h3>
               <p>Limpio y como nuevo, sin químicos agresivos
@@ -454,7 +458,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.png') }}');">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.webp') }}');">
             <div class="content-box">
               <h3>Vinculación<br>Comunitaria</h3>
               <p>Renovamos espacios públicos con criterios ecológicos
