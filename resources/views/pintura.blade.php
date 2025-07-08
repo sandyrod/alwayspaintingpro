@@ -33,7 +33,7 @@
                 <p>
                     <ul>
                         <li>
-                            <strong>Precisión en cada detalle: </strong>Nuestro riguroso proceso de 27 puntos -incluye lijado, sellado y nivelacion- garantiza una preparación perfeca para resultados que realzan el valor y estilo.
+                            <strong>Precisión en cada detalle: </strong>Nuestro riguroso proceso de 27 puntos -incluye lijado, sellado y nivelacion- garantiza una preparación perfecta para resultados que realzan el valor y estilo.
                         </li>
                     </ul>
                     <ul>
@@ -45,7 +45,7 @@
                         <li>✓ Proteccion total contra humedad, salitre y rayos UV.
                         </li>
                         <li>✓ Acabados premium que valorizan tu propiedad.</li>
-                        <li>✓ Tranquilidad con respaldo escrito y 3 años de experiencia comprobada.</li>
+                        <li>✓ Tranquilidad con respaldo escrito y 2 años de experiencia comprobada.</li>
                         <li>✓ Resultados visibles y comprobables en residencias y comercios.</li>
                     </ul>
                     Recupera la belleza de tus fachadas, pisos y techos con nuestra evaluación gratuita

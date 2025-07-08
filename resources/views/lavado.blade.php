@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-12">
                 <p>
-                    En Always Pro Painting. revitalizamos tus espacios exteriores con tecnología avanzada de lavado a presión. Eliminamos moho, polvo y manchas de forma eficaz, sin usar quimicos agresicos, cuidando a tu fmilia y al medio ambiente.
+                    En Always Pro Painting. revitalizamos tus espacios exteriores con tecnología avanzada de lavado a presión. Eliminamos moho, polvo y manchas de forma eficaz, sin usar quimicos agresivos, cuidando a tu familia y al medio ambiente.
                 </p>
             </div>
             <div class="col-12">

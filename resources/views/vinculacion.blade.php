@@ -17,7 +17,7 @@
     <div class="container">
 
         <div class="section-title">
-          <h2>Embellecemos Sarasota & bradenton con proposito y conciencia</h2>
+          <h2>Embellecemos Sarasota & Bradenton con propósito y conciencia</h2>
         </div>
         <div class="row">
             <div class="col-12">
@@ -32,7 +32,7 @@
                 </p>
             </div>
             <div class="col-12">
-                <p>
+                <p style="text-decoration: none;">
                     <strong>Beneficios comunitarios:<strong><br>
                     <ul style="list-style-type: none;">
                         <li>✓ Pinuras ecológicas de bajo VOC, seguras.

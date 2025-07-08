@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <img src="{{ asset('storage/img/materiales.webp') }}" alt="Materiales premium" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Materiales premium</h4>
             <p class="text-justify">
-              Utilizamos solo materiales premium en cada proyecto para garantizar un resulado final de alta calidad que mejora la apariencia y protege las superficies.
+              Utilizamos solo materiales premium en cada proyecto para garantizar un resultado final de alta calidad que mejora la apariencia y protege las superficies.
             </p>
           </div>
 
@@ -349,7 +349,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <img src="{{ asset('storage/img/compromiso.webp') }}" alt="Compromiso Ambiental" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Compromiso Ambiental</h4>
             <p class="text-justify">
-              Nuestro compromiso ambiental nos impulsa a utilizar productos ecológicos, asegurando que cada proyecto sea sostenible, y seguro para el planeta
+              Nuestro compromiso ambiental nos impulsa a utilizar productos ecológicos, asegurando que cada proyecto sea sostenible y seguro para el planeta
             </p>
           </div>
 
@@ -432,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="count-box">
               <i class="icofont-users-alt-5" ></i>
               <span data-toggle="counter-up">6</span>
-              <p>Trabajadores esforzados</p>
+              <p>Trabajadores profesionales</p>
             </div>
           </div>
 

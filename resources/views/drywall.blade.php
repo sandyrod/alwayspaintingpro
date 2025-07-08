@@ -33,7 +33,7 @@
                 <p>
                     <ul>
                         <li>
-                            <strong>Reparaciones avanzadas con resultados profesionales:</strong>Utilizamos técnocas certifcadas y materiales de alta calidad para integrar cada reparación de forma imperceptble en la superficie existente
+                            <strong>Reparaciones avanzadas con resultados profesionales:</strong>Utilizamos técnocas certificadas y materiales de alta calidad para integrar cada reparación de forma imperceptible en la superficie existente
                         </li>
                     </ul>
                 </p>
