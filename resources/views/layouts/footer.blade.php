@@ -25,8 +25,8 @@
           <h5 class="fw-bold  mb-3" style="color:#000; font-weight:800;">Ubicación</h5>
           <div class="text-white">
             <a href="https://www.google.com/maps/place/360+Central+Ave+Ste+800,+St.+Petersburg,+FL+33701,+EE.+UU./@27.770786,-82.6405255,1006m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88c2e1834e6881e5:0xb87f07635aaf958!8m2!3d27.7707813!4d-82.6379506!16s%2Fg%2F11q_6cngmx?entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:#fff;" aria-label="Ver ubicación en Google Maps: 360 Central Avenue, Suite 800, San Petersburgo, Florida 33701">
-            360 CENTRAL AVENUE, SUITE 800<BR>
-            SAN PETERSBURGO, FLORIDA 33701</a>
+            360 Central Avenue, Suite 800, <br>
+            St. Petersburg, Florida 33701, United States</a>
           </div>
         </div>
         
