@@ -166,7 +166,7 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
 
             <div class="section-title">
               <h2 class="d-none">About Us</h2>
-              <p>En Always Pro Painting, transformamos espacios desde 2022 con serviciosprofesionales de pintura, reparación dedrywall, texturizado y lavado a presión.Servimos con confiabilidad en Sarasota,Bradenton y áreas circundantes,garantizando acabados duraderos, materialesde primera calidad, compromiso ambiental y atención experta.</p>
+              <p>En Always Pro Painting, transformamos espacios desde 2022 con serviciosprofesionales de pintura, reparación dedrywall, texturizado y lavado a presión.Servimos con confiabilidad en Sarasota,Bradenton y áreas circundantes,garantizando acabados duraderos, materiales de primera calidad, compromiso ambiental y atención experta.</p>
               <b> ¡Comienza tu renovación hoy!</b>
             </div>
 

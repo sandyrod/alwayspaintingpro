@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <h2>¿Quienes Somos?</h2>
               <p>En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, 
                 reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas 
-                circundantes, garantizando acabados duraderos, materialesde primera calidad, compromiso ambiental y atención experta.</p>
+                circundantes, garantizando acabados duraderos, materiales de primera calidad, compromiso ambiental y atención experta.</p>
             </div>
 
             <div class="icon-box">
@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function () {
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-            <img src="{{ asset('storage/img/compromiso.webp') }}" alt="Compromiso Ambiental" class="rounded" style="max-width: 200px; border-radius: 15px;">
+            <img src="{{ asset('storage/img/compromiso.webp') }}" alt="Compromiso ambiental" class="rounded" style="max-width: 200px; border-radius: 15px;">
             <h4 class="font-weight-bold text-center">Compromiso Ambiental</h4>
             <p class="text-justify">
               Nuestro compromiso ambiental nos impulsa a utilizar productos ecológicos, asegurando que cada proyecto sea sostenible y seguro para el planeta

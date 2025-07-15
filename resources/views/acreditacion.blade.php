@@ -32,8 +32,7 @@
             </picture>
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
-                <p class="animate__animated animate__fadeInUp"></p>
+                
               </div>
             </div>
           </div>

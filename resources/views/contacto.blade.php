@@ -33,7 +33,7 @@
           <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="info-box">
               <img src="{{ asset('storage/img/servicios/whatsapp.webp') }}" alt="Phone" style="max-width: 300px; height: auto;">
-              <h3 style="margin-top: 20px;"><a href="https://wa.me/17274176867" style="color:#000;" aria-label="Contactar por WhatsApp al (727) 417-6867">(727) 417-6867</a>  <a href="https://wa.me/17274176753" style="color:#000; margin-left: 20px;" aria-label="Contactar por WhatsApp al (727) 417-6753">(727) 417-6753</a></h3>
+              <h3 style="margin-top: 20px;"><a target="_blank" href="https://wa.me/17274176867" style="color:#000;" aria-label="Contactar por WhatsApp al (727) 417-6867">(727) 417-6867</a>  <a target="_blank" href="https://wa.me/17274176753" style="color:#000; margin-left: 20px;" aria-label="Contactar por WhatsApp al (727) 417-6753">(727) 417-6753</a></h3>
             </div>
           </div>
 
@@ -41,7 +41,7 @@
           <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="info-box">
               <img src="{{ asset('storage/img/servicios/email.webp') }}" alt="Email" style="max-width: 300px; height: auto;">
-              <h3 style="margin-top: 20px;"><a href="mailto:luis@alwayspropainting.com" style="color:#000;" aria-label="Contactar por correo electrónico a luis@alwayspropainting.com">luis@alwayspropainting.com</a></h3>
+              <h3 style="margin-top: 20px;"><a href="mailto:info@alwayspropainting.com" style="color:#000;" aria-label="Contactar por correo electrónico a info@alwayspropainting.com">info@alwayspropainting.com</a></h3>
             </div>
           </div>
 

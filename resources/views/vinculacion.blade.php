@@ -23,7 +23,7 @@
             <div class="col-12">
                 <p>
                     En Always Pro Painting transformamos espacios públicos con responsabilidad ambiental y compromiso local.
-                    Renovamos escuelas, plazas y calles con pintua ecológica de bajo VOC, señalizacion clara y técnicas limpias que respetan el entorno.
+                    Renovamos escuelas, plazas y calles con pintura ecológica de bajo VOC, señalizacion clara y técnicas limpias que respetan el entorno.
                 </p>
                 <p>
                     Nuestro trabajo no solo mejora la estética urbana, sino que fortalece el sentido de pertenencia y apoya el desarrollo de la comunidad.<br>
@@ -33,9 +33,9 @@
             </div>
             <div class="col-12">
                 <p style="text-decoration: none;">
-                    <strong>Beneficios comunitarios:<strong><br>
+                    <strong>Beneficios comunitarios:</strong><br>
                     <ul style="list-style-type: none;">
-                        <li>✓ Pinuras ecológicas de bajo VOC, seguras.
+                        <li>✓ Pinturas ecológicas de bajo VOC, seguras.
                         </li>
                         <li>✓ Señalizacion vial clara para mayor seguridad.</li>
                         <li>✓ Renovación estética sin interrupciones.</li>
@@ -46,7 +46,7 @@
             </div>
             <div class="col-12  text-center">
                 <p class=" text-center">
-                    <h2>Pintamos con propósito, embellecemos con conciencia</h2>
+                    <h5>Pintamos con propósito, embellecemos con conciencia</h5>
                 </p>
             </div>
         </div>

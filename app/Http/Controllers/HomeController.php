@@ -30,6 +30,10 @@ class HomeController extends Controller
     {
         return view('nosotros');
     }
+    public function servicios()
+    {
+        return view('servicios');
+    }
 
     public function drywall()
     {

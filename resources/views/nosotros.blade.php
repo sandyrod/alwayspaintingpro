@@ -196,7 +196,7 @@
               <h2>¿Quienes Somos?</h2>
               <p>En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, 
                 reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas 
-                circundantes, garantizando acabados duraderos, materialesde primera calidad, compromiso ambiental y atención experta.</p>
+                circundantes, garantizando acabados duraderos, materiales de primera calidad, compromiso ambiental y atención experta.</p>
             </div>
 
             <div class="icon-box">

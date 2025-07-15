@@ -11,14 +11,12 @@
 
         <div class="carousel-inner" role="listbox">
 
-          <!-- Slide 3 -->ç
+          <!-- Slide 3 -->
           <div class="carousel-item active"  style="background-image: url('{{ asset('storage/img/slide/slide-3-def.webp') }}');" role="option" aria-selected="false">
             <img src="{{ asset('storage/img/slide/slide-3-def.webp') }}" alt="Slide 3" loading="lazy" style="display:none;" />
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown" data-key="transformamos">DE LO COMÚN<br> A LO EXTRAORDINARIO</h2>
-                <p class="animate__animated animate__fadeInUp" data-key="professional_description">Transformamos tus espacios con alta calidad
-                profesional.</p>
+                
                 
               </div>
             </div>

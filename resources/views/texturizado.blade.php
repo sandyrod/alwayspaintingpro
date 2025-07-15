@@ -25,7 +25,7 @@
             <div class="col-12">
                 <p>
                     Dale un toque único a tus paredes y techos con los acabados texturizados de Always Pro Painting, modernos, resistentes y decorativos.
-                    Aplicamos técnicas cmo knockdown, orange peel, skip trowel para realzar tus espacios, ocultar imperfecciones y crear acabados duraderos e impactantes.
+                    Aplicamos técnicas como knockdown, orange peel, skip trowel para realzar tus espacios, ocultar imperfecciones y crear acabados duraderos e impactantes.
                 </p>
                 <p>
                     Transformamos tus superficies con un servicio limpio, rápido y de alta calidad, adaptado a propiedades habitadas.

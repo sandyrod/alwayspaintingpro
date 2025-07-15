@@ -55,9 +55,9 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
 
         <nav class="nav-menu d-none d-lg-block" style="margin-left: auto;">
         <ul>
-          <li class="active"><a href="{{url('/')}}" class="home-link" data-key="home">Inicio</a></li>
-          <li><a href="{{url('/#about')}}" class="about-link" data-key="about">¿Quienes Somos?</a></li>
-          <li><a href="{{url('/#services')}}" class="service-link" data-key="services">Servicios</a></li>
+          <li class="active"><a href="{{ url('/') }}" class="home-link" data-key="home">Inicio</a></li>
+          <li><a href="{{ url('/nosotros') }}" class="about-link" data-key="about">¿Quienes Somos?</a></li>
+          <li><a href="{{ route('servicios') }}" class="service-link" data-key="services">Servicios</a></li>
           <li><a href="{{url('/portafolio')}}" class="portfolio-link" data-key="portfolio">Portafolio</a></li>
           <li><a href="{{url('/contacto')}}" class="contact-link" data-key="contact">Contacto</a></li>
           <li class="language-selector dropdown">
