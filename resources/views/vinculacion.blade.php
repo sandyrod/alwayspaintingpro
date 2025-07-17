@@ -8,7 +8,7 @@
         <div id="heroCarousel" class="carousel" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/servicios/vinculacion.webp') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/vinculacion.webp') }}');">
           </div>
         </div>
     </div>
