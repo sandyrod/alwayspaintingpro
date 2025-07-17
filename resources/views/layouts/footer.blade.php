@@ -12,8 +12,8 @@
         <!-- Columna Contacto -->
         <div class="col-4">
           <h5 class="fw-bold  mb-3" style="color:#000; font-weight:800;">Contacto</h5> <!-- Título en negrita y negro -->
-          <div class="text-white"> <!-- Contenido en blanco -->
-            info@alwayspropainting.com<br>
+          <div class="text-white"> 
+            <a href="mailto:info@alwayspropainting.com" style="color:#fff;" aria-label="Enviar correo a info@alwayspropainting.com">info@alwayspropainting.com</a><br>
             <a target="_blank" href="https://wa.me/17274176867" style="color:#fff;" aria-label="Contactar por WhatsApp al (727) 417-6867">(727) 417-6867</a> <br>
             <a target="_blank" href="https://wa.me/17274176753" style="color:#fff;" aria-label="Contactar por WhatsApp al (727) 417-6753">(727) 417-6753</a>      
 

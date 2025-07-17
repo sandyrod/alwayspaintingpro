@@ -347,7 +347,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
             <img src="{{ asset('storage/img/compromiso.webp') }}" alt="Compromiso ambiental" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Compromiso Ambiental</h4>
+            <h4 class="font-weight-bold text-center">Compromiso ambiental</h4>
             <p class="text-justify">
               Nuestro compromiso ambiental nos impulsa a utilizar productos ecológicos, asegurando que cada proyecto sea sostenible y seguro para el planeta
             </p>

@@ -17,17 +17,17 @@
             <style>
               @media (max-width: 768px) {
                 .slide-2-bg {
-                  background-image: url('{{ asset('storage/img/slide/slide-2-mobile.webp') }}') !important;
+                  background-image: url('{{ asset('storage/img/acreditacion.webp') }}') !important;
                 }
               }
               @media (min-width: 769px) {
                 .slide-2-bg {
-                  background-image: url('{{ asset('storage/img/slide/slide-2.webp') }}') !important;
+                  background-image: url('{{ asset('storage/img/acreditacion.webp') }}') !important;
                 }
               }
             </style>
             <picture>
-              <source srcset="{{ asset('storage/img/slide/slide-2-mobile.webp') }}" media="(max-width: 768px)">
+              <source srcset="{{ asset('storage/img/acreditacion.webp') }}" media="(max-width: 768px)">
               <img src="{{ asset('storage/img/slide/slide-2.webp') }}" alt="Slide 2" loading="lazy" style="display:none;" />
             </picture>
             <div class="carousel-container">
