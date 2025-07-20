@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <h2>Servicios</h2>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall2.webp') }}'); padding:4px;">
+          <div class="col-lg-5 col-md-5 icon-box" style="background-image: url('{{ asset('storage/img/drywall2.webp') }}'); padding:4px;">
             <div class="content-box">
               <h3>Drywall</h3>
               <p>Acabados de drywall perfectos, duraderos y confiables
@@ -465,7 +465,8 @@ document.addEventListener('DOMContentLoaded', function () {
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.webp') }}');">
+          <div class="col-lg-1 col-md-1 icon-box d-none d-md-block"></div>
+          <div class="col-lg-5 col-md-5 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.webp') }}');">
             <div class="content-box">
               <h3>Pintura<br>Exterior & Interior</h3>
               <p>Color, precisión y estilo para tu hogar y oficina
@@ -481,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function () {
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.webp') }}');">
+          <div class="col-lg-5 col-md-5 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.webp') }}');">
             <div class="content-box">
               <h3>Lavado a presión</h3>
               <p>Limpio y como nuevo, sin químicos agresivos
@@ -497,7 +498,8 @@ document.addEventListener('DOMContentLoaded', function () {
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.webp') }}');">
+          <div class="col-lg-1 col-md-1 icon-box d-none d-md-block"></div>
+          <div class="col-lg-5 col-md-5 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.webp') }}');">
             <div class="content-box">
               <h3>Vinculación<br>Comunitaria</h3>
               <p>Renovamos espacios públicos con criterios ecológicos
