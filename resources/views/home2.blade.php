@@ -62,7 +62,7 @@
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
                 <p class="animate__animated animate__fadeInUp"></p>
-                <a href="{{ route('acreditacion') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="more_info">Averigua <i class="fa fa-arrow-right"></i></a>
+                <a href="{{ route('arte') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="more_info">Averigua <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
