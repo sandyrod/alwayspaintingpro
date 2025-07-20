@@ -69,6 +69,48 @@
   
 </head>
 <body>
+  <!-- Botón flotante de WhatsApp -->
+  @php
+    // Obtener el número principal de WhatsApp del header
+    $whatsappNumber = config('app.whatsapp_number', '+17274176867'); // Cambia esto según tu configuración
+    $whatsappLink = 'https://wa.me/' . preg_replace('/\D/', '', $whatsappNumber);
+  @endphp
+  <a href="{{ $whatsappLink }}" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    z-index: 9999;
+    background: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2em;
+    transition: background 0.2s;
+    text-decoration: none;
+  }
+  .whatsapp-float:hover {
+    background: #128c7e;
+    color: #fff;
+  }
+  @media (max-width: 600px) {
+    .whatsapp-float {
+      width: 50px;
+      height: 50px;
+      font-size: 1.7em;
+      bottom: 80px;
+      right: 18px;
+    }
+  }
+  </style>
     <!-- Incluir header -->
     @include('layouts.header')
 

@@ -9,7 +9,7 @@
 
 
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/servicios/senalizacion.webp') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/portafolio/portafolio.webp') }}');">
           </div>
         </div>
     </div>
@@ -19,7 +19,7 @@
 
         <div class="section-title">
           <h2>Nuestro portafolio</h2>
-          <p style="text-align:start">En Always Pro Painting, renovamos espacios en Sarasota y Bradenton, creando ambientes inspiradores. Ofrecemos servicios de pintura interior y exterior, restauración de drywall, lavado a presión y renovación de gabinetes, combinando precisión, creatividad y calidad. 
+          <p style="text-align:start" class="d-none">En Always Pro Painting, renovamos espacios en Sarasota y Bradenton, creando ambientes inspiradores. Ofrecemos servicios de pintura interior y exterior, restauración de drywall, lavado a presión y renovación de gabinetes, combinando precisión, creatividad y calidad. 
             <br><br>
           Nuestro portafolio demuestra cómo transformamos hogares y negocios, aportando valor y estilo a cada proyecto. Contáctanos para dar
 vida a tu visión.
@@ -30,98 +30,375 @@ vida a tu visión.
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Category 1</li>
-              <li data-filter=".filter-card">Category 2</li>
-              <li data-filter=".filter-web">Category 3</li>
+              <li data-filter=".filter-drywall">Drywall</li>
+              <li data-filter=".filter-bannos">Baños</li>
+              <li data-filter=".filter-pintura">Pintura</li>
+              <li data-filter=".filter-lavado">Lavado a Presión</li>
+              <li data-filter=".filter-vinculacion">Vinculacion Comunitaria</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-drywall">
             <div class="portfolio-wrap">
-              <img src="{{ asset('storage/img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('storage/img/portafolio/drywall/1.webp') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <p>Drywall</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('storage/img/portfolio/portfolio-1.jpg') }}" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="{{ asset('storage/img/portafolio/drywall/1.webp') }}" data-gall="portfolioGallery" class="venobox" title="Drywall"><i class="icofont-eye"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pintura">
             <div class="portfolio-wrap">
-              <img src="{{ asset('storage/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('storage/img/portafolio/pintura/1.webp') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <p>Pintura</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('storage/img/portfolio/portfolio-2.jpg') }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="{{ asset('storage/img/portafolio/pintura/1.webp') }}" data-gall="portfolioGallery" class="venobox" title="Puntura"><i class="icofont-eye"></i></a>
+
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bannos">
             <div class="portfolio-wrap">
-              <img src="{{ asset('storage/img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('storage/img/portafolio/bannos/1.webp') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <p>Baños</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('storage/img/portfolio/portfolio-3.jpg') }}" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="{{ asset('storage/img/portafolio/bannos/1.webp') }}" data-gall="portfolioGallery" class="venobox" title="Baños"><i class="icofont-eye"></i></a>
+
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lavado">
             <div class="portfolio-wrap">
-              <img src="{{ asset('storage/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('storage/img/portafolio/lavado/1.webp') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
+                <p>Lavado a Presión</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('storage/img/portfolio/portfolio-4.jpg') }}" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="{{ asset('storage/img/portafolio/lavado/1.webp') }}" data-gall="portfolioGallery" class="venobox" title="Lavado a Presion"><i class="icofont-eye"></i></a>
+
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vinculacion">
             <div class="portfolio-wrap">
-              <img src="{{ asset('storage/img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('storage/img/portafolio/vinculacion/1.webp') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <p>Vinculación Comunitaria</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('storage/img/portfolio/portfolio-5.jpg') }}" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="{{ asset('storage/img/portafolio/vinculacion/1.webp') }}" data-gall="portfolioGallery" class="venobox" title="Vinculación Comunitaria"><i class="icofont-eye"></i></a>
+
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-drywall">
             <div class="portfolio-wrap">
-              <img src="{{ asset('storage/img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('storage/img/portafolio/drywall/2.webp') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <p>Drywall</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('storage/img/portfolio/portfolio-6.jpg') }}" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="{{ asset('storage/img/portafolio/drywall/2.webp') }}" data-gall="portfolioGallery" class="venobox" title="Drywall"><i class="icofont-eye"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pintura">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/pintura/2.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Pintura</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/pintura/2.webp') }}" data-gall="portfolioGallery" class="venobox" title="Puntura"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bannos">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/bannos/2.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Baños</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/bannos/2.webp') }}" data-gall="portfolioGallery" class="venobox" title="Baños"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lavado">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/lavado/2.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Lavado a Presión</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/lavado/2.webp') }}" data-gall="portfolioGallery" class="venobox" title="Lavado a Presion"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vinculacion">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/vinculacion/2.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Vinculación Comunitaria</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/vinculacion/2.webp') }}" data-gall="portfolioGallery" class="venobox" title="Vinculación Comunitaria"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-drywall">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/drywall/3.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Drywall</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/drywall/3.webp') }}" data-gall="portfolioGallery" class="venobox" title="Drywall"><i class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pintura">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/pintura/3.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Pintura</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/pintura/3.webp') }}" data-gall="portfolioGallery" class="venobox" title="Puntura"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bannos">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/bannos/3.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Baños</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/bannos/3.webp') }}" data-gall="portfolioGallery" class="venobox" title="Baños"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lavado">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/lavado/3.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Lavado a Presión</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/lavado/3.webp') }}" data-gall="portfolioGallery" class="venobox" title="Lavado a Presion"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vinculacion">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/vinculacion/3.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Vinculación Comunitaria</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/vinculacion/3.webp') }}" data-gall="portfolioGallery" class="venobox" title="Vinculación Comunitaria"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-drywall">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/drywall/4.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Drywall</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/drywall/4.webp') }}" data-gall="portfolioGallery" class="venobox" title="Drywall"><i class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pintura">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/pintura/4.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Pintura</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/pintura/4.webp') }}" data-gall="portfolioGallery" class="venobox" title="Puntura"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bannos">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/bannos/4.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Baños</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/bannos/4.webp') }}" data-gall="portfolioGallery" class="venobox" title="Baños"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lavado">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/lavado/4.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Lavado a Presión</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/lavado/4.webp') }}" data-gall="portfolioGallery" class="venobox" title="Lavado a Presion"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-vinculacion">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/vinculacion/4.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Vinculación Comunitaria</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/vinculacion/4.webp') }}" data-gall="portfolioGallery" class="venobox" title="Vinculación Comunitaria"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-drywall">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/drywall/5.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Drywall</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/drywall/5.webp') }}" data-gall="portfolioGallery" class="venobox" title="Drywall"><i class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pintura">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/pintura/5.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Pintura</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/pintura/5.webp') }}" data-gall="portfolioGallery" class="venobox" title="Puntura"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bannos">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/bannos/5.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Baños</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/bannos/5.webp') }}" data-gall="portfolioGallery" class="venobox" title="Baños"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lavado">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/lavado/5.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Lavado a Presión</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/lavado/5.webp') }}" data-gall="portfolioGallery" class="venobox" title="Lavado a Presion"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-drywall">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/drywall/6.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Drywall</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/drywall/6.webp') }}" data-gall="portfolioGallery" class="venobox" title="Drywall"><i class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pintura">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/pintura/6.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Pintura</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/pintura/6.webp') }}" data-gall="portfolioGallery" class="venobox" title="Puntura"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bannos">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/bannos/6.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Baños</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/bannos/6.webp') }}" data-gall="portfolioGallery" class="venobox" title="Baños"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lavado">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('storage/img/portafolio/lavado/6.webp') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <p>Lavado a Presión</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('storage/img/portafolio/lavado/6.webp') }}" data-gall="portfolioGallery" class="venobox" title="Lavado a Presion"><i class="icofont-eye"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
 
       </div>
