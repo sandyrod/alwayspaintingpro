@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <h2>Servicios</h2>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.webp') }}'); padding:4px;">
+          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall2.webp') }}'); padding:4px;">
             <div class="content-box">
               <h3>Drywall</h3>
               <p>Acabados de drywall perfectos, duraderos y confiables
