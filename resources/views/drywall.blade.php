@@ -11,7 +11,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/drywall.png') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/drywall2.webp') }}');">
 
           </div>
         </div>
@@ -33,7 +33,7 @@
                 <p>
                     <ul>
                         <li>
-                            <strong>Reparaciones avanzadas con resultados profesionales:</strong>Utilizamos técnocas certifcadas y materiales de alta calidad para integrar cada reparación de forma imperceptble en la superficie existente
+                            <strong>Reparaciones avanzadas con resultados profesionales: </strong>Utilizamos técnicas certificadas y materiales de alta calidad para integrar cada reparación de forma imperceptible en la superficie existente
                         </li>
                     </ul>
                 </p>
@@ -60,6 +60,15 @@
                     <h2>Resultados Impecables y Garantizados</h2>
                 </p>
             </div>
+            <div class="text-center w-100 mt-4">
+                <a href="{{ route('texturizado') }}" class="custom-button">
+                  <span class="button-text">Texturizado </span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
+              
         </div>
     </div>
 </section>

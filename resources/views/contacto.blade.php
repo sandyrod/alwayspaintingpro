@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
+<<<<<<< HEAD
 @section('title', 'Página de Inicio')
+=======
+@section('title', 'Nosotros')
+>>>>>>> d222a59d5f35755d6d9b6046aef8a8dc1adcb4ad
 
 @section('content')
 <section id="hero">
@@ -9,77 +13,96 @@
 
 
         <div class="carousel-inner" role="listbox">
+<<<<<<< HEAD
 
           <!-- Slide 1 -->
           <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/contacto_1.png') }}');">
 
+=======
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/servicios/contacto.webp') }}');">
+>>>>>>> d222a59d5f35755d6d9b6046aef8a8dc1adcb4ad
           </div>
         </div>
     </div>
 </section>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="card rounded-lg overflow-hidden" style="width: 600px; height: 300px;">
-                    <div class="row h-100">
-                        <div class="col-md-6 p-0 h-100">
-                            <img src="{{ asset('storage/img/ubicacion.png') }}" class="h-100 w-100" style="object-fit: cover;">
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
-                            <h3 class="m-0">info@alwayspropainting.com</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contactanos</h2>
         </div>
+
         <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="card rounded-lg overflow-hidden" style="width: 600px; height: 300px;">
-                    <div class="row h-100">
-                        <div class="col-md-6 p-0 h-100">
-                            <img src="{{ asset('storage/img/email.png') }}" class="h-100 w-100" style="object-fit: cover;">
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
-                            <h3 class="m-0">Nuestro horario es de lunes a viernes, de 8am a 5pm. Sabados y Domingos con cita previa</h3>
-                        </div>
-                    </div>
-                </div>
+
+          <div class="col-lg-12 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="info-box">
+              <img src="{{ asset('storage/img/servicios/contacto_address.webp') }}" alt="Address" style="max-width: 300px; height: auto;">
+              <h3>360 Central Avenue, Suite 800, St. Petersburg, Florida 33701, United States</h3>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="card rounded-lg overflow-hidden" style="width: 600px; height: 300px;">
-                    <div class="row h-100">
-                        <div class="col-md-6 p-0 h-100">
-                            <img src="{{ asset('storage/img/email.png') }}" class="h-100 w-100" style="object-fit: cover;">
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
-                            <h3 class="m-0">info@alwayspropainting.com</h3>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          
+          <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="info-box">
+              <img src="{{ asset('storage/img/servicios/whatsapp.webp') }}" alt="Phone" style="max-width: 300px; height: auto;">
+              <h3 style="margin-top: 20px;"><a target="_blank" href="https://wa.me/17274176867" style="color:#000;" aria-label="Contactar por WhatsApp al (727) 417-6867">(727) 417-6867</a>  <a target="_blank" href="https://wa.me/17274176753" style="color:#000; margin-left: 20px;" aria-label="Contactar por WhatsApp al (727) 417-6753">(727) 417-6753</a></h3>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="card rounded-lg overflow-hidden" style="width: 600px; height: 300px;">
-                    <div class="row h-100">
-                        <div class="col-md-6 p-0 h-100">
-                            <img src="{{ asset('storage/img/whatsappcard.png') }}" class="h-100 w-100" style="object-fit: cover;">
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
-                            <h3 class="m-0">
-                                <a href="https://wa.me/17274176867" style="color:#fff;">(727) 417-6867</a> <br>
-                                <a href="https://wa.me/17274176867" style="color:#fff;">(727) 417-6753</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
+          </div>
+
+         
+          <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="info-box">
+              <img src="{{ asset('storage/img/servicios/email.webp') }}" alt="Email" style="max-width: 300px; height: auto;">
+              <h3 style="margin-top: 20px;"><a href="mailto:info@alwayspropainting.com" style="color:#000;" aria-label="Contactar por correo electrónico a info@alwayspropainting.com">info@alwayspropainting.com</a></h3>
             </div>
+          </div>
+
+          <div class="col-lg-12 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="info-box">
+              <h3 style="margin-top: 20px;">Redes Sociales</h3>
+<style>
+  /* Solo para la lista de redes sociales de contacto */
+  .contact-social-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .contact-social-list i.icofont-arrow-right {
+    background: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-right: 8px;
+    font-size: 1.1em;
+    color: #000;
+    vertical-align: middle;
+  }
+</style>
+              <div class="row">
+                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                  <ul style="list-style-type: none; padding: 0; margin: 0;">
+                    <li style="display: flex; align-items: center; margin-bottom: 10px;"><i class="icofont-arrow-right" style="background: none; border-radius: 0; box-shadow: none; padding: 0; margin-right: 8px;"></i><a href="https://bsky.app/profile/alwayspropainting.bsky.social" style="color:#000;" target="_blank" aria-label="Visitar Bluesky">BLUESKY</a></li>
+                    <li style="display: flex; align-items: center; margin-bottom: 10px;"><i class="icofont-arrow-right" style="background: none; border-radius: 0; box-shadow: none; padding: 0; margin-right: 8px;"></i><a href="https://www.facebook.com/alwayspropainting" style="color:#000;" target="_blank" aria-label="Visitar Facebook">FACEBOOK</a></li>
+                    <li style="display: flex; align-items: center; margin-bottom: 10px;"><i class="icofont-arrow-right" style="background: none; border-radius: 0; box-shadow: none; padding: 0; margin-right: 8px;"></i><a href="https://www.instagram.com/alwayspropainting" style="color:#000;" target="_blank" aria-label="Visitar Instagram">INSTAGRAM</a></li>
+                    <li style="display: flex; align-items: center; margin-bottom: 10px;"><i class="icofont-arrow-right" style="background: none; border-radius: 0; box-shadow: none; padding: 0; margin-right: 8px;"></i><a href="https://www.threads.com/@alwayspropainting" style="color:#000;" target="_blank" aria-label="Visitar Threads">THREDS</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                  <ul style="list-style-type: none; padding: 0; margin: 0;">
+                    <li style="display: flex; align-items: center; margin-bottom: 10px;"><i class="icofont-arrow-right" style="background: none; border-radius: 0; box-shadow: none; padding: 0; margin-right: 8px;"></i><a href="https://www.tiktok.com/@alwayspropainting" style="color:#000;" target="_blank" aria-label="Visitar TikTok">TIKTOK</a></li>
+                    <li style="display: flex; align-items: center; margin-bottom: 10px;"><i class="icofont-arrow-right" style="background: none; border-radius: 0; box-shadow: none; padding: 0; margin-right: 8px;"></i><a href="https://twitter.com/alwayspropaint" style="color:#000;" target="_blank" aria-label="Visitar Twitter">TWITTER</a></li>
+                    <li style="display: flex; align-items: center; margin-bottom: 10px;"><i class="icofont-arrow-right" style="background: none; border-radius: 0; box-shadow: none; padding: 0; margin-right: 8px;"></i><a href="https://www.youtube.com/@ALWAYSPROPAINTING" style="color:#000;" target="_blank" aria-label="Visitar YouTube">YOUTUBE</a></li>
+                    <li style="display: flex; align-items: center; margin-bottom: 10px;"><i class="icofont-arrow-right" style="background: none; border-radius: 0; box-shadow: none; padding: 0; margin-right: 8px;"></i><a href="https://www.bbb.org/us/fl/sarasota/profile/residential-painter/always-pro-painting-llc-0653-90440065" style="color:#000;" target="_blank" aria-label="Visitar Better Business Bureau (BBB)">Better Business Bureau (BBB)</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
         </div>
-    </div>
-</section>
+
+      </div>
+    </section>
 @endsection
 
 @push('scripts')

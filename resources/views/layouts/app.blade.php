@@ -1,39 +1,116 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Always Pro Painting</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <meta name="description" content="En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas circundantes, garantizando acabados duraderos, materiales de primera calidad, compromiso ambiental y atención experta.">
+    <meta name="keywords" content="pintura, servicios de pintura, reparación de drywall, texturizado, lavado a presión, Always Pro Painting, Sarasota, Bradenton, servicios de pintura en Sarasota, servicios de pintura en Bradenton, acabados duraderos, materiales de calidad, compromiso ambiental, atención experta">
 
   <!-- Favicons -->
   <link href="{{ asset('storage/img/favicon.png') }}" rel="icon">
+  <!-- Preload principal slide image for LCP optimization -->
+  <link rel="preload" as="image" href="{{ asset('storage/img/slide/slide-1-def.webp') }}">
   <link href="{{ asset('storage/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
-  <link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/menu-active-color.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/services-hover.css') }}" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900&display=swap" rel="stylesheet"></noscript>
+  <style>
+    @font-face {
+      font-family: 'Font Awesome 6 Free';
+      font-style: normal;
+      font-weight: 900;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Font Awesome 6 Free';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Font Awesome 6 Brands';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+    }
+  </style>
+  <link href="{{ asset('css/main.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}">
+  <link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('css/header-hover-effects.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('css/menu-active-color.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('css/menu-active-color.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('css/services-hover.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('css/services-hover.css') }}" rel="stylesheet"></noscript>
   <!-- Vendor CSS Files -->
-  <link href="{{ asset('storage/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/icofont/icofont.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/bboxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/venobox/venobox.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('storage/vendor/aos/aos.css') }}" rel="stylesheet">
+  <link rel="preload" href="{{ asset('storage/vendor/bootstrap/css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="{{ asset('storage/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('storage/vendor/icofont/icofont.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('storage/vendor/icofont/icofont.min.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('storage/vendor/bboxicons/css/boxicons.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('storage/vendor/bboxicons/css/boxicons.min.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('storage/vendor/animate.css/animate.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('storage/vendor/animate.css/animate.min.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('storage/vendor/venobox/venobox.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('storage/vendor/venobox/venobox.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('storage/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('storage/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet"></noscript>
+  <link href="{{ asset('storage/vendor/aos/aos.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ asset('storage/vendor/aos/aos.css') }}" rel="stylesheet"></noscript>
 
   <!-- Template Main CSS File -->
   @vite(['resources/css/style.css', 'resources/js/main.js'])
   
 </head>
 <body>
+  <!-- Botón flotante de WhatsApp -->
+  @php
+    // Obtener el número principal de WhatsApp del header
+    $whatsappNumber = config('app.whatsapp_number', '+17274176867'); // Cambia esto según tu configuración
+    $whatsappLink = 'https://wa.me/' . preg_replace('/\D/', '', $whatsappNumber);
+  @endphp
+  <a href="{{ $whatsappLink }}" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    z-index: 9999;
+    background: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2em;
+    transition: background 0.2s;
+    text-decoration: none;
+  }
+  .whatsapp-float:hover {
+    background: #128c7e;
+    color: #fff;
+  }
+  @media (max-width: 600px) {
+    .whatsapp-float {
+      width: 50px;
+      height: 50px;
+      font-size: 1.7em;
+      bottom: 80px;
+      right: 18px;
+    }
+  }
+  </style>
     <!-- Incluir header -->
     @include('layouts.header')
 

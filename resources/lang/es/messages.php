@@ -4,7 +4,7 @@ return [
     // Header
     'home' => 'Inicio',
     'about' => '¿Quienes Somos?',
-    'services' => 'Servicios',
+    'services_menu' => 'Servicios',
     'portfolio' => 'Portafolio',
     'contact' => 'Contacto',
     'transformamos' => 'Transformamos',

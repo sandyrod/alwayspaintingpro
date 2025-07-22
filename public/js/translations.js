@@ -36,7 +36,7 @@ const translations = {
         
         transformamos: 'DE LO COMÚN<br> A LO EXTRAORDINARIO',
         professional_description: 'Transformamos tus espacios con alta calidad profesional.',
-        get_started: 'Sorprendente',
+        get_started: 'Sorpréndete',
         
         // Services
         drywall_services: 'Servicios de Drywall',
@@ -158,20 +158,38 @@ function updateTranslations() {
         }
     });
 
-    // Actualizar el contenido de home2.blade.php
-    // Slide 1
-    document.querySelector('.carousel-item.active h2').innerHTML = translations[currentLanguage].welcome_title;
-    document.querySelector('.carousel-item.active p').innerHTML = translations[currentLanguage].welcome_description;
-    document.querySelector('.carousel-item.active .btn-get-started').innerHTML = translations[currentLanguage].start_renovation;
+    // Validar si existen los elementos carousel antes de actualizar
+    const carouselItems = document.querySelectorAll('.carousel-item');
+    if (carouselItems.length > 0) {
+        // Slide 1
+        const activeItem = document.querySelector('.carousel-item.active');
+        if (activeItem) {
+            const h2 = activeItem.querySelector('h2');
+            const p = activeItem.querySelector('p');
+            const btn = activeItem.querySelector('.btn-get-started');
+            if (h2) h2.innerHTML = translations[currentLanguage].welcome_title;
+            if (p) p.innerHTML = translations[currentLanguage].welcome_description;
+            if (btn) btn.innerHTML = translations[currentLanguage].start_renovation;
+        }
 
-    // Slide 2
-    document.querySelectorAll('.carousel-item')[1].querySelector('h2').innerHTML = translations[currentLanguage].who_we_are;
-    document.querySelectorAll('.carousel-item')[1].querySelector('.btn-get-started').innerHTML = translations[currentLanguage].more_info;
+        // Slide 2
+        if (carouselItems[1]) {
+            const h2 = carouselItems[1].querySelector('h2');
+            const btn = carouselItems[1].querySelector('.btn-get-started');
+            if (h2) h2.innerHTML = translations[currentLanguage].who_we_are;
+            if (btn) btn.innerHTML = translations[currentLanguage].more_info;
+        }
 
-    // Slide 3
-    document.querySelectorAll('.carousel-item')[2].querySelector('h2').innerHTML = translations[currentLanguage].transformamos;
-    document.querySelectorAll('.carousel-item')[2].querySelector('p').innerHTML = translations[currentLanguage].professional_description;
-    document.querySelectorAll('.carousel-item')[2].querySelector('.btn-get-started').innerHTML = translations[currentLanguage].get_started;
+        // Slide 3
+        if (carouselItems[2]) {
+            const h2 = carouselItems[2].querySelector('h2');
+            const p = carouselItems[2].querySelector('p');
+            const btn = carouselItems[2].querySelector('.btn-get-started');
+            if (h2) h2.innerHTML = translations[currentLanguage].transformamos;
+            if (p) p.innerHTML = translations[currentLanguage].professional_description;
+            if (btn) btn.innerHTML = translations[currentLanguage].get_started;
+        }
+    }
 }
 
 // Función para cambiar el idioma

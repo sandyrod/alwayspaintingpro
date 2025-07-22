@@ -30,6 +30,10 @@ class HomeController extends Controller
     {
         return view('nosotros');
     }
+    public function servicios()
+    {
+        return view('servicios');
+    }
 
     public function drywall()
     {
@@ -89,6 +93,15 @@ class HomeController extends Controller
     public function terminos()
     {
         return view('terminos');
+    }
+    public function contacto()
+    {
+        return view('contacto');
+    }
+
+    public function portafolio()
+    {
+        return view('portafolio');
     }
     public function contacto()
     {

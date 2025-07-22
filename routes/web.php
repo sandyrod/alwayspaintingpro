@@ -4,10 +4,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/inicio', [HomeController::class, 'index'])->name('inicio');
 Route::get('/transformamos', [HomeController::class, 'transformamos'])->name('transformamos');
 Route::get('/arte', [HomeController::class, 'arte'])->name('arte');
 Route::get('/profesional', [HomeController::class, 'profesional'])->name('profesional');
 Route::get('/nosotros', [HomeController::class, 'nosotros'])->name('nosotros');
+Route::get('/servicios', [HomeController::class, 'servicios'])->name('servicios');
 Route::get('/drywall', [HomeController::class, 'drywall'])->name('drywall');
 Route::get('/pintura', [HomeController::class, 'pintura'])->name('pintura');
 Route::get('/lavado', [HomeController::class, 'lavado'])->name('lavado');
@@ -22,6 +24,7 @@ Route::get('/terminos', [HomeController::class, 'terminos'])->name('terminos');
 Route::get('/declaracion', [HomeController::class, 'declaracion'])->name('declaracion');
 Route::get('/acreditacion', [HomeController::class, 'acreditacion'])->name('acreditacion');
 Route::get('/credito', [HomeController::class, 'credito'])->name('credito');
+Route::get('/portafolio', [HomeController::class, 'portafolio'])->name('portafolio');
 Route::get('/contacto', [HomeController::class, 'contacto'])->name('contacto');
 
 // Cambiar idioma

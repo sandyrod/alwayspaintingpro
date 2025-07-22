@@ -11,7 +11,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/pintura.png') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/pintura.webp') }}');">
 
           </div>
         </div>
@@ -33,7 +33,7 @@
                 <p>
                     <ul>
                         <li>
-                            <strong>Precisión en cada detalle: </strong>Nuestro riguroso proceso de 27 puntos -incluye lijado, sellado y nivelacion- garantiza una preparación perfeca para resultados que realzan el valor y estilo.
+                            <strong>Precisión en cada detalle: </strong>Nuestro riguroso proceso de 27 puntos -incluye lijado, sellado y nivelacion- garantiza una preparación perfecta para resultados que realzan el valor y estilo.
                         </li>
                     </ul>
                     <ul>
@@ -45,7 +45,7 @@
                         <li>✓ Proteccion total contra humedad, salitre y rayos UV.
                         </li>
                         <li>✓ Acabados premium que valorizan tu propiedad.</li>
-                        <li>✓ Tranquilidad con respaldo escrito y 3 años de experiencia comprobada.</li>
+                        <li>✓ Tranquilidad con respaldo escrito y 2 años de experiencia comprobada.</li>
                         <li>✓ Resultados visibles y comprobables en residencias y comercios.</li>
                     </ul>
                     Recupera la belleza de tus fachadas, pisos y techos con nuestra evaluación gratuita
@@ -56,6 +56,20 @@
                     <h2>Protege, embellece y valoriza tu propiedad</h2>
                 </p>
             </div>
+            <div class="text-center w-100 mt-4">
+            <a href="{{ route('duchas') }}" class="custom-button">
+                  <span class="button-text">Duchas </span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
+                <a href="{{ route('senalizacion') }}" class="ml-3 custom-button">
+                  <span class="button-text">Señalización </span>
+                  <span class="button-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
         </div>
     </div>
 </section>

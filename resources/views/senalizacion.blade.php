@@ -9,7 +9,7 @@
 
 
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/slide/senalizacion.png') }}');">
+          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/servicios/senalizacion.webp') }}');">
           </div>
         </div>
     </div>
@@ -33,11 +33,10 @@
                         <li><strong>Soluciones para Movilidad Eléctrica:</strong> Aplicamos pintura conductiva y antiderrapante con pigmentos reflectivos
                         de última generación para estaciones de carga, mejorando la seguridad y el orden urbano.
                         </li>
-                        <li><strong>Renovación Duradera:</strong> Prolongamos la vida útil de estacionamientos y zonas comunes hasta 3 meces más con sistemas epóxicos y acrílicos
+                        <li><strong>Renovación Duradera:</strong> Prolongamos la vida útil de estacionamientos y zonas comunes hasta 3 veces más con sistemas epóxicos y acrílicos
                         industriales de bajo VOC y curado rápido.
                         </li>
-                        <li><strong>Beneficios:</strong> Prolongamos la vida útil de estacionamientos y zonas comunes hasta 3 meces más con sistemas epóxicos y acrílicos
-                        industriales de bajo VOC y curado rápido.
+                        <li><strong>Beneficios</strong>
                         </li>
                     </ul>
                     <ul style="list-style-type: none;">
