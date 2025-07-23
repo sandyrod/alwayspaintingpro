@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Nosotros')
+@section('title', 'Servicios')
 
 @section('content')
 <section>
@@ -145,83 +145,88 @@
             border-radius: 10px;
         }
     </style>
-<section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Servicios</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/drywall.webp') }}'); padding:4px;">
-            <div class="content-box">
-              <h3>Drywall</h3>
-              <p>Acabados de drywall perfectos, duraderos y confiables
-              </p>
-              <div class="hover-text"><a href="{{ route('drywall') }}">No lo sueñes, ¡vívelo! 
-              <br>
-              haz clic y obsérvalo</a>
-              <br><br><a href="{{ route('drywall') }}" class="custom-button">
-                  <span class="button-text">Conquista</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.webp') }}');">
-            <div class="content-box">
-              <h3>Pintura<br>Exterior & Interior</h3>
-              <p>Color, precisión y estilo para tu hogar y oficina
-              </p>
-              <div class="hover-text"><a href="{{ route('pintura') }}">No lo imagines, ¡míralo con un clic!
-              </a>
-              <br><br><a href="{{ route('pintura') }}" class="custom-button">
-                  <span class="button-text">Inspírate</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.webp') }}');">
-            <div class="content-box">
-              <h3>Lavado a presión</h3>
-              <p>Limpio y como nuevo, sin químicos agresivos
-              </p>
-              <div class="hover-text"><a href="{{ route('lavado') }}">Los detalles importan, y nosotros los hacemos destacar: empieza con un clic
-              </a>
-              <br><br><a href="{{ route('lavado') }}" class="custom-button">
-                  <span class="button-text">Sumérgete</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.webp') }}');">
-            <div class="content-box">
-              <h3>Vinculación<br>Comunitaria</h3>
-              <p>Renovamos espacios públicos con criterios ecológicos
-              </p>
-              <div class="hover-text">
-                <a href="{{ route('vinculacion') }}">Haz clic y conoce como sumamos color, vida y sostenibilidad a Sarasota y Bradenton
-                </a>
-                <br><br><a href="{{ route('vinculacion') }}" class="custom-button">
-                  <span class="button-text">Explora</span>
-                  <span class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
+<div class="container py-5">
+  <div class="row">
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 d-flex flex-column border-0 shadow-sm servicio-card">
+        <img src="{{ asset('storage/img/drywall.webp') }}" class="card-img-top" alt="Drywall">
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 class="card-title" data-key="drywall_title">Drywall</h5>
+          <p class="card-text" data-key="drywall_description">Acabados de drywall perfectos, duraderos y confiables.</p>
+          <div class="mt-auto">
+            <a href="{{ route('drywall') }}" class="btn btn-primary w-100" data-key="read_more">Ver más</a>
           </div>
         </div>
       </div>
-    </section>
-<
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 d-flex flex-column border-0 shadow-sm servicio-card">
+        <img src="{{ asset('storage/img/pinturainteriorexterior.webp') }}" class="card-img-top" alt="Pintura Interior y Exterior">
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 class="card-title" data-key="painting_title">Pintura Interior & Exterior</h5>
+          <p class="card-text" data-key="painting_description">Color, precisión y estilo para tu hogar y oficina.</p>
+          <div class="mt-auto">
+            <a href="{{ route('pintura') }}" class="btn btn-primary w-100" data-key="read_more">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 d-flex flex-column border-0 shadow-sm servicio-card">
+        <img src="{{ asset('storage/img/lavadoapresion.webp') }}" class="card-img-top" alt="Lavado a presión">
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 class="card-title" data-key="pressure_washing_title">Lavado a presión</h5>
+          <p class="card-text" data-key="pressure_washing_description">Limpio y como nuevo, sin químicos agresivos.</p>
+          <div class="mt-auto">
+            <a href="{{ route('lavado') }}" class="btn btn-primary w-100" data-key="read_more">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 d-flex flex-column border-0 shadow-sm servicio-card">
+        <img src="{{ asset('storage/img/vinculacion.webp') }}" class="card-img-top" alt="Vinculación Comunitaria">
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 class="card-title" data-key="community_title">Vinculación Comunitaria</h5>
+          <p class="card-text" data-key="community_description">Renovamos espacios públicos con criterios ecológicos.</p>
+          <div class="mt-auto">
+            <a href="{{ route('vinculacion') }}" class="btn btn-primary w-100" data-key="read_more">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .servicio-card {
+    transition: transform 0.3s cubic-bezier(.4,2,.3,1), box-shadow 0.3s cubic-bezier(.4,2,.3,1);
+    box-shadow: 0 2px 10px rgba(68,136,179,0.08);
+    position: relative;
+    overflow: hidden;
+  }
+  .servicio-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, rgba(68,136,179,0.08) 0%, rgba(68,136,179,0.18) 100%);
+    opacity: 0;
+    transition: opacity 0.3s cubic-bezier(.4,2,.3,1);
+    z-index: 1;
+    pointer-events: none;
+  }
+  .servicio-card:hover, .servicio-card:focus-within {
+    transform: translateY(-8px) scale(1.03) rotate(-1deg);
+    box-shadow: 0 8px 32px rgba(68,136,179,0.18), 0 1.5px 8px rgba(0,0,0,0.08);
+    z-index: 2;
+  }
+  .servicio-card:hover::before, .servicio-card:focus-within::before {
+    opacity: 1;
+  }
+  .servicio-card:hover .card-img-top, .servicio-card:focus-within .card-img-top {
+    filter: brightness(1.08) saturate(1.1);
+    transition: filter 0.3s cubic-bezier(.4,2,.3,1);
+  }
+</style>
 @endsection
 
 @push('scripts')

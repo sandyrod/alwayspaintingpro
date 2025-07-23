@@ -193,8 +193,8 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
             <div class="section-title" style="padding-bottom: 0px;">
-              <h2>¿Quienes Somos?</h2>
-              <p>En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, 
+              <h2 data-key="about_us_title">¿Quienes Somos?</h2>
+              <p data-key="about_us_description">En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, 
                 reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas 
                 circundantes, garantizando acabados duraderos, materiales de primera calidad, compromiso ambiental y atención experta.</p>
             </div>
@@ -204,15 +204,15 @@
               <div class="row">
                 <div class="col-md-6">
                   <ul class="features-list">
-                    <li><i class="fas fa-certificate"></i> Certificados BBB</li>
-                    <li><i class="fas fa-check-circle"></i> Calidad garantizada</li>
-                    <li><i class="fas fa-users"></i> Equipo profesional</li>
+                    <li><i class="fas fa-certificate"></i> <span data-key="about_bbb_certified">Certificados BBB</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-key="about_quality_guaranteed">Calidad garantizada</span></li>
+                    <li><i class="fas fa-users"></i> <span data-key="about_professional_team">Equipo profesional</span></li>
                   </ul>
                 </div>
                 <div class="col-md-6">
                   <ul class="features-list">
-                    <li><i class="fas fa-clock"></i> +2 años de experiencia</li>
-                    <li><i class="fas fa-clock"></i> Puntualidad asegurada</li>
+                    <li><i class="fas fa-clock"></i> <span data-key="about_years_experience">+2 años de experiencia</span></li>
+                    <li><i class="fas fa-clock"></i> <span data-key="about_punctuality">Puntualidad asegurada</span></li>
                   </ul>
                 </div>
               </div>
@@ -227,33 +227,33 @@
     <div class="container">
 
         <div class="section-title">
-          <h2>Espacios renovados, Creamos emociones duraderas</h2>
+          <h2 data-key="about_spaces_title">Espacios renovados, Creamos emociones duraderas</h2>
         </div>
         <div class="row">
             <div class="col-12">
-                <p>
+                <p data-key="about_transform_description">
                     Transformamos hogares y negocios en Sarasota y Bradenton con servicios profesionales de pintura interior y exterior, reparación de panel de yeso y lavado a presión.
                 </p>
             </div>
             <div class="col-12">
                 <p>
-                    <h3>¿Que nos hace diferentes?</h3>
+                    <h3 data-key="about_what_makes_us_different">¿Que nos hace diferentes?</h3>
                     <ul style="list-style-type: none;">
-                        <li>✓ Usamos materiales premium resistentes al clima de Florida y técnicas modernas que garantizan resultados 
-                            impecables
+                        <li>✓ <span data-key="about_diff_1">Usamos materiales premium resistentes al clima de Florida y técnicas modernas que garantizan resultados 
+                            impecables</span>
                         </li>
-                        <li>✓ Nuestro personal técnico cuida cada detalle para elevar el valor de su propiedad con precisión y compromiso ambiental</li>
-                        <li>✓ Ofrecemos atención personalizada y presupuestos 100% gratuitos</li>
-                        <li>✓ Combinamos confiabilidad, profesionalismo y pasión por transformar espacios</li>
-                        <li>✓ Desde la primera cotización hasta la entrega final, te garantizamos una experiencia sin complicaciónes y un acabado que inspira emociones</li>
+                        <li>✓ <span data-key="about_diff_2">Nuestro personal técnico cuida cada detalle para elevar el valor de su propiedad con precisión y compromiso ambiental</span></li>
+                        <li>✓ <span data-key="about_diff_3">Ofrecemos atención personalizada y presupuestos 100% gratuitos</span></li>
+                        <li>✓ <span data-key="about_diff_4">Combinamos confiabilidad, profesionalismo y pasión por transformar espacios</span></li>
+                        <li>✓ <span data-key="about_diff_5">Desde la primera cotización hasta la entrega final, te garantizamos una experiencia sin complicaciónes y un acabado que inspira emociones</span></li>
                         
                     </ul>
-                    Solicite un presupuesto gratuito y dejanos demostrarte por qué nuestros clientes confian en nosotros
+                    <span data-key="about_request_quote">Solicite un presupuesto gratuito y dejanos demostrarte por qué nuestros clientes confian en nosotros</span>
                 </p>
             </div>
             <div class="col-12  text-center">
                 <p class=" text-center">
-                    <h2>Calidad que perdura, servicio que conquista</h2>
+                    <h2 data-key="about_quality_title">Calidad que perdura, servicio que conquista</h2>
                 </p>
             </div>
         </div>

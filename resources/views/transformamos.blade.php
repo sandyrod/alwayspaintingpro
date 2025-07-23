@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Página de Inicio')
+@section('title', 'Transformamos')
 
 @section('content')
 <section id="hero" style="margin-top: 60px; padding-top: 0;">
@@ -46,37 +46,37 @@
     <div class="container">
 
         <div class="section-title">
-          <h2>Expresamos Sentimientos</h2>
+          <h2 data-key="express_feelings_title">Expresamos Sentimientos</h2>
         </div>
         <div class="row">
             <div class="col-12">
-                <p>
+                <p data-key="transform_intro">
                     En Always Pro Painting convertimos hogares y negocios en lugares que inspiran. Ofrecemos servicios profesionales de pintura interior y 
                     exterior, instalacion o reparación de drywall y lavado a presion en Sarasota, Bradenton y alrededores.
                     <ul>
-                        <li>Acabados duraderos e impecables</li>
-                        <li>Materiales premium y resistentes al clima humedo de florida</li>
-                        <li>Técnicos certificados y meticulosa preparación</li>
-                        <li>Soluciones personalizadas que aumenta el valor de tu propiedad</li>
+                        <li data-key="transform_feature_1">Acabados duraderos e impecables</li>
+                        <li data-key="transform_feature_2">Materiales premium y resistentes al clima humedo de florida</li>
+                        <li data-key="transform_feature_3">Técnicos certificados y meticulosa preparación</li>
+                        <li data-key="transform_feature_4">Soluciones personalizadas que aumenta el valor de tu propiedad</li>
                     </ul>
                 </p>
             </div>
             <div class="col-12">
                 <p>
-                    <h3>¿Porque elegir Always Pro Paiting?</h3>
+                    <h3 data-key="why_choose_title">¿Porque elegir Always Pro Paiting?</h3>
                     <ul style="list-style-type: none;">
-                        <li>✓ Pintores profesionales y en constante formación</li>
-                        <li>✓ Técnicas modernas y resultados garantizados</li>
-                        <li>✓ Miembros acreditados por el Better Business Bureau</li>
-                        <li>✓ Presupuestos 100% gratuitos y asesoría personalizada</li>
-                        <li>✓ Nos aseguramos de que cada proyecto se realice con el maximo cuidado y atención al cliente</li>
+                        <li data-key="why_choose_1">✓ Pintores profesionales y en constante formación</li>
+                        <li data-key="why_choose_2">✓ Técnicas modernas y resultados garantizados</li>
+                        <li data-key="why_choose_3">✓ Miembros acreditados por el Better Business Bureau</li>
+                        <li data-key="why_choose_4">✓ Presupuestos 100% gratuitos y asesoría personalizada</li>
+                        <li data-key="why_choose_5">✓ Nos aseguramos de que cada proyecto se realice con el maximo cuidado y atención al cliente</li>
                     </ul>
-                    Obten tu presupuesto sin costo
+                    <span data-key="get_quote">Obten tu presupuesto sin costo</span>
                 </p>
             </div>
             <div class="col-12  text-center">
                 <p class=" text-center">
-                    <h2>Crea el espacio de tus sueños</h2>
+                    <h2 data-key="create_dream_space">Crea el espacio de tus sueños</h2>
                 </p>
             </div>
         </div>

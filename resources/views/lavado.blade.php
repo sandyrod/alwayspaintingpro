@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Nosotros')
+@section('title', 'Lavado')
 
 @section('content')
 <section id="hero">
@@ -21,11 +21,11 @@
     <div class="container">
 
         <div class="section-title">
-          <h2>Limpieza profesional y segura</h2>
+          <h2 data-key="professional_safe_cleaning">Limpieza profesional y segura</h2>
         </div>
         <div class="row">
             <div class="col-12">
-                <p>
+                <p data-key="pressure_washing_intro">
                     En Always Pro Painting. revitalizamos tus espacios exteriores con tecnología avanzada de lavado a presión. Eliminamos moho, polvo y manchas de forma eficaz, sin usar quimicos agresivos, cuidando a tu familia y al medio ambiente.
                 </p>
             </div>
@@ -33,33 +33,33 @@
                 <p>
                     <ul>
                         <li>
-                            <strong>Resultados visibles y rápidos:</strong> Nuestros equipos de alta presión y técnicas especializadas 
-                            eliminan años de suciedad en fachadas, pisos y áreas exteriores, dejando una renovación evidente.
+                            <strong data-key="visible_quick_results_title">Resultados visibles y rápidos:</strong> <span data-key="visible_quick_results_desc">Nuestros equipos de alta presión y técnicas especializadas 
+                            eliminan años de suciedad en fachadas, pisos y áreas exteriores, dejando una renovación evidente.</span>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <strong>Beneficios:</strong>
+                            <strong data-key="benefits_title">Beneficios:</strong>
                         </li>
                     </ul>
                     <ul style="list-style-type: none;">
-                        <li>✓ Sin químicos dañinos, seguro para niños y mascotas
+                        <li data-key="no_harmful_chemicals">✓ Sin químicos dañinos, seguro para niños y mascotas
                         </li>
-                        <li>✓ Prácticas ecológicas que protegen los recursos naturales</li>
-                        <li>✓ Superficies preparadas para pintura y otros tratamientos</li>
+                        <li data-key="eco_friendly_practices">✓ Prácticas ecológicas que protegen los recursos naturales</li>
+                        <li data-key="surfaces_ready_for_paint">✓ Superficies preparadas para pintura y otros tratamientos</li>
                     </ul>
                     <ul>
                         <li>
-                            <strong>Excelencia y Atención al Detalle:</strong> Cada proyecto se realiza con precisión por profesionales capacitados en todo
-                            tipo de superficies, garantizando resultados impecables y duraderos.
+                            <strong data-key="excellence_attention_detail_title">Excelencia y Atención al Detalle:</strong> <span data-key="excellence_attention_detail_desc">Cada proyecto se realiza con precisión por profesionales capacitados en todo
+                            tipo de superficies, garantizando resultados impecables y duraderos.</span>
                         </li>
                     </ul>
-                    Solicita hoy tu inspección gratuita y elimina la mugre.
+                    <span data-key="request_free_inspection">Solicita hoy tu inspección gratuita y elimina la mugre.</span>
                 </p>
             </div>
             <div class="col-12  text-center">
                 <p class=" text-center">
-                    <h2>Calidad que perdura, servicio que conquista</h2>
+                    <h2 data-key="lasting_quality_tagline">Calidad que perdura, servicio que conquista</h2>
                 </p>
             </div>
         </div>
@@ -70,6 +70,6 @@
 @push('scripts')
     <script>
         // Scripts específicos para esta página
-        console.log('Página de inicio cargada');
+        console.log('Página de lavado cargada');
     </script>
 @endpush

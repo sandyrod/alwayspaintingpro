@@ -64,7 +64,7 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
             <a href="#" class="language-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-globe"></i>
             </a>
-            <ul class="dropdown-menu dropdown-menu-end">
+            <ul class="dropdown-menu dropdown-menu-end" id="lang_switch">
               <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
               <li><a class="dropdown-item" href="#" data-lang="es">Spanish</a></li>
             </ul>

@@ -35,7 +35,7 @@
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="welcome_title">TRANSFORMAMOS SUPERFICIES, <br>INSPIRAMOS ESPACIOS</h2>
                 <p class="animate__animated animate__fadeInUp" data-key="welcome_description">Brindamos servicios profesionales de pintura, reparación de drywall y lavado a presión en Sarasota y Bradenton, garantizando confiabilidad y acabados duraderos con compromiso ambiental.</p>
-                <a href="{{ route('transformamos') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="start_renovation">Atrévete <i class="fa fa-arrow-right"></i></a>
+                <a href="{{ route('transformamos') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto"><span data-key="start_renovation">Atrévete</span> <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown" data-key="who_we_are">TRANSFORMANDO ESPACIOS<br> CON PROFESIONALISMO</h2>
-                <p class="animate__animated animate__fadeInUp"></p>
+                <p class="animate__animated animate__fadeInUp" data-key="who_we_are_desc"></p>
                 <a href="{{ route('arte') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="more_info">Averigua <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="col-lg-6 video-box">
             <!-- Thumbnail Image -->
             <div class="video-thumbnail-container">
-                <a href="{{ route('nosotros') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto" data-key="get_started">
+                <a href="{{ route('nosotros') }}" class="btn-get-started animate__animated animate__fadeInUp scrollto">
                   <img src="{{ asset('storage/img/about.webp') }}" class="img-fluid" alt="About us">
                 </a>
             </div>
@@ -281,8 +281,8 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
             <div class="section-title" style="padding-bottom: 0px;">
-              <h2>¿Quienes Somos?</h2>
-              <p>En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, 
+              <h2 data-key="about_title">¿Quienes Somos?</h2>
+              <p data-key="about_full_description">En Always Pro Painting, transformamos espacios desde 2022 con servicios profesionales de pintura, 
                 reparación de drywall, texturizado y lavado a presión. Servimos con confiabilidad en Sarasota, Bradenton y áreas 
                 circundantes, garantizando acabados duraderos, materiales de primera calidad, compromiso ambiental y atención experta.</p>
             </div>
@@ -292,21 +292,21 @@ document.addEventListener('DOMContentLoaded', function () {
               <div class="row">
                 <div class="col-md-6">
                   <ul class="features-list">
-                    <li><i class="fas fa-certificate"></i> Certificados BBB</li>
-                    <li><i class="fas fa-check-circle"></i> Calidad garantizada</li>
-                    <li><i class="fas fa-users"></i> Equipo profesional</li>
+                    <li><i class="fas fa-certificate"></i> <span data-key="bbb_certified">Certificados BBB</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-key="quality_guaranteed">Calidad garantizada</span></li>
+                    <li><i class="fas fa-users"></i> <span data-key="professional_team">Equipo profesional</span></li>
                   </ul>
                 </div>
                 <div class="col-md-6">
                   <ul class="features-list">
-                    <li><i class="fas fa-clock"></i> +2 años de experiencia</li>
-                    <li><i class="fas fa-clock"></i> Puntualidad asegurada</li>
+                    <li><i class="fas fa-clock"></i> <span data-key="years_experience">+2 años de experiencia</span></li>
+                    <li><i class="fas fa-clock"></i> <span data-key="punctuality_assured">Puntualidad asegurada</span></li>
                   </ul>
                 </div>
               </div>
               <div class="text-center mt-4">
                 <a href="{{ route('nosotros') }}" class="custom-button">
-                  <span class="button-text">¡Comienza tu renovación</span>
+                  <span class="button-text" data-key="start_renovation_button">¡Comienza tu renovación</span>
                   <span class="button-icon">
                     <i class="fas fa-arrow-right"></i>
                   </span>
@@ -326,69 +326,69 @@ document.addEventListener('DOMContentLoaded', function () {
     <section class="about-lists">
       <div class="container">
       <div class="section-title">
-          <h2>Excelencia</h2>
+          <h2 data-key="excellence_title">Excelencia</h2>
         </div>
         <div class="row ">
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up">
             <img src="{{ asset('storage/img/acabados.webp') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Acabados duraderos</h4>
-            <p class="text-justify">Nuestros servicios ofrecen acabados duraderos y de alta calidad, garantizando espacios impecables por más tiempo
+            <h4 class="font-weight-bold text-center" data-key="durable_finishes_title">Acabados duraderos</h4>
+            <p class="text-justify" data-key="durable_finishes_desc">Nuestros servicios ofrecen acabados duraderos y de alta calidad, garantizando espacios impecables por más tiempo
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
             <img src="{{ asset('storage/img/materiales.webp') }}" alt="Materiales premium" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Materiales premium</h4>
-            <p class="text-justify">
+            <h4 class="font-weight-bold text-center" data-key="premium_materials_title">Materiales premium</h4>
+            <p class="text-justify" data-key="premium_materials_desc">
               Utilizamos solo materiales premium en cada proyecto para garantizar un resultado final de alta calidad que mejora la apariencia y protege las superficies.
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
             <img src="{{ asset('storage/img/compromiso.webp') }}" alt="Compromiso ambiental" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Compromiso ambiental</h4>
-            <p class="text-justify">
+            <h4 class="font-weight-bold text-center" data-key="environmental_commitment_title">Compromiso ambiental</h4>
+            <p class="text-justify" data-key="environmental_commitment_desc">
               Nuestro compromiso ambiental nos impulsa a utilizar productos ecológicos, asegurando que cada proyecto sea sostenible y seguro para el planeta
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
             <img src="{{ asset('storage/img/cuidado.webp') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Cuidado experto</h4>
-            <p class="text-justify">
+            <h4 class="font-weight-bold text-center" data-key="expert_care_title">Cuidado experto</h4>
+            <p class="text-justify" data-key="expert_care_desc">
               A diferencia de otras empresas, nuestro equipo de expertos garantiza un cuidado meticuloso en cada proyecto, asegurando la perfeccion en cada detalle.
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
             <img src="{{ asset('storage/img/cumplimiento.webp') }}" alt="Cumplimiento garantizado" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Cumplimiento garantizado</h4>
-            <p class="text-justify">
+            <h4 class="font-weight-bold text-center" data-key="guaranteed_compliance_title">Cumplimiento garantizado</h4>
+            <p class="text-justify" data-key="guaranteed_compliance_desc">
               Comprometidos contigo, cumplimos plazos, presupuesto y alcance con profesionalismo, sin sorpresas ni retrasos.
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
             <img src="{{ asset('storage/img/compromisopro.webp') }}" alt="Acabados duraderos" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Compromiso profesional</h4>
-            <p class="text-justify">
+            <h4 class="font-weight-bold text-center" data-key="professional_commitment_title">Compromiso profesional</h4>
+            <p class="text-justify" data-key="professional_commitment_desc">
               Garantizamos resultados confiables con profesionalismo, atención personalizada, entregas puntuales y altos estándares en cada proyecto.
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
             <img src="{{ asset('storage/img/competitiva.webp') }}" alt="Ventajas competitivas" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Ventajas competitivas</h4>
-            <p class="text-justify">
+            <h4 class="font-weight-bold text-center" data-key="competitive_advantages_title">Ventajas competitivas</h4>
+            <p class="text-justify" data-key="competitive_advantages_desc">
               Transformamos espacios con productos ecológicos y acabados duraderos, garantizando calidad, confianza y compromiso ambiental.
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
             <img src="{{ asset('storage/img/aval.webp') }}" alt="Avales de calidad" class="rounded" style="max-width: 200px; border-radius: 15px;">
-            <h4 class="font-weight-bold text-center">Avales de calidad</h4>
-            <p class="text-justify">
+            <h4 class="font-weight-bold text-center" data-key="quality_endorsements_title">Avales de calidad</h4>
+            <p class="text-justify" data-key="quality_endorsements_desc">
               Tu inversion está protegida con certificaciones oficiales, el respaldo de BBB y cobertura asegurada para tu total confianza.
             </p>
           </div>
@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="count-box">
               <i class="icofont-simple-smile"></i>
               <span data-toggle="counter-up">+80</span>
-              <p>Clientes Felices</p>
+              <p data-key="happy_clients">Clientes Felices</p>
             </div>
           </div>
 
@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="count-box">
               <i class="icofont-document-folder"></i>
               <span data-toggle="counter-up">+400</span>
-              <p>Proyectos</p>
+              <p data-key="projects">Proyectos</p>
             </div>
           </div>
 
@@ -424,7 +424,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="count-box">
               <i class="icofont-paint-brush" ></i>
               <span data-toggle="counter-up">+1.920</span>
-              <p>Horas de Soporte</p>
+              <p data-key="support_hours">Horas de Soporte</p>
             </div>
           </div>
 
@@ -432,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="count-box">
               <i class="icofont-users-alt-5" ></i>
               <span data-toggle="counter-up">6</span>
-              <p>Trabajadores profesionales</p>
+              <p data-key="professional_workers">Trabajadores profesionales</p>
             </div>
           </div>
 
@@ -445,19 +445,19 @@ document.addEventListener('DOMContentLoaded', function () {
       <div class="container">
 
         <div class="section-title">
-          <h2>Servicios</h2>
+          <h2 data-key="services_title">Servicios</h2>
         </div>
         <div class="row">
           <div class="col-lg-5 col-md-5 icon-box" style="background-image: url('{{ asset('storage/img/drywall2.webp') }}'); padding:4px;">
             <div class="content-box">
-              <h3>Drywall</h3>
-              <p>Acabados perfectos en drywall. Soluciones, duraderos y confiables
+              <h3 data-key="drywall_title">Drywall</h3>
+              <p data-key="drywall_desc">Acabados perfectos en drywall. Soluciones, duraderos y confiables
               </p>
-              <div class="hover-text"><a href="{{ route('drywall') }}">No lo sueñes, ¡vívelo! 
+              <div class="hover-text"><a href="{{ route('drywall') }}" data-key="drywall_cta">No lo sueñes, ¡vívelo! 
               <br>
               haz clic y obsérvalo</a>
               <br><br><a href="{{ route('drywall') }}" class="custom-button">
-                  <span class="button-text">Conquista</span>
+                  <span class="button-text" data-key="drywall_button">Conquista</span>
                   <span class="button-icon">
                     <i class="fas fa-arrow-right"></i>
                   </span>
@@ -468,13 +468,13 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="col-lg-1 col-md-1 icon-box d-none d-md-block"></div>
           <div class="col-lg-5 col-md-5 icon-box" style="background-image: url('{{ asset('storage/img/pinturainteriorexterior.webp') }}');">
             <div class="content-box">
-              <h3>Pintura<br>Exterior & Interior</h3>
-              <p>Color, precisión y estilo para hogares y oficina
+              <h3 data-key="painting_title">Pintura<br>Exterior & Interior</h3>
+              <p data-key="painting_desc">Color, precisión y estilo para hogares y oficina
               </p>
-              <div class="hover-text"><a href="{{ route('pintura') }}">No lo imagines, ¡míralo con un clic!
+              <div class="hover-text"><a href="{{ route('pintura') }}" data-key="painting_cta">No lo imagines, ¡míralo con un clic!
               </a>
               <br><br><a href="{{ route('pintura') }}" class="custom-button">
-                  <span class="button-text">Inspírate</span>
+                  <span class="button-text" data-key="painting_button">Inspírate</span>
                   <span class="button-icon">
                     <i class="fas fa-arrow-right"></i>
                   </span>
@@ -484,13 +484,13 @@ document.addEventListener('DOMContentLoaded', function () {
           </div>
           <div class="col-lg-5 col-md-5 icon-box" style="background-image: url('{{ asset('storage/img/lavadoapresion.webp') }}');">
             <div class="content-box">
-              <h3>Lavado a presión</h3>
-              <p>Luce como nuevo. Limpieza profunda sin quimicos agresivos
+              <h3 data-key="pressure_washing_title">Lavado a presión</h3>
+              <p data-key="pressure_washing_desc">Luce como nuevo. Limpieza profunda sin quimicos agresivos
               </p>
-              <div class="hover-text"><a href="{{ route('lavado') }}">Los detalles importan, y nosotros los hacemos destacar: empieza con un clic
+              <div class="hover-text"><a href="{{ route('lavado') }}" data-key="pressure_washing_cta">Los detalles importan, y nosotros los hacemos destacar: empieza con un clic
               </a>
               <br><br><a href="{{ route('lavado') }}" class="custom-button">
-                  <span class="button-text">Sumérgete</span>
+                  <span class="button-text" data-key="pressure_washing_button">Sumérgete</span>
                   <span class="button-icon">
                     <i class="fas fa-arrow-right"></i>
                   </span>
@@ -501,14 +501,14 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="col-lg-1 col-md-1 icon-box d-none d-md-block"></div>
           <div class="col-lg-5 col-md-5 icon-box" style="background-image: url('{{ asset('storage/img/vinculacion.webp') }}');">
             <div class="content-box">
-              <h3>Vinculación<br>Comunitaria</h3>
-              <p>Renovamos espacios públicos con criterios ecológicos
+              <h3 data-key="community_engagement_title">Vinculación<br>Comunitaria</h3>
+              <p data-key="community_engagement_desc">Renovamos espacios públicos con criterios ecológicos
               </p>
               <div class="hover-text">
-                <a href="{{ route('vinculacion') }}">Haz clic y conoce como sumamos color, vida y sostenibilidad a Sarasota y Bradenton
+                <a href="{{ route('vinculacion') }}" data-key="community_engagement_cta">Haz clic y conoce como sumamos color, vida y sostenibilidad a Sarasota y Bradenton
                 </a>
                 <br><br><a href="{{ route('vinculacion') }}" class="custom-button">
-                  <span class="button-text">Explora</span>
+                  <span class="button-text" data-key="community_engagement_button">Explora</span>
                   <span class="button-icon">
                     <i class="fas fa-arrow-right"></i>
                   </span>
@@ -525,7 +525,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <div class="container">
 
         <div class="section-title">
-          <h2>Contactanos</h2>
+          <h2 data-key="contact_us_title">Contactanos</h2>
         </div>
 
         <div class="row">
@@ -533,24 +533,24 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="info-box">
               <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <h3 data-key="our_address">Our Address</h3>
+              <p data-key="address_content">A108 Adam Street, New York, NY 535022</p>
             </div>
           </div>
 
           <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="info-box">
               <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@alwayspropainting.com<br></p>
+              <h3 data-key="email_us">Email Us</h3>
+              <p data-key="email_content">info@alwayspropainting.com<br></p>
             </div>
           </div>
 
           <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>(727) 417-6867 | (727) 417-6753<br></p>
+              <h3 data-key="call_us">Call Us</h3>
+              <p data-key="phone_content">(727) 417-6867 | (727) 417-6753<br></p>
             </div>
           </div>
 
@@ -559,31 +559,31 @@ document.addEventListener('DOMContentLoaded', function () {
               <div class="form-row">
                 <div class="col-lg-6 form-group">
                   <label for="name" class="sr-only">Nombre</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" data-key-placeholder="name_placeholder" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-lg-6 form-group">
                   <label for="email" class="sr-only">Correo electrónico</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" data-key-placeholder="email_placeholder" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
                 <label for="subject" class="sr-only">Asunto</label>
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" data-key-placeholder="subject_placeholder" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
                 <label for="message" class="sr-only">Mensaje</label>
-                <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" data-key-placeholder="message_placeholder"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="loading" data-key="loading">Loading</div>
+                <div class="error-message" data-key="error_message"></div>
+                <div class="sent-message" data-key="sent_message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" data-key="send_message_button">Send Message</button></div>
             </form>
           </div>
 

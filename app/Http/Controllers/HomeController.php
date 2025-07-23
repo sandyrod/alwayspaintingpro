@@ -103,9 +103,5 @@ class HomeController extends Controller
     {
         return view('portafolio');
     }
-    public function contacto()
-    {
-        return view('contacto');
-    }
-
+   
 }

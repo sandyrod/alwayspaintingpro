@@ -1,10 +1,6 @@
 @extends('layouts.app')
 
-<<<<<<< HEAD
 @section('title', 'Página de Inicio')
-=======
-@section('title', 'Nosotros')
->>>>>>> d222a59d5f35755d6d9b6046aef8a8dc1adcb4ad
 
 @section('content')
 <section id="hero">
@@ -13,14 +9,7 @@
 
 
         <div class="carousel-inner" role="listbox">
-<<<<<<< HEAD
-
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/contacto_1.png') }}');">
-
-=======
-          <div class="carousel-item active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/servicios/contacto.webp') }}');">
->>>>>>> d222a59d5f35755d6d9b6046aef8a8dc1adcb4ad
+          <div class="carousel-item carousel-item-secondary active" style="background-color: transparent !important; background-image: url('{{ asset('storage/img/servicios/contacto.webp') }}');">
           </div>
         </div>
     </div>
@@ -29,7 +18,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contactanos</h2>
+          <h2 data-key="contact_us">Contactanos</h2>
         </div>
 
         <div class="row">

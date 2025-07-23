@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Nosotros')
+@section('title', 'Señalización')
 
 @section('content')
 <section id="hero">
@@ -18,11 +18,11 @@
     <div class="container">
 
         <div class="section-title">
-          <h2>Señalización vial y pintura industrial de alto desempeño</h2>
+          <h2 data-key="road_signage_title">Señalización vial y pintura industrial de alto desempeño</h2>
         </div>
         <div class="row">
             <div class="col-12">
-                <p>
+                <p data-key="signage_intro">
                     En Always Pro Painting, somos especialistas en señalizacion vial y áreas prioritarias. Utilizamos recubrimientos de alta resistencia que soportan tráfico intenso y climas extremos,
                     cumpliendo con normativas ADA y DOT para máxima visibilidad y seguridad.
                 </p>
@@ -30,27 +30,27 @@
             <div class="col-12">
                 <p>
                     <ul>
-                        <li><strong>Soluciones para Movilidad Eléctrica:</strong> Aplicamos pintura conductiva y antiderrapante con pigmentos reflectivos
-                        de última generación para estaciones de carga, mejorando la seguridad y el orden urbano.
+                        <li><strong data-key="electric_mobility_solutions_title">Soluciones para Movilidad Eléctrica:</strong> <span data-key="electric_mobility_solutions_desc">Aplicamos pintura conductiva y antiderrapante con pigmentos reflectivos
+                        de última generación para estaciones de carga, mejorando la seguridad y el orden urbano.</span>
                         </li>
-                        <li><strong>Renovación Duradera:</strong> Prolongamos la vida útil de estacionamientos y zonas comunes hasta 3 veces más con sistemas epóxicos y acrílicos
-                        industriales de bajo VOC y curado rápido.
+                        <li><strong data-key="durable_renovation_title">Renovación Duradera:</strong> <span data-key="durable_renovation_desc">Prolongamos la vida útil de estacionamientos y zonas comunes hasta 3 veces más con sistemas epóxicos y acrílicos
+                        industriales de bajo VOC y curado rápido.</span>
                         </li>
-                        <li><strong>Beneficios</strong>
+                        <li><strong data-key="benefits_title">Beneficios</strong>
                         </li>
                     </ul>
                     <ul style="list-style-type: none;">
-                        <li>✓ Aplicación sin interrupciones.
+                        <li data-key="uninterrupted_application">✓ Aplicación sin interrupciones.
                         </li>
-                        <li>✓ Informes técnicos y mantenimiento predictivo.</li>
-                        <li>✓ Materiales ecológicos certificados.</li>
+                        <li data-key="technical_reports">✓ Informes técnicos y mantenimiento predictivo.</li>
+                        <li data-key="certified_eco_materials">✓ Materiales ecológicos certificados.</li>
                     </ul>
-                    Crea espacios seguros y funcionales, solicita tu evaluación gratuita.
+                    <span data-key="create_safe_spaces">Crea espacios seguros y funcionales, solicita tu evaluación gratuita.</span>
                 </p>
             </div>
             <div class="col-12  text-center">
                 <p class=" text-center">
-                    <h2>Visibilidad que transforma espacios en lugares seguros</h2>
+                    <h2 data-key="visibility_transforms_spaces">Visibilidad que transforma espacios en lugares seguros</h2>
                 </p>
             </div>
         </div>
@@ -61,6 +61,6 @@
 @push('scripts')
     <script>
         // Scripts específicos para esta página
-        console.log('Página de inicio cargada');
+        console.log('Página de señalización cargada');
     </script>
 @endpush
