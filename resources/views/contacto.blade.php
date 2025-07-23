@@ -18,7 +18,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2 data-key="contact_us">Contactanos</h2>
+          <h2 data-key="contact_us">Contact us</h2>
         </div>
 
         <div class="row">
@@ -47,7 +47,7 @@
 
           <div class="col-lg-12 d-flex align-items-stretch" data-aos="fade-up">
             <div class="info-box">
-              <h3 style="margin-top: 20px;">Redes Sociales</h3>
+              <h3 style="margin-top: 20px;">Social Networks</h3>
 <style>
   /* Solo para la lista de redes sociales de contacto */
   .contact-social-list li {
