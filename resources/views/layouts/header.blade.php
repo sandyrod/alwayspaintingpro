@@ -46,12 +46,41 @@ painter/always-pro-painting-llc-0653-90440065" class="bbb"><i class="icofont-bbb
     <div class="container d-flex align-items-center position-relative" style="min-height: 80px; justify-content: space-between; padding: 10px 0;">
        
 
-       <div class="logo">
-        <h1 class="text-light d-none"><a href="{{ route('home') }}"><span>Always Pro Painting</span></a></h1>
+      <div class="logo">
+        <h1 class="text-light d-none">
+          <a href="{{ route('home') }}"><span>Always Pro Painting</span></a>
+        </h1>
         <a href="{{ route('home') }}">
-          <img src="{{ asset('storage/img/logo_web.png') }}" alt="" class="img-fluid" style="max-height:100px;">
+          <img 
+            src="{{ asset('storage/img/logo_web.png') }}" 
+            alt="" 
+            class="img-fluid logo-img" 
+            style="max-height:100px; transition: max-width 0.3s, width 0.3s;"
+          >
         </a>
       </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const logoImg = document.querySelector('.logo-img');
+          function adjustLogo() {
+            if (window.innerWidth <= 576) { // Bootstrap's xs breakpoint
+              if (window.scrollY > 0) {
+                logoImg.style.maxWidth = '80%';
+                logoImg.style.width = '80%';
+              } else {
+                logoImg.style.maxWidth = '';
+                logoImg.style.width = '';
+              }
+            } else {
+              logoImg.style.maxWidth = '';
+              logoImg.style.width = '';
+            }
+          }
+          window.addEventListener('scroll', adjustLogo);
+          window.addEventListener('resize', adjustLogo);
+          adjustLogo();
+        });
+      </script>
 
         <nav class="nav-menu d-none d-lg-block" style="margin-left: auto;">
         <ul>
