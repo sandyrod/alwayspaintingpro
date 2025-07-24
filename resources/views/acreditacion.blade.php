@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Página de Inicio')
+@section('title', 'Acreditación')
 
 @section('content')
 <section id="hero">
@@ -26,12 +26,12 @@
                     <th class="bg-light text-center" colspan="2">ALWAYS PRO PAINTING LLC</td>
                 </tr>
                 <tr>
-                    <th>Número estatal de registro en Florida:</th>
+                    <th data-key="florida_registration">Número estatal de registro en Florida:</th>
                     <td>L23000358430</td>
                 </tr>
                 <tr>
-                    <th class="bg-light">Acreditación BBB:</th>
-                    <td>ID Comercial 90440065 | <b>Calificación:</b> “A”</td>
+                    <th class="bg-light" data-key="bbb_accreditation">Acreditación BBB:</th>
+                    <td><span data-key="business_id">ID Comercial</span> 90440065 | <b data-key="rating">Calificación:</b> "A"</td>
                 </tr>
                 </tbody>
             </table>
@@ -63,32 +63,31 @@
 
         <div class="col-12">
             <p>
-                <b>Elegir Always Pro Painting es elegir tranquilidad certifi cada.</b> <br>
-                En un mundo donde abundan las promesas y escasea la calidad, la confianza se convierte en el verdadero valor. Por eso, nos enorgullece anunciar que hemos sido oficialmente acreditados por el <b>calificación “A
-”</b>.
+                <b data-key="certified_peace">Elegir Always Pro Painting es elegir tranquilidad certificada.</b> <br>
+                <span data-key="trust_value">En un mundo donde abundan las promesas y escasea la calidad, la confianza se convierte en el verdadero valor. Por eso, nos enorgullece anunciar que hemos sido oficialmente acreditados por el</span> <b data-key="a_rating">calificación "A"</b>.
         </div>
         <div class="col-12">
             <p>
-                <b>Este sello representa:</b><br>
-                Cuando usted interactúa con nuestro sitio web o servicios, podemos recopilar:
+                <b data-key="seal_represents">Este sello representa:</b><br>
+                <span data-key="when_interact">Cuando usted interactúa con nuestro sitio web o servicios, podemos recopilar:</span>
                 <ul>
-                    <li>Excelencia en la ejecución.
+                    <li data-key="excellence_execution">Excelencia en la ejecución.
                     </li>
-                    <li>Transparencia en cada interacción.
+                    <li data-key="transparency_interaction">Transparencia en cada interacción.
                     </li>
-                    <li>Compromiso absoluto con nuestros clientes.</li>
+                    <li data-key="absolute_commitment">Compromiso absoluto con nuestros clientes.</li>
                 </ul>
             </p>
         </div>
 
         <div class="col-12">
             <p>
-                <b>¿Por qué esta acreditación BBB es importante?</b>
+                <b data-key="why_important">¿Por qué esta acreditación BBB es importante?</b>
                 <ul>
-                    <li>Cumplimos con los más altos estándares de calidad.</li>
-                    <li>Operamos con ética, precios justos y atención profesional.</li>
-                    <li>Nos comprometemos al 100% con tu satisfacción en cada proyecto.</li>
-                    <li>Puedes verifi car nuestra acreditación ofi cial aquí: <a href="https://www.bbb.org/us/fl/sarasota/profile/residential-painter/always-pro-painting-llc-0653-90440065" target="_blank">Ver Perfi l BBB de Always Pro Painting</a>
+                    <li data-key="highest_standards">Cumplimos con los más altos estándares de calidad.</li>
+                    <li data-key="ethics_prices">Operamos con ética, precios justos y atención profesional.</li>
+                    <li data-key="committed_satisfaction">Nos comprometemos al 100% con tu satisfacción en cada proyecto.</li>
+                    <li data-key="verify_accreditation">Puedes verificar nuestra acreditación oficial aquí: <a href="https://www.bbb.org/us/fl/sarasota/profile/residential-painter/always-pro-painting-llc-0653-90440065" target="_blank" data-key="view_profile">Ver Perfil BBB de Always Pro Painting</a>
                     </li>
                 </ul>
             </p>
@@ -96,14 +95,14 @@
        
         <div class="col-12">
             <p>
-                <b>Servicios que refl ejan nuestra reputación:</b>
-                Nuestro sitio utiliza <b>cookies</b> para ofrecer una mejor experiencia de navegación, analizar comportamientos de usuario y personalizar el contenido. Estas tecnologías pueden recopilar información como:
+                <b data-key="services_reputation">Servicios que reflejan nuestra reputación:</b>
+                <span data-key="site_cookies">Nuestro sitio utiliza <b>cookies</b> para ofrecer una mejor experiencia de navegación, analizar comportamientos de usuario y personalizar el contenido. Estas tecnologías pueden recopilar información como:</span>
                 <ul>
-                    <li>Pintura interior y exterior de alto nivel.</li>
-                    <li>Restauración profesional de drywall.</li>
-                    <li>Lavado a presión (techos, pisos, paredes).</li>
-                    <li>Recubrimientos epóxicos para garajes y superficies.</li>
-                    <li>Sellado de adoquines y limpieza de canaletas.</li>
+                    <li data-key="interior_exterior">Pintura interior y exterior de alto nivel.</li>
+                    <li data-key="drywall_restoration">Restauración profesional de drywall.</li>
+                    <li data-key="pressure_washing">Lavado a presión (techos, pisos, paredes).</li>
+                    <li data-key="epoxy_coatings">Recubrimientos epóxicos para garajes y superficies.</li>
+                    <li data-key="paver_sealing">Sellado de adoquines y limpieza de canaletas.</li>
                 </ul>
                 
             </p>
@@ -111,26 +110,26 @@
 
         <div class="col-12">
             <p>
-                <b>Cada proyecto está impulsado por:</b>
+                <b data-key="project_driven">Cada proyecto está impulsado por:</b>
                 <ul>
-                    <li>Pasión por los detalles.</li>
-                    <li>Entrega puntual.</li>
-                    <li>Trato humano, cercano y profesional.</li>
+                    <li data-key="passion_details">Pasión por los detalles.</li>
+                    <li data-key="punctual_delivery">Entrega puntual.</li>
+                    <li data-key="professional_treatment">Trato humano, cercano y profesional.</li>
                 </ul>
             </p>
         </div>
 
         <div class="col-12">
             <p>
-                <b>Zonas de cobertura con atención directa:</b>
-                Sarasota • Bradenton y áreas circundantes
+                <b data-key="coverage_areas">Zonas de cobertura con atención directa:</b>
+                <span data-key="sarasota_bradenton">Sarasota • Bradenton y áreas circundantes</span>
             </p>
         </div>
 
          <div class="col-12">
             <p>
-                <b>Dirección Comercial:</b>
-                360 Central Avenue, Suite 800 St. Petersburg, Florida 33701
+                <b data-key="business_address">Dirección Comercial:</b>
+                <span data-key="address_content">360 Central Avenue, Suite 800 St. Petersburg, Florida 33701</span>
             </p>
         </div>
         
@@ -138,7 +137,7 @@
         
          <div class="col-12">
             <p>
-                <b>Contacto Directo:</b> <br>
+                <b data-key="direct_contact">Contacto Directo:</b> <br>
                 <b>Always Pro Painting LLC</b> <br>
                 <i class="fa fa-envelope"></i> <a href="mailto:info@alwayspropainting.com">info@alwayspropainting.com</a> <br>
                 <i class="fa fa-phone"></i> <a href="https://wa.me/17274176867" target="_blank">(727) 417-6867</a> / <a href="https://wa.me/17274176753" target="_blank">(727) 417-6753</a>
@@ -152,6 +151,6 @@
 @push('scripts')
     <script>
         // Scripts específicos para esta página
-        console.log('Página de inicio cargada');
+        console.log('Página de acreditación cargada');
     </script>
 @endpush
