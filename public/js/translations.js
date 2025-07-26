@@ -267,7 +267,7 @@ const translations = {
         about_diff_2: 'Nuestro personal técnico cuida cada detalle para elevar el valor de su propiedad con precisión y compromiso ambiental',
         about_diff_3: 'Ofrecemos atención personalizada y presupuestos 100% gratuitos',
         about_diff_4: 'Combinamos confiabilidad, profesionalismo y pasión por transformar espacios',
-        about_diff_5: 'Desde la primera cotización hasta la entrega final, te garantizamos una experiencia sin complicaciónes y un acabado que inspira emociones',
+        about_diff_5: 'Desde la primera cotización hasta la entrega final, te garantizamos una experiencia sin complicaciones y un acabado que inspira emociones',
         about_request_quote: 'Solicite un presupuesto gratuito y dejanos demostrarte por qué nuestros clientes confian en nosotros',
         about_quality_title: 'Calidad que perdura, servicio que conquista',
         
@@ -503,7 +503,7 @@ const translations = {
         personalized_attention: '✓ Atención personalizada',
         request_free_evaluation_areas: 'Solicite su evaluación gratuita en Sarasota, Bradenton y áreas cercanas',
         before_after_professional: 'Tu "antes" merece nuestro "despues" profesional',
-        art_intro_text: 'En Always Pro Painting damos nueva vida a propiedades residenciales y comerciales en Sarasota, Bradenton y alrededores. con soluciones expertas en pintura, reparación de drywall, texturizado y lavado a presión. Combinamos técnica, creatividad y materiales de alto rendimiento para resultados duraderos, funcionales y realmente impactantes.',
+        art_intro_text: 'En Always Pro Painting damos nueva vida a propiedades residenciales y comerciales en Sarasota, Bradenton y alrededores con soluciones expertas en pintura, reparación de drywall, texturizado y lavado a presión. Combinamos técnica, creatividad y materiales de alto rendimiento para resultados duraderos, funcionales y realmente impactantes.',
         our_services_title: 'Nuestros Servicios',
         professional_painting_title: 'Pintura profesional interior/exterior: ',
         professional_painting_desc: 'Adaptada al clima de Florida. Incluye analisis técnico, preparación meticulosa y aplicación estrategica',
