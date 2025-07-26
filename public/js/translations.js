@@ -6,6 +6,9 @@ const translations = {
         services: 'Servicios',
         portfolio: 'Portafolio',
         contact: 'Contacto',
+
+        dates_july: '26 de Julio de 2025',
+        dates_july_short: 'Julio 2026',
         
         // Acreditación page
         florida_registration: 'Número estatal de registro en Florida:',
@@ -536,6 +539,9 @@ const translations = {
         portfolio: 'Portfolio',
         contact: 'Contact',
         
+        dates_july: 'July 26, 2025',
+        dates_july_short: 'July 2026',
+
         // Acreditación page
         florida_registration: 'Florida State Registration Number:',
         bbb_accreditation: 'BBB Accreditation:',

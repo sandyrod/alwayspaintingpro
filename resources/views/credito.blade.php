@@ -32,15 +32,15 @@
                 </tr>
                 <tr>
                     <th data-key="effective_date">Fecha de vigencia</th>
-                    <td>26 de julio de 2025</td>
+                    <td data-key="dates_july">26 de julio de 2025</td>
                 </tr>
                 <tr>
                     <th class="bg-light" data-key="last_revision">Última revisión</th>
-                    <td>26 de julio de 2025</td>
+                    <td data-key="dates_july">26 de julio de 2025</td>
                 </tr>
                 <tr>
                     <th data-key="next_revision">Próxima revisión prevista</th>
-                    <td>julio de 2026</td>
+                    <td data-key="dates_july_short">julio de 2026</td>
                 </tr>
                 <tr>
                     <th class="bg-light" data-key="state_registration_number">Número de registro estatal</th>
